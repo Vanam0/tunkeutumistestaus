@@ -16,11 +16,10 @@ Ylälaidassa näkyy tietoja, kuten:
 ![2073a7145d3ebf69103b780da3a8a476](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4496bf99-9b94-4da2-8545-8c80b399c218)
 
 Wiresharkissa on erillaisia värikoodeja:
-Vihreä: on onnistunut ja hyväksytty TCP-yhteys (Transmission Control Protocol, tietojen siirtäminen verkkoon) 
-Punainen: tarkoittaa ongelmia sisältäviä paketteja, jotka voivat olla hylättyjä tai virheellisiä
-Sininen: TCP-protokollaan liittyvät tapahtumat, kuten handshaket (kädenpuristusvaiheet) tai yhteyden sulkemiset.
-Harmaa: Poistetut tai suljetut paketit 
-
+Vihreä, on onnistunut ja hyväksytty (HTTP HyperText Transfer Protocol)
+Punainen, tarkoittaa ongelmia sisältäviä paketteja, jotka voivat olla hylättyjä tai virheellisiä (TCP-yhteys Transmission Control Protocol)
+Harmaa: TCP-protokollaan liittyvät tapahtumat, kuten handshaket (kädenpuristusvaiheet) tai yhteyden sulkemiset.
+Vaalensininen: UDP (User Datagram Protocol)
 
 Seuravaaksi haluan filteröidä vain ACK-paketteja, koska ACK-paketti on TCP-protokollan käyttämä viesti, joka vahvistaa tietyn datan vastaanottamisen varmistamalla tiedonsiirron luotettavuuden.
 ![f220c2c57aeec8ed5c88da62c1cfe7d1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/5ffa0117-6a5d-413b-8b46-6a056137716b)
