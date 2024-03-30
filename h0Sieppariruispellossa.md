@@ -13,9 +13,10 @@ Ylälaidassa näkyy tietoja, kuten:
 - Paketin pituus tavuina, joka kertoo kuinka monta tavua paketti sisältää. Se on erityisen tärkeää verkkoliikenteen tunnistamisessa mm. valvontapaketit (Length)
 
 
-![2073a7145d3ebf69103b780da3a8a476](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4496bf99-9b94-4da2-8545-8c80b399c218)
+
 
 Wiresharkissa on erillaisia värikoodeja:
+![2073a7145d3ebf69103b780da3a8a476](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4496bf99-9b94-4da2-8545-8c80b399c218)
 Vihreä, on onnistunut ja hyväksytty (HTTP HyperText Transfer Protocol)
 Punainen, tarkoittaa ongelmia sisältäviä paketteja, jotka voivat olla hylättyjä tai virheellisiä (TCP-yhteys Transmission Control Protocol)
 Harmaa: TCP-protokollaan liittyvät tapahtumat, kuten handshaket (kädenpuristusvaiheet) tai yhteyden sulkemiset.
