@@ -30,7 +30,11 @@ Kohdeportti: 80/443 (HTTPS/HTTP-protokolla)
 Oman verkkoliikenteeni analysointia
 ![65dfc77c20db68f40a78ba7d56000fdb](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/64193389-461d-46f9-9d0f-173d1fdf7754)
 Ilmenee Multicast Listeners Report Message 130 -viesti, joka ei ole epätavallinen, koska se on osa IPv6-verkon hallintaa ja reititystä.
+IGMPv3 (Internet Group Management Protocol version 3) -liittymisraportti keltaisella värikoodilla on myös vastaava multicast-ryhmään liittymisviesti kuin ylempi kuuntelijaraporttiviesti IPv6:ssa. 
+Näkyy myös 224.0.0.253 IP-osoite, joka on tarkoitettu käytettäväksi vain paikallisessa verkkoympäristössä eikä se reitity internetin ulkopuolelle, eli liikenne on täysin normaalia eikä siinä ole mitään huomioitavaa.
 
+
+Yhteenvetona voisin todeta, että omassa verkkoliikenteessäni ei näy mitään jännittävää, mutta Wireshark Challengessa on näkyvillä enemmän värikoordeja, joten halusin vertailla näitä kahta keskenään. 
 
 
 
