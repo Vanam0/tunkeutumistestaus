@@ -4,16 +4,6 @@ Käytän materiaalina aiempaa Wireshark tehtävääni Wireshark -haastetta, eli 
 Aloitan avaamalla tiedoston challenge101-6.pcapng (Packet Capture Next Generation) -tiedostomuoto, jota käytetään verkkopakettien tallentamiseen ja analysointiin. 
 
 
-Ylälaidassa näkyy tietoja, kuten:
-- Paketin numero (No.)
-- Aika (time)
-- Kohde, eli IP-osoitte tai verkkolöaite, johon paketti on tarkoitettu (Destination)
-- Lähde, IP-osoite tai verkkolaite johon paketti on lähetetty (Source)
-- Verkkoprotokolla TCP, UDP, HTTP, DNS jne. (Protocol)
-- Paketin pituus tavuina, joka kertoo kuinka monta tavua paketti sisältää. Se on erityisen tärkeää verkkoliikenteen tunnistamisessa mm. valvontapaketit (Length)
-
-
-
 
 Wiresharkissa on erillaisia värikoodeja:
 ![2073a7145d3ebf69103b780da3a8a476](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4496bf99-9b94-4da2-8545-8c80b399c218)
@@ -22,11 +12,21 @@ Punainen, tarkoittaa ongelmia sisältäviä paketteja, jotka voivat olla hylätt
 Harmaa: TCP-protokollaan liittyvät tapahtumat, kuten handshaket (kädenpuristusvaiheet) tai yhteyden sulkemiset.
 Vaalensininen: UDP (User Datagram Protocol)
 
-Seuravaaksi haluan filteröidä vain ACK-paketteja, koska ACK-paketti on TCP-protokollan käyttämä viesti, joka vahvistaa tietyn datan vastaanottamisen varmistamalla tiedonsiirron luotettavuuden.
+
+
 ![f220c2c57aeec8ed5c88da62c1cfe7d1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/5ffa0117-6a5d-413b-8b46-6a056137716b)
-Huomioitavaa, että (RST-paketteja käytetään yleensä yhteyden sulkemiseen tai sen nollaamiseen eikä tietojen vahvistamiseen.)
-Lähdeportti: 18472
-Kohdeportti: 80/443 (HTTPS/HTTP-protokolla)
+Ylälaidassa näkyy tietoja, kuten:
+- Paketin numero (No.)
+- Aika (time)
+- Kohde, eli IP-osoitte tai verkkolöaite, johon paketti on tarkoitettu (Destination)
+- Lähde, IP-osoite tai verkkolaite johon paketti on lähetetty (Source)
+- Verkkoprotokolla TCP, UDP, HTTP, DNS jne. (Protocol)
+- Paketin pituus tavuina, joka kertoo kuinka monta tavua paketti sisältää. Se on erityisen tärkeää verkkoliikenteen tunnistamisessa mm. valvontapaketit (Length)
+
+Seuravaaksi haluan filteröidä vain ACK-paketteja, koska ACK-paketti on TCP-protokollan käyttämä viesti, joka vahvistaa tietyn datan vastaanottamisen varmistamalla tiedonsiirron luotettavuuden.
+  Huomioitavaa, että (RST-paketteja käytetään yleensä yhteyden sulkemiseen tai sen nollaamiseen eikä tietojen vahvistamiseen.)
+  Lähdeportti: 18472
+  Kohdeportti: 80/443 (HTTPS/HTTP-protokolla)
 
 
 
