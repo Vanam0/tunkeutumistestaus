@@ -22,11 +22,14 @@ Seuravaaksi haluan filteröidä vain ACK-paketteja, koska ACK-paketti on TCP-pro
 ![f220c2c57aeec8ed5c88da62c1cfe7d1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/5ffa0117-6a5d-413b-8b46-6a056137716b)
 Huomioitavaa, että (RST-paketteja käytetään yleensä yhteyden sulkemiseen tai sen nollaamiseen eikä tietojen vahvistamiseen.)
 Lähdeportti: 18472
-Kohdeportti: 80 (HTTP-protokolla)
+Kohdeportti: 80/443 (HTTPS/HTTP-protokolla)
 
 
 
 
+Oman verkkoliikenteeni analysointia
+![65dfc77c20db68f40a78ba7d56000fdb](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/64193389-461d-46f9-9d0f-173d1fdf7754)
+Ilmenee Multicast Listeners Report Message 130 -viesti, joka ei ole epätavallinen, koska se on osa IPv6-verkon hallintaa ja reititystä.
 
 
 
@@ -35,5 +38,6 @@ Kohdeportti: 80 (HTTP-protokolla)
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h0-sieppari-ruispellossa
 Metropolia Basic Network Analyzing with Wireshark -kurssimateriali
 https://youtu.be/t5OJephyw8I?si=siYoUYOEysa-XahJ
+https://learningnetwork.cisco.com/s/question/0D53i00000Kt6xVCAR/what-do-ipv6-multicast-listener-report-messages-do
 
 
