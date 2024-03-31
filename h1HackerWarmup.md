@@ -10,7 +10,7 @@
         Tunkeutumisen tappoketju (Kill Chain) on siis järjestelmällinen prosessi.
         Useita tunkeutumistapauksia analysoidaan myös strategisesti, joka auttaa ajan myötä tunnistamaan niiden yhtenäisä piirteitä ja malleja. Jolloin se            auttaa puolustajia arvioimaan puolustusasemaansa ja kehittämään strategioita mahdollisten aukkojen varalta.
 
-        APT = Advanced Persistent Threats, ovat edistyneitä ja jatkuvasti läsnä olevia tietoverkkouhkia, jotka pyrkivät hyökkäämään tietoverkkoihin                         pitkäaikaisesti ja huomaamattomasti. APT:t ovat yleensä suunniteltuja ja toteutettuja organisaatioita tai valtioita vastaan, ja niiden                     tavoitteena voi olla esim. tietovarkaudet, kybervalkoilu tai infrastruktuurin vahingoittaminen. APT-operaatiot käyttävät tekniikoita ja hyökkäystapoja sekä hyödyntävät usein heikkoja kohtia, kuten tietoturva aukkoja järjestelmien puolustuksessa. APT-operaatiot voivat olla pitkäkestoisia ja vaikeasti havaittavia, joka tekee torjunnasta haastavaa.
+        APT = Advanced Persistent Threats, ovat edistyneitä ja jatkuvasti läsnä olevia tietoverkkouhkia, jotka pyrkivät hyökkäämään tietoverkkoihin                   pitkäaikaisesti ja huomaamattomasti. APT:t ovat yleensä suunniteltuja ja toteutettuja organisaatioita tai valtioita vastaan, ja niiden                        tavoitteena voi olla esim. tietovarkaudet, kybervalkoilu tai infrastruktuurin vahingoittaminen. APT-operaatiot käyttävät tekniikoita ja                       hyökkäystapoja sekä hyödyntävät usein heikkoja kohtia, kuten tietoturva aukkoja järjestelmien puolustuksessa. APT-operaatiot voivat olla                      pitkäkestoisia ja vaikeasti havaittavia, joka tekee torjunnasta haastavaa.
 
 
         
