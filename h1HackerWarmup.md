@@ -19,8 +19,11 @@ Alusta oli itselleni uusi, joten ajattelen sen olevan hyödyllinen aloittelijoil
         
 
 ## Wargames Bandit-haaste (level 0-2)
+
+Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure Shell). Siispä SSH-yhteys osoitteessa: bandit.labs.overthewire.org , porttiin 2220 käyttäen tunnusta bandit0 ja salasanaa bandit0 seuraavalla SSH-komennolla:
 ![dca76ff9eebef732bebb3cb894bad451](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/7868316f-71bc-46d4-8584-f9f66874fa59)
- 
+
+
 
 
  
