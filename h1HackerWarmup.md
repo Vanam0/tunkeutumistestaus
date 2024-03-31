@@ -56,9 +56,8 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 
 
 
-
-![26057665d5a5c32bb2176fb0fd1c6899](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/66afdd30-a614-4b6b-9f3e-45530e1c7d27)
-> Sama toistetaan uudelleen bandit2 levelillä, ja löydämme tiedostosta uuden salasanan. 
+![c8d155630413ca7260eea3671ddf55e9](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/c2951bf8-b76b-4bd4-a693-55b721d2d2f1)
+> Pääsemme bandit2 levelille, ja löydämme tiedostosta uuden salasanan. 
 
 
 
