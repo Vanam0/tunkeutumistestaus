@@ -31,7 +31,9 @@ ls ja lue readme-tiedoston sisältö komennolla cat readme
 Jatketaan bandit1 ja saadaan uusi salasana. 
 
 
-Sama toistetaan uudelleen.
+![26057665d5a5c32bb2176fb0fd1c6899](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/66afdd30-a614-4b6b-9f3e-45530e1c7d27)
+
+Sama toistetaan uudelleen level 2 kohdassa, löydämme hakemistosta uuden salasanan. 
 
 
 
