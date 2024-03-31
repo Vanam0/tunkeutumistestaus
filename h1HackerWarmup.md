@@ -1,4 +1,4 @@
-# h1 - Hacker Warmup
+ex# h1 - Hacker Warmup
 
 ## Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains
         Tiivistelmät 
@@ -26,6 +26,12 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 
 ls ja lue readme-tiedoston sisältö komennolla cat readme
 ![f5d073472805d8b63ea6fbf410063c0f](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e442d829-95ad-43ff-874d-2f3eac56dc52)
+
+![f89b547c931b63fc53e219868e44c1f4](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9ed39736-abd6-4a76-8b0e-f8627d52e58c)
+Jatketaan bandit1 ja saadaan uusi salasana. 
+
+
+Sama toistetaan uudelleen.
 
 
 
