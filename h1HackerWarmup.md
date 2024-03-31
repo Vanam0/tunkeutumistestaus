@@ -24,11 +24,15 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 ![dca76ff9eebef732bebb3cb894bad451](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/7868316f-71bc-46d4-8584-f9f66874fa59)
 
 
+
 ls ja lue readme-tiedoston sisältö komennolla cat readme
 ![f5d073472805d8b63ea6fbf410063c0f](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e442d829-95ad-43ff-874d-2f3eac56dc52)
 
+
 ![f89b547c931b63fc53e219868e44c1f4](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9ed39736-abd6-4a76-8b0e-f8627d52e58c)
 Jatketaan bandit1 ja saadaan uusi salasana. 
+
+
 
 
 ![26057665d5a5c32bb2176fb0fd1c6899](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/66afdd30-a614-4b6b-9f3e-45530e1c7d27)
