@@ -1,7 +1,7 @@
 # h1 - Hacker Warmup
 
 ## Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains
-        ## Tiivistelmä
+        Tiivistelmä
         On tärkeää ymmärtää tarkasti kyberuhat, niiden tarkoitukset ja toimintatavat. 
         Tietoverkon puolustus on välttämätöntä, koska erillaiset kyberuhat kehittyvät koko ajan.
         Teksti sisältää puolustustoimenpiteiden matriisin, joka on linjassa eri vaiheiden kanssa tunkeutumisen tappoketjussa. Nämä toimet sisältävät mm.                 havaitsemisen, estämisen, häiritsemisen, heikentämisen, tiedusteluun, harhauttamisen ja tuhoamisen, joiden tarkoituksena on vastustaa hyökkääjän                 toimintaa eri vaiheissa.
