@@ -1,4 +1,4 @@
-ex# h1 - Hacker Warmup
+# h1 - Hacker Warmup
 
 ## Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains
         Tiivistelmät 
