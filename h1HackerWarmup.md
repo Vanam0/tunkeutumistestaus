@@ -57,7 +57,7 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 
 
 ![c8d155630413ca7260eea3671ddf55e9](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/c2951bf8-b76b-4bd4-a693-55b721d2d2f1)
-> Pääsemme bandit2 levelille, ja löydämme tiedostosta uuden salasanan. 
+> Pääsemme bandit2 levelille, ja löydämme tiedostosta uuden salasanan. Samalla kokeilen komentoa `ls -alps` ja katson kaikki tiedostot hakemistossa. Tarkistan yksityiskohtaisina listoin piilotiedosto, koon jokaisesta tiedostosta ja hakemistosta. Lisäämällä (/) -hakemistojen perään, jotta ne erottuvat tiedostoista.
 
 
 
