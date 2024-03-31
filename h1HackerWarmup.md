@@ -13,9 +13,30 @@ Useita tunkeutumistapauksia analysoidaan myös strategisesti, joka auttaa ajan m
 APT = Advanced Persistent Threats, ovat edistyneitä ja jatkuvasti läsnä olevia tietoverkkouhkia, jotka pyrkivät hyökkäämään tietoverkkoihin pitkäaikaisesti ja huomaamattomasti. APT:t ovat yleensä suunniteltuja ja toteutettuja organisaatioita tai valtioita vastaan, ja niiden tavoitteena voi olla esim. tietovarkaudet, kybervalkoilu tai infrastruktuurin vahingoittaminen. APT-operaatiot käyttävät tekniikoita ja hyökkäystapoja sekä hyödyntävät usein heikkoja kohtia, kuten tietoturva aukkoja järjestelmien puolustuksessa. APT-operaatiot voivat olla pitkäkestoisia ja vaikeasti havaittavia, joka tekee torjunnasta haastavaa.
 
 ## Get The Art of Hacking (Video Collection) now with the O’Reilly learning platform
-O'Reillyn oppimisalustalla oli kattavasti tietoa videoissa erilaisista hakkerointitekniikoista ja tietoturvaan liittyviä työkaluista, kuten Nmap, Masscan, Zed attack Proxy, Burp Suite ja Nikto.
-Mielestäni ne olivat erittäin hyödyllisiä tietosisällöltään. 
+O'Reillyn oppimisalustalla oli kattavasti tietoa videoissa erilaisista hakkerointitekniikoista ja tietoturvaan liittyviä työkaluista.
+Mielestäni videot olivat erittäin hyödyllisiä tietosisällöltään. 
 Alusta oli itselleni uusi, joten ajattelen sen olevan hyödyllinen aloittelijoille kuin kokeneillekin henkilöille kyberturvallisuuden parissa.
+
+Porttiskannerit:
+- Nmap (Yksi hyödyllisimistä ja tunnetuimmista tietoturvatyökaluista, jolla suoritetaan monipuolisia verkkoskannausta.)
+- Masscan
+- Udpprotoscanner
+
+Web Service Review -työkalut:
+- EyeWitness (Tallentaa verkkosivujen tilannekuvia ja -tietoja automaattisesti mm. HTTP-ohjauspyyntöjen tiedot, kuten otsikot ja vastaukset.)
+
+Network and Web Vulnerability -skannerit, verkon haavoittuvuusskannukseen:
+  
+- Nessus
+- OpenVAS (avoimen lähdekoodin haavoittuvuustarkastusjärjestelmä)
+
+Web-haavoittuvuusskannerit:
+- Nikito
+- SQLMap: (SQL-tietokannat ja SQL-injektiot)
+- Zed Attack Proxy (OWASP ZAP)
+- Burp Suite (Monipuolinen ja laajalti käytetty tietoturvatyökalu, käytetään web-sovellusten haavoittuvuuksien löytämiseen ja hyödyntämiseen, sekä web-liikenteen analysointiin. Se toimii myös mm. proxyna ja skannerina.
+
+
         
 
 ## Wargames Bandit-haaste (level 0-2)
@@ -27,11 +48,11 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 
 
 ![f5d073472805d8b63ea6fbf410063c0f](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e442d829-95ad-43ff-874d-2f3eac56dc52)
-> ls ja lue readme-tiedoston sisältö komennolla cat readme
+> Katsotaan hakemiston sisältö `ls` ja luetaan readme-tiedosto sisältö komennolla `cat readme`
 
 
 ![f89b547c931b63fc53e219868e44c1f4](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9ed39736-abd6-4a76-8b0e-f8627d52e58c) 
->Jatketaan bandit1 ja saadaan uusi salasana. 
+> Jatketaan bandit1 ja saadaan uusi salasana. 
 
 
 
