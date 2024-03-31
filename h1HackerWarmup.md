@@ -10,10 +10,12 @@ Teksti sisältää puolustustoimenpiteiden matriisin, joka on linjassa eri vaihe
 Tunkeutumisen tappoketju (Kill Chain) on siis järjestelmällinen prosessi.
 Useita tunkeutumistapauksia analysoidaan myös strategisesti, joka auttaa ajan myötä tunnistamaan niiden yhtenäisä piirteitä ja malleja. Jolloin se auttaa puolustajia arvioimaan puolustusasemaansa ja kehittämään strategioita mahdollisten aukkojen varalta.
 
-APT = Advanced Persistent Threats, ovat edistyneitä ja jatkuvasti läsnä olevia tietoverkkouhkia, jotka pyrkivät hyökkäämään tietoverkkoihin pitkäaikaisesti ja huomaamattomasti. APT:t ovat yleensä suunniteltuja ja toteutettuja organisaatioita tai valtioita vastaan, ja niiden tavoitteena voi olla esim. tietovarkaudet, kybervalkoilu tai infrastruktuurin vahingoittaminen. APT-operaatiot käyttävät tekniikoita ja hyökkäystapoja sekä hyödyntävät usein heikkoja kohtia, kuten tietoturva aukkoja järjestelmien puolustuksessa. APT-operaatiot voivat olla                      pitkäkestoisia ja vaikeasti havaittavia, joka tekee torjunnasta haastavaa.
+APT = Advanced Persistent Threats, ovat edistyneitä ja jatkuvasti läsnä olevia tietoverkkouhkia, jotka pyrkivät hyökkäämään tietoverkkoihin pitkäaikaisesti ja huomaamattomasti. APT:t ovat yleensä suunniteltuja ja toteutettuja organisaatioita tai valtioita vastaan, ja niiden tavoitteena voi olla esim. tietovarkaudet, kybervalkoilu tai infrastruktuurin vahingoittaminen. APT-operaatiot käyttävät tekniikoita ja hyökkäystapoja sekä hyödyntävät usein heikkoja kohtia, kuten tietoturva aukkoja järjestelmien puolustuksessa. APT-operaatiot voivat olla pitkäkestoisia ja vaikeasti havaittavia, joka tekee torjunnasta haastavaa.
 
 ## Get The Art of Hacking (Video Collection) now with the O’Reilly learning platform
-        O'Reillyn oppimisalustalla oli kattavasti tietoa videoissa erilaisista hakkerointitekniikoista ja tietoturvaan liittyviä aiheita. Mielestäni ne olivat erittäin hyödyllisiä tietosisällöltään. Alusta         oli itselleni uusi, joten ajattelen sen olevan hyödyllinen aloittelijoille kuin kokeneillekin henkilöille kyberturvallisuuden parissa.
+O'Reillyn oppimisalustalla oli kattavasti tietoa videoissa erilaisista hakkerointitekniikoista ja tietoturvaan liittyviä aiheita. 
+Mielestäni ne olivat erittäin hyödyllisiä tietosisällöltään. 
+Alusta oli itselleni uusi, joten ajattelen sen olevan hyödyllinen aloittelijoille kuin kokeneillekin henkilöille kyberturvallisuuden parissa.
         
 
 
