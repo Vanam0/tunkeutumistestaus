@@ -66,7 +66,7 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 
 
 
-> Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samalla käytin komentoa `ls -alps` tarkastaakseni kaikki mahdolliset tiedostot ja hakemistot hakemistossa myös piilotiedostot, jos niitä on. Käyttämällä tätä komentoa sain yksityiskohtaisen listan tiedostojen ja hakemistojen ominaisuuksista: Tiedostoon varatun tilan, joka viittaa siihen määrään levytilaa, jonka tiedosto tai hakemisto käyttää tallennustarkoituksiin. Se sisältää tiedoston datan lisäksi myös tiedoston metatiedot, kuten otsikot, järjestelyt hakemistorakenteessa ja muut yksityiskohdat, jotka vaativat tilaa tallennukseen.
+Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samalla käytin komentoa `ls -alps` tarkastaakseni kaikki mahdolliset tiedostot ja hakemistot hakemistossa myös piilotiedostot, jos niitä on. Käyttämällä tätä komentoa sain yksityiskohtaisen listan tiedostojen ja hakemistojen ominaisuuksista: Tiedostoon varatun tilan, joka viittaa siihen määrään levytilaa, jonka tiedosto tai hakemisto käyttää tallennustarkoituksiin. Se sisältää tiedoston datan lisäksi myös tiedoston metatiedot, kuten otsikot, järjestelyt hakemistorakenteessa ja muut yksityiskohdat, jotka vaativat tilaa tallennukseen.
 
 
 
@@ -77,11 +77,11 @@ HTTP Basics
 ![acbcd7aad7873ce050a6794d9d6f35bc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/b7281a8a-2d50-4f68-87e2-f76e90cf2a3f)
 > Asennetaan WebGoat Kali Linuxille ja registeröidään käyttäjätili, sekä kirjaudutann sisään osoitteessa: http://localhost:8080/WebGoat/
 
-`$ sudo apt-get update
-        $ sudo apt-get -y install openjdk-17-jre ufw wget bash-completion
-        $ sudo ufw enable
-        $ wget https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/webgoat-server-8.0.0.M26.jar
-        $ java -jar webgoat-server-8.0.0.M26.jar`
+-`$ sudo apt-get update`
+- `$ sudo apt-get -y install openjdk-17-jre ufw wget bash-completion`
+- `$ sudo ufw enable`
+- `$ wget https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/webgoat-server-8.0.0.M26.jar`
+- `$ java -jar webgoat-server-8.0.0.M26.jar`
 
 
 ![d55274daf1478111c6b616e4454c762e](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/87984600-d396-4220-83fd-29ee2c62156d)
