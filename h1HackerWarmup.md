@@ -240,9 +240,15 @@ On ehdottoman tärkeää, että Pwnagotchin käyttäjä on tietoinen lakeista, j
 
 ## References
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h1-hacker-warmup
+
 https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+
 https://supo.fi/apt-operaatiot
+
 https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/
+
 https://www.w3schools.com/sql/
+
 https://pwnagotchi.ai/
+
 https://www.bettercap.org/
