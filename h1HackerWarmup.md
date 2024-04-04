@@ -1,7 +1,7 @@
 # h1 - Hacker Warmup
 
 ## Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains ja 
-        Tiivistelmät Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains ja  Get The Art of Hacking (Video Collection) now with the O’Reilly learning platform
+        Tiivistelmät Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains ja  Get The Art of Hacking (Video                 Collection) now with the O’Reilly learning platform
         
 On tärkeää ymmärtää tarkasti kyberuhat, niiden tarkoitukset ja toimintatavat. 
 Tietoverkon puolustus on välttämätöntä, koska erillaiset kyberuhat kehittyvät koko ajan.
