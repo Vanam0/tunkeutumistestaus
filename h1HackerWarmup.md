@@ -139,12 +139,7 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 
 ![45cb8e89ab75d581ba163604c61f5c42](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/f8207400-faa0-4d2a-be54-b445548d4370)
 
- Tehtävän tarkoituksena oli löytää HTTP-pyyntö ja lukea siitä satunnaisluku. Kopiodaan ja liitetään se syötekenttään. Käytin yksinkertaisia SQL-lausekkeita, kuten  'OR ja 1=1--.
-    -`'`: Heittomerkki aloittaa tai päättää SQL-lausekkeen.
-    - `OR:` Looginen SQL-operaattori, joka palauttaa totuusarvon, jos jompikumpi tai molemmat ehdot ovat tosia.
-    - `1=1:` Yksinkertainen ehto, joka palautuu aina, jos ehto on tosi, koska 1 on aina yhtä suuri kuin 1.
-    - `--:` Tällä lisätään SQL-kommetteja SQL:n, joka tarkoittaa, että kaikki tekstin jälkeinen osa jätetään huomioimatta. Estetämällä alkuperäisen kyselyn jatkumisen, eikä vaikuta lopputulokseen.
-
+ >Tehtävän tarkoituksena oli löytää HTTP-pyyntö ja lukea siitä satunnaisluku. Kopiodaan ja liitetään se syötekenttään.
 
 
 
@@ -163,7 +158,16 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 
 ### PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
-Muokkasin selaimen osoitekenttää parametrilla "category".
+![55038a6e367e00202924d8fe644aea2d](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/53120c90-b182-4bdb-9e23-a82968211402)
+
+
+Muokkasin selaimen osoitekenttää parametrilla "category", sekä käytin yksinkertaisia SQL-lausekkeita, kuten  'OR ja 1=1--.
+
+-`'`: Heittomerkki aloittaa tai päättää SQL-lausekkeen.
+- `OR:` Looginen SQL-operaattori, joka palauttaa totuusarvon, jos jompikumpi tai molemmat ehdot ovat tosia.
+- `1=1:` Yksinkertainen ehto, joka palautuu aina, jos ehto on tosi, koska 1 on aina yhtä suuri kuin 1.
+- `--:` Tällä lisätään SQL-kommetteja SQL:n, joka tarkoittaa, että kaikki tekstin jälkeinen osa jätetään huomioimatta. Estetämällä alkuperäisen kyselyn jatkumisen, eikä         vaikuta lopputulokseen.
+
 
 
 
