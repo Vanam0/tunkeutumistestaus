@@ -5,7 +5,7 @@
         
 On tärkeää ymmärtää tarkasti kyberuhat, niiden tarkoitukset ja toimintatavat. 
 Tietoverkon puolustus on välttämätöntä, koska erillaiset kyberuhat kehittyvät koko ajan.
-Teksti sisältää puolustustoimenpiteiden matriisin, joka on linjassa eri vaiheiden kanssa tunkeutumisen tappoketjussa. Nämä toimet sisältävät mm. havaitsemisen, estämisen, häiritsemisen, heikentämisen, tiedusteluun, harhauttamisen ja tuhoamisen. Näiden tarkoituksena on vastustaa hyökkääjän toimintaa eri vaiheissa.
+Teksti sisältää puolustustoimenpiteiden matriisin, joka on linjassa eri vaiheiden kanssa tunkeutumisen tappoketjussa (Kill Chain). Nämä toimet sisältävät mm. havaitsemisen, estämisen, häiritsemisen, heikentämisen, tiedustelun, harhauttamisen ja tuhoamisen. Näiden tarkoituksena on vastustaa hyökkääjän toimintaa eri vaiheissa.
 
 Tunkeutumisen tappoketju (Kill Chain) on siis järjestelmällinen prosessi.
 Useita tunkeutumistapauksia analysoidaan myös strategisesti, joka auttaa ajan myötä tunnistamaan niiden yhtenäisä piirteitä ja malleja. Jolloin se auttaa puolustajia arvioimaan puolustusasemaansa ja kehittämään strategioita mahdollisten aukkojen varalta.
@@ -52,8 +52,8 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 
 ![f5d073472805d8b63ea6fbf410063c0f](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e442d829-95ad-43ff-874d-2f3eac56dc52)
 
-Ensinnäkin, aloitin tarkastelemalla hakemiston sisältöä käyttämällä komentoa `ls`, tämä komento listaa kaikki tiedostot ja hakemistot nykyisessä sijainnissa.
-Tämän jälkeen käytin `cat`-komentoa tulostamaan readme-tiedoston sisällön. Cat on lyhenne sanasta "concatenate", se yhdistää tiedostojen sisällön ja tulostaa sen terminaaliin.
+Aloitin tarkastelemalla hakemiston sisältöä käyttämällä komentoa `ls`, tämä komento listaa kaikki tiedostot ja hakemistot nykyisessä sijainnissa.
+Tämän jälkeen käytin `cat`-komentoa tulostamaan readme-tiedoston sisällön. Cat on lyhenne sanasta "concatenate". Se yhdistää tiedostojen sisällön ja tulostaa sen terminaaliin.
 
 
 ![f89b547c931b63fc53e219868e44c1f4](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9ed39736-abd6-4a76-8b0e-f8627d52e58c) 
