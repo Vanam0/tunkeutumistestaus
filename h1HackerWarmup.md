@@ -123,7 +123,7 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 ### Developer tools
 
 ![bad1f6aba2531a00002b07b127af9d8a](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e5e15944-1f48-4de9-9275-a4809a531f6d)
-> Selaimen kehittäjätyökalu
+> Selaimen kehittäjätyökalu -näkymä
 
 ![44c31fbcef8a7eb71effa91f2f3dfd78](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8f8c91be-d9e8-4fae-bd58-2fa08d78f2b6)
 
