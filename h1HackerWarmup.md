@@ -66,7 +66,7 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 
 
 
-Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samalla käytin komentoa `ls -alps` tarkastaakseni kaikki mahdolliset tiedostot ja hakemistot hakemistossa myös piilotiedostot, jos niitä on. Käyttämällä tätä komentoa sain yksityiskohtaisen listan tiedostojen ja hakemistojen ominaisuuksista, kuten tiedostoon varatun tilan, joka viittaa siihen määrään levytilaa, jonka tiedosto tai hakemisto käyttää tallennustarkoituksiin. Se sisältää tiedoston datan lisäksi myös tiedoston metatiedot, kuten otsikot, järjestelyt hakemistorakenteessa ja muut yksityiskohdat, jotka vaativat tilaa tallennukseen.
+> Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samalla käytin komentoa `ls -alps` tarkastaakseni kaikki mahdolliset tiedostot ja hakemistot hakemistossa myös piilotiedostot, jos niitä on. Käyttämällä tätä komentoa sain yksityiskohtaisen listan tiedostojen ja hakemistojen ominaisuuksista: Tiedostoon varatun tilan, joka viittaa siihen määrään levytilaa, jonka tiedosto tai hakemisto käyttää tallennustarkoituksiin. Se sisältää tiedoston datan lisäksi myös tiedoston metatiedot, kuten otsikot, järjestelyt hakemistorakenteessa ja muut yksityiskohdat, jotka vaativat tilaa tallennukseen.
 
 
 
