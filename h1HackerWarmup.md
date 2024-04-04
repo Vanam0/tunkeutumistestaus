@@ -52,13 +52,13 @@ Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure S
 
 ![f5d073472805d8b63ea6fbf410063c0f](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e442d829-95ad-43ff-874d-2f3eac56dc52)
 
-> Ensinnäkin, aloitin tarkastelemalla hakemiston sisältöä käyttämällä komentoa `ls`, tämä komento listaa kaikki tiedostot ja hakemistot nykyisessä sijainnissa.
-> Tämän jälkeen käytin `cat`-komentoa tulostamaan readme-tiedoston sisällön. Cat on lyhenne sanasta "concatenate", se yhdistää tiedostojen sisällön ja tulostaa sen terminaaliin.
+Ensinnäkin, aloitin tarkastelemalla hakemiston sisältöä käyttämällä komentoa `ls`, tämä komento listaa kaikki tiedostot ja hakemistot nykyisessä sijainnissa.
+Tämän jälkeen käytin `cat`-komentoa tulostamaan readme-tiedoston sisällön. Cat on lyhenne sanasta "concatenate", se yhdistää tiedostojen sisällön ja tulostaa sen terminaaliin.
 
 
 ![f89b547c931b63fc53e219868e44c1f4](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9ed39736-abd6-4a76-8b0e-f8627d52e58c) 
 
-> Seuraavaksi, siirryin bandit1-tasolle ja löysin uuden salasanan.
+Seuraavaksi, siirryin bandit1-tasolle ja löysin uuden salasanan.
 
 
 
@@ -84,7 +84,7 @@ Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samall
 ![acbcd7aad7873ce050a6794d9d6f35bc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/b7281a8a-2d50-4f68-87e2-f76e90cf2a3f)
 
 
-> Asennetaan WebGoat Kali Linuxille ja registeröidään käyttäjätili, sekä kirjaudutann sisään: http://localhost:8080/WebGoat/
+Asennetaan WebGoat Kali Linuxille ja registeröidään käyttäjätili, sekä kirjaudutann sisään: http://localhost:8080/WebGoat/
 
 
 
