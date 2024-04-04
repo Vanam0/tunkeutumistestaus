@@ -77,7 +77,7 @@ Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samall
 
 
 
-## WebGoat 
+## WebGoat asennus
 
 
 
@@ -105,7 +105,7 @@ WebGoatin ja serverin asennus seuraavasti:
 
 
 
-### HTTP Basics
+### HTTP Basics -WebGoat tehtävä
 
 
 
@@ -120,7 +120,7 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 
 
 
-### Developer tools
+### Developer tools -WebGoat tehtävä
 
 ![bad1f6aba2531a00002b07b127af9d8a](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e5e15944-1f48-4de9-9275-a4809a531f6d)
 > Selaimen kehittäjätyökalu -näkymä
