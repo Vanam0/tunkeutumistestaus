@@ -209,9 +209,12 @@ Nmap-skannausraportti kertoo seuraavaa:
 
 Tässä skannausraportissa on jonkin verran lisää dataa.
 
-Raportissa nähdään kaksi avointa TCP-porttia localhostissa. Portti 8080 ja portti 9001. Näiden porttien tilaksi on ilmoittu "open", eli hyväksyy aktiivisa TCP- ja UDP-yhteyksiä
-Portissa 8080 toimii http-proxy-palvelu, mutta otsikko (http-title) puuttuu.
+Raportissa nähdään kaksi avointa TCP-porttia localhostissa. Portti 8080 ja portti 9001. Näiden porttien tilaksi on ilmoittu "open", se hyväksyy aktiivisia TCP- ja UDP-yhteyksiä
+Portissa 8080 toimii http-proxy-palvelu, mutta HTTP-otsikko puuttuu.
 Portissa 9001 toimii JDBC-palvelu, joka on yhteydenottojen hallintapalvelu Java-tietokantoihin.
+Näemme myös Fingerprinting-tietoja. Raportissa annetaan tietoa HTTP-palvelun vastauksista eri HTTP-pyynnöille, kuten FourOhFourRequest, GetRequest ja HTTPOptions. Tiedot antavat tarkemman kuvan siitä, millaisia vastauksia palvelu antaa erilaisiin HTTP-pyyntöihin.
+
+Tietoa tunnistamattomasta palvelusta: Raportissa mainitaan yksi palvelu, joka ei tunnistettu, vaikka se antoi tietoja. Tässä tapauksessa palvelu toimii portissa 8080, mutta sen tarkkaa tunnistetta ei tiedetä. Raportissa pyydetään käyttäjiä ilmoittamaan palvelun tunnistetiedot Nmapin kehittäjille, jos he tietävät sen.
 
 
 
