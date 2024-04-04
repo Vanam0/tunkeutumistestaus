@@ -71,21 +71,40 @@ Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samall
 
 
 
+
+
+
+
+
+
 ## WebGoat 
-### HTTP Basics
+
 
 ![acbcd7aad7873ce050a6794d9d6f35bc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/b7281a8a-2d50-4f68-87e2-f76e90cf2a3f)
-> Asennetaan WebGoat Kali Linuxille ja registeröidään käyttäjätili, sekä kirjaudutann sisään osoitteessa: http://localhost:8080/WebGoat/
 
--`$ sudo apt-get update`
+> Asennetaan WebGoat Kali Linuxille ja registeröidään käyttäjätili, sekä kirjaudutann sisään: http://localhost:8080/WebGoat/
+
+WebGoatin ja serverin asennus seuraavasti:
+
+- `$ sudo apt-get update`
 - `$ sudo apt-get -y install openjdk-17-jre ufw wget bash-completion`
 - `$ sudo ufw enable`
 - `$ wget https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/webgoat-server-8.0.0.M26.jar`
 - `$ java -jar webgoat-server-8.0.0.M26.jar`
 
 
+
+
+
+### HTTP Basics
+
+Suoritan tehtävän annon, lähettämällä HTTP-pyyntöjä ja tutkimalla vastauksia ja saavutin tehtävä annon tavoitteen:v
+
+
 ![d55274daf1478111c6b616e4454c762e](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/87984600-d396-4220-83fd-29ee2c62156d)
-> HTTP Basics tehtävä ja selaimen kehittäjätyökalu
+> Selaimen kehittäjätyökalu
+
+
 
 
  Developer tools
