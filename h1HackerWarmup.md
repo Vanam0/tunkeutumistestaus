@@ -84,7 +84,7 @@ Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samall
 ![acbcd7aad7873ce050a6794d9d6f35bc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/b7281a8a-2d50-4f68-87e2-f76e90cf2a3f)
 
 
-Asennetaan WebGoat Kali Linuxille ja registeröidään käyttäjätili, sekä kirjaudutann sisään: http://localhost:8080/WebGoat/
+Asennetaan WebGoat ja serveri, sekä rekisteröidään käyttäjätili osoitteessa: http://localhost:8080/WebGoat/. Aloitetaan harjoitustehtävien suorittaminen.
 
 
 
@@ -94,8 +94,8 @@ WebGoatin ja serverin asennus seuraavasti:
 - `$ sudo apt-get update`
 - `$ sudo apt-get -y install openjdk-17-jre ufw wget bash-completion`
 - `$ sudo ufw enable`
-- `$ wget https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/webgoat-server-8.0.0.M26.jar`
-- `$ java -jar webgoat-server-8.0.0.M26.jar`
+- `$ wget https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/webgoat-server-8.0.0.M26.jar` Tämä lataa .jar-tiedoston (Java-arkiston), joka sisältää WebGoat-sovelluksen.
+- `$ java -jar webgoat-server-8.0.0.M26.jar`  Käynnistää WebGoat-palvelimen paikallisesti Kali Linux -ympäristössä.
 
 
 
