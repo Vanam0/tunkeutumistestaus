@@ -110,10 +110,7 @@ WebGoatin ja serverin asennus seuraavasti:
 Suoritan tehtävän annon:
 Lähettämällä HTTP-pyyntöjä ja tutkimalla vastauksen. Saavutin tehtävä annon tavoitteen, eli `magic_num: "77"`.
 
-
-
 ![d55274daf1478111c6b616e4454c762e](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/87984600-d396-4220-83fd-29ee2c62156d)
-> Selaimen kehittäjätyökalu
 
 
 
@@ -121,9 +118,11 @@ Lähettämällä HTTP-pyyntöjä ja tutkimalla vastauksen. Saavutin tehtävä an
 
 
 
- Developer tools
+
+### Developer tools
 
 ![bad1f6aba2531a00002b07b127af9d8a](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e5e15944-1f48-4de9-9275-a4809a531f6d)
+> Selaimen kehittäjätyökalu
 
 ![44c31fbcef8a7eb71effa91f2f3dfd78](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8f8c91be-d9e8-4fae-bd58-2fa08d78f2b6)
 
