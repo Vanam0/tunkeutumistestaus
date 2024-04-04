@@ -186,6 +186,22 @@ Puretaan osiin:
 - `--:` Tällä lisätään SQL-kommetteja SQL:n, joka tarkoittaa, että kaikki tekstin jälkeinen osa jätetään huomioimatta. Estetämällä alkuperäisen kyselyn jatkumisen, eikä         vaikuta lopputulokseen.
 
 
+### Nmap
+
+![a58a36d4f7e092ca9e6791201df8a228](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/b67d16a9-94e3-4ce7-a89a-d55e22cf08a9)
+Suoriitan komennon, `nmap -p-1000 localhost`  joka skannaa TCP-portit numeroväliltä 1-1000 localhostissa. 
+
+
+Nmap-skannausraportti kertoo seuraavaa:
+
+- Nmapin versio ja ajankohta, jolloin skannaus suoritettiin.
+- Skannauskohde: localhost-osoitte, jonka IP-osoitte on: (127.0.0.1), joka siis viittaa omaan tietokoneeseen.
+- "Host is up": viesti kertoo, isäntä tietokone(localhost) on käytettävissä ja vastaa verkkopyyntöihin.
+- Latenssi: (0.0000050s) kertoo ajasta, joka kului vastauksen saapumiseen.
+- Ilmoitus "Other addresses for localhost (not scanned):  Kertoo, että on muitakin localhost-osoitteita, kuten IPv6-osoite (::1), mutta niitä ei skannattu tässä.
+- Ignoroidut portit: Ilmoitus "All 1000 scanned ports on localhost (127.0.0.1) are in ignored states", eli kaikki 1000 skannattua TCP-porttia localhostissa ovat "ignored states" -tilassa. Nmap ei siis saanut vastausta näiltä porteilta tai ne on merkitty "ignored" -tilaan, tämä johtunee palomuurista.
+- Suljetut TCP-portit: Ilmoitus "Not shown: 1000 closed tcp ports (reset)" kertoo, että kaikki 1000 skannattua TCP-porttia ovat suljettuja (closed) ja ne on merkitty "reset" -tilaan.
+
 
 
 
