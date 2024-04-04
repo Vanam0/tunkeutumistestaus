@@ -139,8 +139,11 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 
 ![45cb8e89ab75d581ba163604c61f5c42](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/f8207400-faa0-4d2a-be54-b445548d4370)
 
-> Tehtävän tarkoituksena oli löytää HTTP-pyyntö ja lukea siitä satunnaisluku. Kopiodaan ja liitetään se syötekenttään.
-
+> Tehtävän tarkoituksena oli löytää HTTP-pyyntö ja lukea siitä satunnaisluku. Kopiodaan ja liitetään se syötekenttään. Käytin yksinkertaisia SQL-lausekkeita, kuten  'OR ja 1=1--.
+    -`'`: Heittomerkki aloittaa tai päättää SQL-lausekkeen.
+    - `OR:` Looginen SQL-operaattori, joka palauttaa totuusarvon, jos jompikumpi tai molemmat ehdot ovat tosia.
+    - `1=1:` Yksinkertainen ehto, joka palautuu aina, jos ehto on tosi, koska 1 on aina yhtä suuri kuin 1.
+    - `--:` Tällä lisätään SQL-kommetteja SQL:n, joka tarkoittaa, että kaikki tekstin jälkeinen osa jätetään huomioimatta. Estetämällä alkuperäisen kyselyn jatkumisen, eikä vaikuta lopputulokseen.
 
 
 
@@ -160,8 +163,7 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 
 ### PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
-Aloitin Burpauksen. 
-![48b9e091067ece4a8883b865905ee03c](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/ca5e7600-b6fe-49b9-be11-a2b8620b2e66)
+Muokkasin selaimen osoitekenttää parametrilla "category".
 
 
 
@@ -177,3 +179,4 @@ https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h1-hacker-warmup
 https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
 https://supo.fi/apt-operaatiot
 https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/
+https://www.w3schools.com/sql/
