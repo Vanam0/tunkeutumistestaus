@@ -41,22 +41,28 @@ Web-haavoittuvuusskannerit:
 
 ## Wargames Bandit-haaste (level 0-2)
 
+
+
 Kirjaudutaan Bandit-palvelimelle käyttäen salattua verkkoprotokollaa (Secure Shell). Siispä SSH-yhteys osoitteessa: bandit.labs.overthewire.org , porttiin 2220 käyttäen tunnusta bandit0 ja salasanaa bandit0 seuraavalla SSH-komennolla:
+
 ![dca76ff9eebef732bebb3cb894bad451](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/7868316f-71bc-46d4-8584-f9f66874fa59)
 
 
 
 
 ![f5d073472805d8b63ea6fbf410063c0f](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e442d829-95ad-43ff-874d-2f3eac56dc52)
+
 > Katsotaan hakemiston sisältö `ls` ja tulostetaan readme-tiedoston sisältö komennolla `cat`
 
 
 ![f89b547c931b63fc53e219868e44c1f4](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9ed39736-abd6-4a76-8b0e-f8627d52e58c) 
+
 > Jatketaan bandit1 ja saadaan uusi salasana. 
 
 
 
 ![c8d155630413ca7260eea3671ddf55e9](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/c2951bf8-b76b-4bd4-a693-55b721d2d2f1)
+
 > Pääsemme bandit2 levelille, ja löydämme tiedostosta uuden salasanan. Samalla kokeilen komentoa `ls -alps` ja katson kaikki tiedostot hakemistossa. Tarkistan yksityiskohtaisina listoin piilotiedosto, koon jokaisesta tiedostosta ja hakemistosta lisäämällä (/).
 
 
