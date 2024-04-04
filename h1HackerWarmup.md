@@ -173,7 +173,9 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 
 Muokkasin selaimen osoitekenttää parametrilla "category", sekä käytin yksinkertaisia SQL-lausekkeita, kuten  'OR ja 1=1--.
 
--`'`: Heittomerkki aloittaa tai päättää SQL-lausekkeen.
+Puretaan osiin:
+
+-`':`  Heittomerkki aloittaa tai päättää SQL-lausekkeen.
 - `OR:` Looginen SQL-operaattori, joka palauttaa totuusarvon, jos jompikumpi tai molemmat ehdot ovat tosia.
 - `1=1:` Yksinkertainen ehto, joka palautuu aina, jos ehto on tosi, koska 1 on aina yhtä suuri kuin 1.
 - `--:` Tällä lisätään SQL-kommetteja SQL:n, joka tarkoittaa, että kaikki tekstin jälkeinen osa jätetään huomioimatta. Estetämällä alkuperäisen kyselyn jatkumisen, eikä         vaikuta lopputulokseen.
