@@ -189,7 +189,8 @@ Puretaan osiin:
 ### Nmap
 
 ![a58a36d4f7e092ca9e6791201df8a228](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/b67d16a9-94e3-4ce7-a89a-d55e22cf08a9)
-Suoriitan komennon, `nmap -p-1000 localhost`  joka skannaa TCP-portit numeroväliltä 1-1000 localhostissa. 
+
+Suoritan komennon, `nmap -p-1000 localhost`  joka skannaa TCP-portit numeroväliltä 1-1000 localhostissa. 
 
 
 Nmap-skannausraportti kertoo seuraavaa:
@@ -202,10 +203,15 @@ Nmap-skannausraportti kertoo seuraavaa:
 - Ignoroidut portit: Ilmoitus "All 1000 scanned ports on localhost (127.0.0.1) are in ignored states", eli kaikki 1000 skannattua TCP-porttia localhostissa ovat "ignored states" -tilassa. Nmap ei siis saanut vastausta näiltä porteilta tai ne on merkitty "ignored" -tilaan, tämä johtunee palomuurista.
 - Suljetut TCP-portit: Ilmoitus "Not shown: 1000 closed tcp ports (reset)" kertoo, että kaikki 1000 skannattua TCP-porttia ovat suljettuja (closed) ja ne on merkitty "reset" -tilaan.
 
+![2323c95321ed6c6397f6a92598a169bc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/416d1e1b-2ca2-4a8f-9ac8-27f1f28aa26f)
 
+`nmap -A localhost`
 
+Tässä skannausraportissa on jonkin verran lisää dataa.
 
-
+Raportissa nähdään kaksi avointa TCP-porttia localhostissa. Portti 8080 ja portti 9001. Näiden porttien tilaksi on ilmoittu "open", eli hyväksyy aktiivisa TCP- ja UDP-yhteyksiä
+Portissa 8080 toimii http-proxy-palvelu, mutta otsikko (http-title) puuttuu.
+Portissa 9001 toimii JDBC-palvelu, joka on yhteydenottojen hallintapalvelu Java-tietokantoihin.
 
 
 
