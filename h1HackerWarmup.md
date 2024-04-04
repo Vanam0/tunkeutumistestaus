@@ -72,7 +72,7 @@ Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samall
 
 
 ## WebGoat 
-### HTTP Basics
+#### HTTP Basics
 
 ![acbcd7aad7873ce050a6794d9d6f35bc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/b7281a8a-2d50-4f68-87e2-f76e90cf2a3f)
 > Asennetaan WebGoat Kali Linuxille ja registeröidään käyttäjätili, sekä kirjaudutann sisään osoitteessa: http://localhost:8080/WebGoat/
