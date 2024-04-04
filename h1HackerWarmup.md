@@ -158,6 +158,18 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 
 
 
+### PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+
+Aloitin Burpauksen. 
+![48b9e091067ece4a8883b865905ee03c](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/ca5e7600-b6fe-49b9-be11-a2b8620b2e66)
+
+
+
+
+
+
+
+
 
 
 ## References
