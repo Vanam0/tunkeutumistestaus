@@ -80,9 +80,14 @@ Siirryin bandit2-tasolle ja löysin tiedostosta jälleen uuden salasanan. Samall
 ## WebGoat 
 
 
+
 ![acbcd7aad7873ce050a6794d9d6f35bc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/b7281a8a-2d50-4f68-87e2-f76e90cf2a3f)
 
+
 > Asennetaan WebGoat Kali Linuxille ja registeröidään käyttäjätili, sekä kirjaudutann sisään: http://localhost:8080/WebGoat/
+
+
+
 
 WebGoatin ja serverin asennus seuraavasti:
 
@@ -96,13 +101,22 @@ WebGoatin ja serverin asennus seuraavasti:
 
 
 
+
+
+
+
 ### HTTP Basics
 
-Suoritan tehtävän annon, lähettämällä HTTP-pyyntöjä ja tutkimalla vastauksia ja saavutin tehtävä annon tavoitteen:v
+Suoritan tehtävän annon:
+Lähettämällä HTTP-pyyntöjä ja tutkimalla vastauksen. Saavutin tehtävä annon tavoitteen, eli `magic_num: "77"`.
+
 
 
 ![d55274daf1478111c6b616e4454c762e](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/87984600-d396-4220-83fd-29ee2c62156d)
 > Selaimen kehittäjätyökalu
+
+
+
 
 
 
