@@ -107,10 +107,10 @@ WebGoatin ja serverin asennus seuraavasti:
 
 ### HTTP Basics
 
-Suoritan tehtävän annon:
-Lähettämällä HTTP-pyyntöjä ja tutkimalla vastauksen. Saavutin tehtävä annon tavoitteen, eli `magic_num: "77"`.
+
 
 ![d55274daf1478111c6b616e4454c762e](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/87984600-d396-4220-83fd-29ee2c62156d)
+Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla vastauksen. Saavutin tehtävä annon tavoitteen, eli `magic_num: "77"`.
 
 
 
