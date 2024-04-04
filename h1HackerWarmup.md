@@ -216,6 +216,28 @@ Näemme myös Fingerprinting-tietoja ja vastauksista eri HTTP-pyynnöille, kuten
 
 Tieto tunnistamattomasta palvelusta: Raportissa mainitaan yksi palvelu, joka ei ole tunnistettu, vaikka se antoi tietoja. Tässä tapauksessa palvelu toimii portissa 8080, mutta sen tarkkaa tunnistetta ei tiedetä. Raportissa pyydetään käyttäjiä ilmoittamaan palvelun tunnistetiedot Nmapin kehittäjille, jos käyttäjä tietävää sen.
 
+![b470054ab26d0058ffb74014379aad29](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/cf56152d-763d-4972-821d-11ab4e8a0850)
+
+
+
+
+### Pwnagotchi
+![6e7a430f8326f677312194e85fed6ea5](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/a8aa2834-be2f-415d-a278-6c188cfe563a)
+
+
+Pwnagotchi on avoimeen lähdekoodiin perustuva projekti, joka hyödyntää bettercapin ohjaamaa A2C-pohjaista tekoälyä. Pwnagotchi toimii Raspberry Pi Zero W -alustalla.
+Ensisijaisesti Pwnagotchia käytetään koulutukseen, tutkimukseen, WiFi-verkkojen tietoturvallisuuden testauksessa ja parantamisessa. AI:n avulla Pwnagotchi kerää ympäristöstään dataa, kuten WiFi-verkkojen signaalitietoja, käyttäen näitä tietoja oppiakseen ja tunnistaakseen mahdollisia tietoturvauhkia entistä tarkemmin.
+
+Kerättyä dataa hyödyntämällä Pwnagotchi pystyy tekemään älykkäitä päätelmiä ja reagoimaan dynaamisesti muuttuviin verkkoympäristöihin. Se voi esimerkiksi tunnistaa haavoittuvat verkot, havaita salausavaimia tai heikkoja salauksia sekä ennustaa mahdollisia kyberhyökkäyksiä.
+
+On ehdottoman tärkeää, että Pwnagotchin käyttäjä on tietoinen lakeista, jotka liittyvät verkkojen testaamiseen ja tietojen keräämiseen, käyttäen sitä vain laillisesti. Sitä tulisi käyttää ainoastaan omien verkkojen turvallisuuden testauksessa tai sellaisissa ympäristöissä, joissa on lupa ja oikeudet verkkojen testaamiseen, kuten labraympäristö. 
+ 
+
+
+
+
+
+
 
 
 
@@ -226,3 +248,5 @@ https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-Wh
 https://supo.fi/apt-operaatiot
 https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/
 https://www.w3schools.com/sql/
+https://pwnagotchi.ai/
+https://www.bettercap.org/
