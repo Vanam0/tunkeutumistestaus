@@ -129,7 +129,7 @@ Suoritan HTTP Basics -tehtävän, lähettämällä HTTP-pyyntöjä ja tutkimalla
 
 ![44c31fbcef8a7eb71effa91f2f3dfd78](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8f8c91be-d9e8-4fae-bd58-2fa08d78f2b6)
 
-Suoritettu JavaScript-funktio, jonka vastaus näkyy konsolissa.
+> Suoritettu JavaScript-funktio, jonka vastaus näkyy konsolissa.
 
 
 
@@ -139,7 +139,7 @@ Suoritettu JavaScript-funktio, jonka vastaus näkyy konsolissa.
 
 ![45cb8e89ab75d581ba163604c61f5c42](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/f8207400-faa0-4d2a-be54-b445548d4370)
 
-Tehtävän tarkoituksena oli löytää HTTP-pyyntö ja lukea siitä satunnaisluku. Kopiodaan ja liitetöön se syötekenttään.
+> Tehtävän tarkoituksena oli löytää HTTP-pyyntö ja lukea siitä satunnaisluku. Kopiodaan ja liitetöön se syötekenttään.
 
 
 
