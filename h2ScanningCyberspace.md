@@ -73,7 +73,11 @@ SYN-skannaus on oletusarvoinen ja suosituin vaihtoehto. Se suoritetaan nopeasti,
 ## Lähteet:
 
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
+
 https://nmap.org/book/man-port-scanning-basics.html
+
 https://nmap.org/book/man-port-scanning-techniques.html
 
 https://nmap.org/book/man-port-scanning-basics.html
+
+https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
