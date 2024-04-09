@@ -55,13 +55,13 @@ SYN-skannaus on oletusarvoinen ja suosituin vaihtoehto. Se suoritetaan nopeasti,
 > Esimerkki: nmap -sS -sU -p 1-1000 target_ip
 
 
-# Tietomurron yritys ja kyberturvallisuus
+# Tietomurron yritys ja kyberturvallisuus 
 
-Tässä [dokumentissa](https://finlex.fi/fi/oikeus/kko/kko/2003/20030036) käsitellään tapausta, jossa henkilöä syytettiin tietomurron yrityksestä ja hänen suorittamasta porttiskannauksesta. Tapauksen käsittelyssä korostui kyberturvallisuuden merkitys ja sen yhteys rikosoikeudelliseen vastuuseen.
+Tässä [dokumentissa](https://finlex.fi/fi/oikeus/kko/kko/2003/20030036) (Luettu 9.4.2024) käsitellään tapausta, jossa henkilöä syytettiin tietomurron yrityksestä ja hänen suorittamasta porttiskannauksesta. Tapauksen käsittelyssä korostui kyberturvallisuuden merkitys ja sen yhteys rikosoikeudelliseen vastuuseen.
 
 Tämä tapaus osoittaa, kuinka tietoverkkoihin kohdistuvat hyökkäykset ja yritykset voivat aiheuttaa merkittävää vahinkoa organisaatioille. Porttiskannaus, jossa henkilö yritti skannata Osuuspankkikeskusen tietojärjestelmän portteja, katsottiin tietomurron yritykseksi. Vaikka syytetty väitti suorittaneensa skannauksen pelkästään kiinnostuksesta, se koitui hänelle rangaistavaksi teoksi, koska skannauksen tarkoituksena oli mahdollistaa pääsy tietojärjestelmään. Tapauksessa Osuuspankkikeskus joutui käyttämään merkittäviä resursseja tapauksen selvittämiseen ja vahinkojen korjaamiseen. Vaikka syyteteyn ikä ja kokemus huomioitiin oikeudenkäynnissä, hänet velvoitettiin silti korvaamaan aiheuttamansa vahingot.
 
-Lukijan näkökulmasta tapaus korostaa jatkuvan kehityksen ja ylläpidon merkitystä tietojärjestelmien turvajärjestelyissä. Vaikka Osuuspankkikeskuksen palomuuri esti henkilön tunkeutumisen, se osoittaa, että aktiiviset hyökkäykset tietojärjestelmiin ovat todellinen uhka ja vaativat jatkuvaa valppautta sekä valmiutta puolustautua. Tämäntyyppisiin tilanteisiin tarvitaan ammattitaitoisia kyberturvallisuuden asiantuntijoita.
+Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvajärjestelyiden kehittämisen ja ylläpidon tärkeyttä. Vaikka Osuuspankkikeskuksen palomuuri esti henkilön tunkeutumisen tietojärjestelmään. Dokumentti osoittaa, että aktiiviset hyökkäykset tietojärjestelmiin ovat todellinen uhka ja vaativat valmiutta puolustautua. Tämän tyyppisiin tilanteisiin tarvitaan ammattitaitoisia kyberturvallisuuden asiantuntijoita.
 
 
 
