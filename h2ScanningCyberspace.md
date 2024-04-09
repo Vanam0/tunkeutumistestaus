@@ -1,3 +1,18 @@
+
+
+
+    x) Lue/katso ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva kustakin artikkelista. Kannattaa lisätä myös jokin oma ajatus, idea, huomio tai kysymys.)
+        Lyon 2009: Nmap Network Scanning: Chapter 15. Nmap Reference Guide:
+            Port Scanning Basics (opettele, mitä tarkoittavat: open, closed, filtered; muuten vain silmäily)
+            Port Scanning Techniques (opettele, mitä ovat: -sS -sT -sU; muuten vain silmäily)
+        KKO 2003:36. Alaikäinen tuomittiin Osuuspankkikeskuksen porttiskannaamisesta, korkeimman oikeuden ratkaisu.
+        Vapaavalintainen läpikävely 0xdf tai ippsec (Kannattaa valita helppo; esim "Base Points: Easy")
+
+
+
+
+
+
 # Scanning Cyberspace
 
 
@@ -17,11 +32,21 @@ Nmap ei voi määrittää, onko portti avoin, koska pakettisuodatus estää sen 
 - Suodattamaton (unfiltered):
  Porttiin pääsee käsiksi, mutta Nmap ei pysty määrittämään, onko portti avoin vai suljettu. Tämä tila on yleensä seurausta palomuurien konfiguroinnista.
 - Avoin tai suodatettu (open|filtered): 
-Nmap sijoittaa portit tähän tilaan, kun se ei pysty määrittämään, onko portti avoin vai suodatettu. Tämä tapahtuu skannaustyypeissä, joissa avoimet portit eivät anna      vastausta.
+Nmap sijoittaa portit tähän tilaan, kun se ei pysty määrittämään, onko portti avoin vai suodatettu. Tämä tapahtuu skannaustyypeissä, joissa avoimet portit eivät anna vastausta.
 - Suljettu tai suodatettu (closed|filtered): 
 Tämä tila ilmenee, kun Nmap ei pysty määrittämään, onko portti suljettu vai suodatettu. Tätä tilaa käytetään vain IP ID -lepo-skannauksessa.
 
+# Porttiskannus -tekniikat
 
+
+Porttiskannauksen tekniikat:
+
+- `sS:`:
+SYN-skannaus on oletusarvoinen ja suosituin vaihtoehto. Se suoritetaan nopeasti, skannaten tuhansia portteja sekunnissa nopealla verkolla, eikä sitä hidasta rajoittavat palomuurit. SYN-skannaus on myös suhteellisen huomaamaton, koska se ei täydennä TCP-yhteyksiä. Lisäksi se toimii minkä tahansa yhteensopivan TCP-pinon kanssa ja mahdollistaa selkeän erottelun avointen, suljettujen ja suodatettujen tilojen välillä.
+
+- `sT` (TCP connect scan): Oletus TCP-skannausvaihtoehto, kun SYN-skannaus ei ole mahdollinen. Se käyttää korkean tason järjestelmäkutsua yhteyden muodostamiseksi, mikä voi aiheuttaa pidempiä skannausaikoja ja lisääntyneen havaitsemisen riskin, eli se voi aiheuttaa merkintöjä järjestelmän lokitiedoissa tai jopa palveluiden kaatumisen, joka voi paljastaa skannauksen.
+
+- `sU`: UDP-skannaus käyttää -sU-optiota. Se voidaan yhdistää TCP-skannustyyppiin, kuten SYN-skannaukseen, jotta voidaan tarkistaa molemmat protokollat samalla suorituksella. Nmap käyttää UDP-skannauksessa tyhjiä paketteja ja ICMP-virheilmoituksia porttien tilan tunnistamiseen. UDP-skannauksen nopeuttamiseksi voidaan kokeilla useampien isäntien skannaamista samanaikaisesti, aloittaa skannaus suosituimmista porteista ja käyttää host timeout -optiota hidastuvien isäntien ohittamiseksi.
 
 
 
