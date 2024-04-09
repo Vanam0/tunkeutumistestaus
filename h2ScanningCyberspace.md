@@ -21,6 +21,8 @@ Tässä harjoituksessa toteutan porttiskannauksen virtuaaliympäristössä (VM v
 
 
 
+
+
 # Porttiskaunnauksen perusteet
 
 - Avoin (open):
@@ -48,9 +50,7 @@ SYN-skannaus on oletusarvoinen ja suosituin vaihtoehto. Se suoritetaan nopeasti,
 
 - `sU`: UDP-skannaus käyttää -sU-optiota. Se voidaan yhdistää TCP-skannustyyppiin, kuten SYN-skannaukseen, jotta voidaan tarkistaa molemmat protokollat samalla suorituksella. Nmap käyttää UDP-skannauksessa tyhjiä paketteja ja ICMP-virheilmoituksia porttien tilan tunnistamiseen. UDP-skannauksen nopeuttamiseksi voidaan kokeilla useampien isäntien skannaamista samanaikaisesti, aloittaa skannaus suosituimmista porteista ja käyttää host timeout -optiota hidastuvien isäntien ohittamiseksi.
 
-
-
-
+> Näiden ohessa lueteltujen tekniikoiden avulla voi syventää tietämsytä kyberturvallisuudesta ja turvata tietoverkkoja. Miten nämä skannaustekniikat vaikuttavat verkon suorituskykyyn? Käyttämällä näitä tietoja voisi jo suunnitella omaa tietoturvastrategiaa omalle labraalustalle. 
 
 
 
@@ -69,5 +69,7 @@ SYN-skannaus on oletusarvoinen ja suosituin vaihtoehto. Se suoritetaan nopeasti,
 ## Lähteet:
 
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
+https://nmap.org/book/man-port-scanning-basics.html
+https://nmap.org/book/man-port-scanning-techniques.html
 
 https://nmap.org/book/man-port-scanning-basics.html
