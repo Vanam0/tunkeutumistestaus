@@ -42,5 +42,7 @@ Tämä tila ilmenee, kun Nmap ei pysty määrittämään, onko portti suljettu v
 
 
 ## Lähteet:
+
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
+
 https://nmap.org/book/man-port-scanning-basics.html
