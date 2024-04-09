@@ -50,7 +50,11 @@ SYN-skannaus on oletusarvoinen ja suosituin vaihtoehto. Se suoritetaan nopeasti,
 
 - `sU`: UDP-skannaus käyttää -sU-optiota. Se voidaan yhdistää TCP-skannustyyppiin, kuten SYN-skannaukseen, jotta voidaan tarkistaa molemmat protokollat samalla suorituksella. Nmap käyttää UDP-skannauksessa tyhjiä paketteja ja ICMP-virheilmoituksia porttien tilan tunnistamiseen. UDP-skannauksen nopeuttamiseksi voidaan kokeilla useampien isäntien skannaamista samanaikaisesti, aloittaa skannaus suosituimmista porteista ja käyttää host timeout -optiota hidastuvien isäntien ohittamiseksi.
 
-> Näiden ohessa lueteltujen tekniikoiden avulla voi syventää tietämsytä kyberturvallisuudesta ja turvata tietoverkkoja. Miten nämä skannaustekniikat vaikuttavat verkon suorituskykyyn? Käyttämällä näitä tietoja voisi jo suunnitella omaa tietoturvastrategiaa omalle labraalustalle. 
+> Näiden ohessa lueteltujen tekniikoiden avulla voi syventää tietämsytä kyberturvallisuudesta ja turvata tietoverkkoja. Miten nämä skannaustekniikat vaikuttavat verkon suorituskykyyn? Käyttämällä näitä tietoja voisi jo suunnitella omaa tietoturvastrategiaa omalle labraalustalle.
+
+> Esimerkki: nmap -sS -sU -p 1-1000 target_ip
+
+
 
 
 
