@@ -2,12 +2,12 @@
 
 
 
-Tässä harjoituksessa suoritetaan porttiskannaus Metasploitable 2 -virtuaalikoneeseen Kali Linuxin avulla. Tavoitteenani on tutustua porttiskannauksen perusteisiin, skannaustekniikoihin ja näiden vaikutuksiin, sekä oppia eristämään koneet toisistaan virtuaaliverkossa.
+Tässä harjoituksessa toteutan porttiskannauksen virtuaaliympäristössä (VM virtualBox), jossa käytän Kali Linux -käyttöjärjestelmää, Metasploitable 2 -virtuaalitietokonetta. Tarkoituksena on syventää ymmärrystäni porttiskannauksen perusteista, erilaisista skannaustekniikoista ja niiden vaikutuksista, sekä näden virtuaalikoneiden eristämiminen toisistaan luomassani virtuaaliverkossa.
 
 
 
-
-
+# Porttiskaunnauksen perusteet
+> Avoin (open): Sovellus hyväksyy aktiivisesti TCP-yhteyksiä, UDP-datagrammeja tai SCTP-liittymiä tällä portilla. Tämä on usein porttiskannauksen päätavoite, koska jokainen avoin portti tarjoaa hyökkääjille mahdollisen hyökkäysreitin. Hallinnon kannalta avoimet portit ovat riski, ja ne pyritään sulkemaan tai suojaamaan palomuureilla.
 
 
 
@@ -29,5 +29,5 @@ Tässä harjoituksessa suoritetaan porttiskannaus Metasploitable 2 -virtuaalikon
 
 
 ## Lähteet:
-
-
+https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
+https://nmap.org/book/man-port-scanning-basics.html
