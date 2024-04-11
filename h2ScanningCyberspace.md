@@ -80,7 +80,8 @@ Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvajärjestelyiden 
 
 Vastaako?
 
-
+#sniifaus
+`db_nmap -sn`
 
 
 
