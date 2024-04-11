@@ -91,7 +91,23 @@ Käynnistetään Metasploit Frameworkin `msfconsole` -shell, joka on interaktiiv
 
 ![-sn komento](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4c04eab3-eb74-4b44-8476-93ae915ca5ea)
 
-`db_nmap -sn` Komento suorittaa Nmap-skannauksen ja tallentaa tulokset Metasploit-tietokantaan, käytetään targettina IP-osoitetta.
+- `db_nmap -sn` Komento suorittaa Nmap-skannauksen ja tallentaa tulokset Metasploit-tietokantaan, käytetään targettina IP-osoitetta.
+
+![-A komento](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/940490a6-5136-4bda-bd06-1901a82770e4)
+
+- `db_nmap -A -p0-` suorittaa Metasploit Frameworkin db_nmap -porttiskannauksen. Tässä käytetään `-A` -optiota, joka suorittaa laajan skannauksen, `-p0` -optio määrittää skannaamaan kaikki portit.
+
+
+Haluan käyttää Telnet-protokollaa vertailun vuoksi analyysissa, koska se ei salaa dataa, joka tekee siitä haavoittuvan tietoturvahyökkäyksille. Esim. Löytämällä avoimen Telnet-portin, jos palvelin käyttää vanhentunutta versiota.
+![telnet1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8f3a2161-a1f1-4884-ab79-9059490df82a)
+
+> Wireshark -näkymässä huomaamme, että käyttäjän syöttämät tiedot, mukaan lukien salasanat, lähetetään selkokielisenä verkon yli. Kun käyttäjä kirjautuu Metasploitableen Telnetin avulla, sniffer voi havaita ja tallentaa kaiken Telnet-liikenteen. SSH-protokolla tarjoaisi turvallisen vaihtoehdon myös Telnetin käytölle, sillä se salaa verkkoliiken, mutta halusin vertailla.
+
+
+
+
+
+
 
 
 
