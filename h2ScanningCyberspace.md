@@ -65,10 +65,12 @@ Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvallisuuden kehitt
 
   > Metasploitable 2:n virtuaalitietokoneen asentaminen manuaalisesti virtuaalikoneympäristöön.
 
+## Virtuaaliverkko
 
- msfadmin
+Molemmat virtuaalitietokoneet Kali Linux että Metasploitable 2, ovat liitetty luomaani host-only -verkkoon, näin se on eristetyssä ympäristössä ja turvallinen harjoittelua varten, virtuaaliverkko luotiin VirtualBoxin hallintapaneelin kautta. Sammutan myös verkkoyhteyden harjoittelun ajaksi. 
+Kirjaudutaan sisälle msfadmin -tunnuksilla 
  ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9bc2c5f1-2ce4-47eb-bc59-3e764fd874e0)
-
+> Internet-yhteys katkeaa, voidaan suorittaa ping-komento ulkoisella IP-osoitteella, Google DNS:lle 8.8.8.8.
 
 Vastaako?
 
