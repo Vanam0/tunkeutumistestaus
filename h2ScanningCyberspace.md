@@ -120,12 +120,27 @@ WIN=1073725440: Tämä on TCP-ikkunan koko, joka ilmoittaa vastaanottajalle, kui
 > Tyypillisesti, TCP-pakettien otsakkeet sisältävät tietoja kuten lähettäjän ja vastaanottajan porttinumerot, sekvenssinumeron, tunnisteet, otsakepituuksen, kontrollibitit (esimerkiksi SYN, ACK, FIN jne.) ja tarkistussumman. Näitä tietoja käytetään pakettien reitittämiseen ja yhteyden hallintaan.
 
 
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/30b98645-956e-4daf-967b-921e6c695568)
+
+Halusin tarkastella lisää TCP-paketteja Wiresharkissa, erityisesti kiinnittäen huomiota URG-lipun esiintymiseen ja heksadesimaalikoodiin FF.
+
+Suoritin suodatuksen Wiresharkissa ilmaisemalla `TCP.flags.urg == 1:`. Tämä suodatin näytti meille kaikki ne TCP-paketit, joissa Urgent-lippu oli asetettu. Tämä auttoi tunnistamaan kaikki tärkeät paketit, joissa on kiireellistä tietoa.
+
+Hexakoodi FF:
+Tutkin tarkemmin heksadesimaalikoodia FF, joka esiintyy usein Wiresharkin näyttämässä datassa. FF edustaa 8-bittistä binääritietoa ja voi esiintyä erilaisissa yhteyksissä, kuten datan käyttönä tai tietyn protokollan tunnisteena. 
+Tarkastelussa huomasin, yhdistämällä URG-lippu heksadesimaalikoodi FF, voi saada tietoa verkkoliikenteestä ja tunnistaa poikkeavuuksia. 
 
 
 
-Haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutarkoituksessa, koska sen avulla voidaan havaita haavoittuvuuksia, kuten avoin Telnet-portti, joka voi altistaa haavoittuvuuksille, erityisesti jos käytössä on vanhentunut Telnet-palvelinversio.
+
+
+
+
+
 
 ![telnet1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8f3a2161-a1f1-4884-ab79-9059490df82a)
+
+Seuraavaksi haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutarkoituksessa, koska sen avulla voidaan havaita haavoittuvuuksia, kuten avoin Telnet-portti, joka voi altistaa haavoittuvuuksille, erityisesti jos käytössä on vanhentunut Telnet-palvelinversio.
 
 - Wireshark -näkymässä huomaamme, että käyttäjän syöttämät tiedot: salasana, lähetetään salaamattomana verkon yli. Kun käyttäjä kirjautuu Metasploitableen Telnetin avulla, sniffer voi havaita ja tallentaa kaiken Telnet-liikenteen. SSH-protokolla tarjoaisi turvallisen vaihtoehdon Telnetin käytölle, sillä se salaa verkkoliikenteen, mutta tämä vertailun vuoksi.
 
