@@ -63,7 +63,7 @@ Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvallisuuden kehitt
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/a31c7308-a399-4efa-bfa3-fac9bd5d3c57)
 
 
- Metasploitable 2:n virtuaalitietokoneen asentaminen manuaalisesti.
+  > Metasploitable 2:n virtuaalitietokoneen asentaminen manuaalisesti virtuaalikoneympäristöön.
 
 
  msfadmin
