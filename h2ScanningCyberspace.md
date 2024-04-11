@@ -44,7 +44,7 @@ SYN-skannaus on yleisin ja suosituin skannausmenetelmä. Se on nopea ja tehokas,
 
 > Näiden ohessa lueteltujen tekniikoiden avulla voi syventää tietämsytä kyberturvallisuudesta ja turvata tietoverkkoja. Miten nämä skannaustekniikat vaikuttavat verkon suorituskykyyn? Käyttämällä näitä tietoja voisi jo suunnitella omaa tietoturvastrategiaa omalle labraalustalle.
 
-> Esimerkki: nmap -sS -sU -p 1-1000 target_ip
+
 
 
 # Tietomurron yritys ja kyberturvallisuus 
@@ -76,18 +76,16 @@ Varmistamme, ettei Metasploitable 2:lla ole Internet-yhteyttä suorittamalla pin
 
 
 ## sniifaus
-`db_nmap -sn`
+
 
 - Aloitan koko tehtävän, käynnistämällä PostgreSQL-tietokantapalvelimen, jota käytetään tallentamaan Metasploit Frameworkin tietokantaan kerättyä tietoa.
 komenolla: `systemctl start postgresql`.
 
 - Alustetaan Metasploit Frameworkin tietokanta, luoden tarvittavat tietokantataulut ja asetukset PostgreSQL-tietokantaan, komennolla: `msfdb init`
 
-Käynnistetään Metasploit Frameworkin msfconsole -käyttöliittymä, joka on interaktiivinen työkalu haavoittuvuuksien analysointiin ja hyökkäysten suorittamiseen.
+Käynnistetään Metasploit Frameworkin msfconsole -shell, joka on interaktiivinen työkalu haavoittuvuuksien analysointiin ja hyökkäysten suorittamiseen.
 
-db_nmap {nmap_command}: Tämä komento suorittaa Nmap-skannauksen ja tallentaa tulokset Metasploit-tietokantaan. {nmap_command} korvataan Nmap-komennolla, jota haluat käyttää, esimerkiksi -sV -p 1-1000 <target>.
-
-raportoi mitä tässä tapahtuu: Tämä osa ei ole komento vaan selitys. Kun db_nmap-komento suoritetaan, se ajaa Nmap-skannauksen ja tallentaa tulokset Metasploit-tietokantaan, jotta niitä voidaan käyttää hyökkäyksissä ja haavoittuvuuksien analysoinnissa myöhemmin.
+`db_nmap -sn`
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/29909b05-106c-46c1-9fe1-be2046e3482c)
 
