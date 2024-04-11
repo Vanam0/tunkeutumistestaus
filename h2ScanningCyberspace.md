@@ -88,7 +88,10 @@ komenolla: `systemctl start postgresql`.
 
 Käynnistetään Metasploit Frameworkin `msfconsole` -shell, joka on interaktiivinen työkalu haavoittuvuuksien analysointiin ja hyökkäysten suorittamiseen.
 
-`db_nmap -sn`
+
+![-sn komento](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4c04eab3-eb74-4b44-8476-93ae915ca5ea)
+
+`db_nmap -sn` Komento suorittaa Nmap-skannauksen ja tallentaa tulokset Metasploit-tietokantaan, käytetään targettina IP-osoitetta.
 
 
 
