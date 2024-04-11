@@ -95,9 +95,11 @@ Käynnistetään Metasploit Frameworkin `msfconsole` -shell, joka on interaktiiv
 
 ![-A komento](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/940490a6-5136-4bda-bd06-1901a82770e4)
 
-- `db_nmap -A -p0-` suorittaa Metasploit Frameworkin db_nmap -porttiskannauksen. Tässä käytetään `-A` -optiota, joka suorittaa laajan skannauksen, `-p0` -optio määrittää skannaamaan kaikki portit.
+- `db_nmap -A -p0-` suorittaa Metasploit Frameworkin db_nmap -porttiskannauksen. Tässä käytetään `-A` -parametria, joka suorittaa laajan skannauksen, `-p0` -parametri määrittää skannaamaan kaikki portit.
 
+  
 ## Analysointi
+
 
 Haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutarkoituksessa, koska sen avulla voidaan havaita haavoittuvuuksia, kuten avoin Telnet-portti, joka voi altistaa haavoittuvuuksille, erityisesti jos käytössä on vanhentunut Telnet-palvelinversio.
 
