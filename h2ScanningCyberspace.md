@@ -175,6 +175,7 @@ https://nmap.org/book/man-port-scanning-techniques.html
 
 https://nmap.org/book/man-port-scanning-basics.html
 
+https://youtu.be/VhUzVYccVKE?si=l6X6t_ri_e25VYH1 (TCP Urgent Bit and Urgent Pointer Field)
 https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
 
 https://www.hackers-arise.com/post/2017/01/25/metasploit-part-1-getting-started-with-metasploit
