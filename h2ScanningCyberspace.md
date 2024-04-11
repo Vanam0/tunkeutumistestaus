@@ -135,7 +135,7 @@ Tarkastelussa huomasin, yhdistämällä URG-lippu heksadesimaalikoodi FF, voi sa
 
 
 
-
+# Telnet vs. SSH
 
 
 ![telnet1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8f3a2161-a1f1-4884-ab79-9059490df82a)
