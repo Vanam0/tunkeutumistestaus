@@ -78,16 +78,18 @@ Varmistamme, ettei Metasploitable 2:lla ole Internet-yhteyttä suorittamalla pin
 ## sniifaus
 
 
+
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/29909b05-106c-46c1-9fe1-be2046e3482c)
+
 - Aloitan koko tehtävän, käynnistämällä PostgreSQL-tietokantapalvelimen, jota käytetään tallentamaan Metasploit Frameworkin tietokantaan kerättyä tietoa.
 komenolla: `systemctl start postgresql`.
 
 - Alustetaan Metasploit Frameworkin tietokanta, luoden tarvittavat tietokantataulut ja asetukset PostgreSQL-tietokantaan, komennolla: `msfdb init`
 
-Käynnistetään Metasploit Frameworkin msfconsole -shell, joka on interaktiivinen työkalu haavoittuvuuksien analysointiin ja hyökkäysten suorittamiseen.
+Käynnistetään Metasploit Frameworkin `msfconsole` -shell, joka on interaktiivinen työkalu haavoittuvuuksien analysointiin ja hyökkäysten suorittamiseen.
 
 `db_nmap -sn`
 
-![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/29909b05-106c-46c1-9fe1-be2046e3482c)
 
 
 
