@@ -69,13 +69,17 @@ Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvallisuuden kehitt
 
 Molemmat virtuaalitietokoneet Kali Linux että Metasploitable 2, ovat liitetty luomaani host-only -verkkoon, näin se on eristetyssä ympäristössä ja turvallinen harjoittelua varten, virtuaaliverkko luotiin VirtualBoxin hallintapaneelin kautta. Sammutan myös verkkoyhteyden harjoittelun ajaksi. 
 Kirjaudutaan sisälle msfadmin -tunnuksilla 
- ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9bc2c5f1-2ce4-47eb-bc59-3e764fd874e0)
-> Internet-yhteys katkeaa, voidaan suorittaa ping-komento ulkoisella IP-osoitteella, Google DNS:lle 8.8.8.8.
 
-Vastaako?
+ ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9bc2c5f1-2ce4-47eb-bc59-3e764fd874e0)
+ 
+Varmistamme, ettei Metasploitable 2:lla ole Internet-yhteyttä suorittamalla ping-komento ulkoisella IP-osoitteella, Google DNS:lle 8.8.8.8. 
+
 
 #sniifaus
 `db_nmap -sn`
+
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/29909b05-106c-46c1-9fe1-be2046e3482c)
+
 
 
 
@@ -94,3 +98,5 @@ https://nmap.org/book/man-port-scanning-techniques.html
 https://nmap.org/book/man-port-scanning-basics.html
 
 https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
+
+https://gist.github.com/fabionoth/ba46407d9cd03144150225715697c47f
