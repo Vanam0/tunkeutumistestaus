@@ -100,6 +100,28 @@ Käynnistetään Metasploit Frameworkin `msfconsole` -shell, joka on interaktiiv
   
 ## Analysointi
 
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d8b489b8-d7c8-4f43-80ce-3949793f4cc8)
+
+
+> Wireshark -näkymä
+
+
+Esimerkki: Lähetettiin TCP-paketti kohti kohdeporttia: 23 (SYN, "Vastaatko?"). Kohde vastasi TCP-paketilla (SYN, ACK; "Vastaan!"). Tämän jälkeen osapuoli katkaisi yhteyden (RST "Heippa!"). Telnet kuunteli yhteyksiä.
+
+Huomaamme myös: 
+Wiresharkin näyttämässä paketissa "[FIN, PSH, URG] SEG=1 WIN=1073725440 seuraavat asiat:
+
+- `FIN`: Tarkoittaa TCP-paketin "Finish" -lippua, joka kertoo, että lähettäjä on valmis sulkemaan yhteyden Kalin ja Meta2 välillä.
+PSH: Tarkoittaa "Push" -lippua, eli tietoja tulisi "pushata" vastaanottavaan sovellukseen mahdollisimman nopeasti.
+URG: Tämä on "Urgent" -lippu, joka osoittaa, että paketissa on tärkeitä tietoja, jotka tulisi käsitellä kiireellisesti.
+SEG=1: Tämä ilmaisee, että paketin numero on 1. Tämä auttaa järjestämään ja seuraamaan paketteja.
+WIN=1073725440: Tämä on TCP-ikkunan koko, joka ilmoittaa vastaanottajalle, kuinka paljon dataa lähettäjä voi lähettää ennen kuin odottaa vastausta.
+
+> Tyypillisesti, TCP-pakettien otsakkeet sisältävät tietoja kuten lähettäjän ja vastaanottajan porttinumerot, sekvenssinumeron, tunnisteet, otsakepituuksen, kontrollibitit (esimerkiksi SYN, ACK, FIN jne.) ja tarkistussumman. Näitä tietoja käytetään pakettien reitittämiseen ja yhteyden hallintaan.
+
+
+
+
 
 Haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutarkoituksessa, koska sen avulla voidaan havaita haavoittuvuuksia, kuten avoin Telnet-portti, joka voi altistaa haavoittuvuuksille, erityisesti jos käytössä on vanhentunut Telnet-palvelinversio.
 
