@@ -75,7 +75,7 @@ Kirjaudutaan sisälle msfadmin -tunnuksilla
 Varmistamme, ettei Metasploitable 2:lla ole Internet-yhteyttä suorittamalla ping-komento ulkoisella IP-osoitteella, Google DNS:lle 8.8.8.8. 
 
 
-## sniifaus
+## Sniffaus
 
 
 
@@ -97,17 +97,20 @@ Käynnistetään Metasploit Frameworkin `msfconsole` -shell, joka on interaktiiv
 
 - `db_nmap -A -p0-` suorittaa Metasploit Frameworkin db_nmap -porttiskannauksen. Tässä käytetään `-A` -optiota, joka suorittaa laajan skannauksen, `-p0` -optio määrittää skannaamaan kaikki portit.
 
-
+## Analysointi
 
 Haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutarkoituksessa, koska sen avulla voidaan havaita haavoittuvuuksia, kuten avoin Telnet-portti, joka voi altistaa haavoittuvuuksille, erityisesti jos käytössä on vanhentunut Telnet-palvelinversio.
 
 ![telnet1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8f3a2161-a1f1-4884-ab79-9059490df82a)
 
-- Wireshark -näkymässä huomaamme, että käyttäjän syöttämät tiedot, mukaan lukien salasanat, lähetetään selkokielisenä verkon yli. Kun käyttäjä kirjautuu Metasploitableen Telnetin avulla, sniffer voi havaita ja tallentaa kaiken Telnet-liikenteen. SSH-protokolla tarjoaisi turvallisen vaihtoehdon myös Telnetin käytölle, sillä se salaa verkkoliiken, mutta halusin vertailla.
+- Wireshark -näkymässä huomaamme, että käyttäjän syöttämät tiedot: salasana, lähetetään salaamattomana verkon yli. Kun käyttäjä kirjautuu Metasploitableen Telnetin avulla, sniffer voi havaita ja tallentaa kaiken Telnet-liikenteen. SSH-protokolla tarjoaisi turvallisen vaihtoehdon Telnetin käytölle, sillä se salaa verkkoliikenteen, mutta tämä vertailun vuoksi.
 
 >Telnetiä ei enää laajasti käytetäkään nykyaikaisissa ympäristöissä tietoturvasyistä.
 
+## Ammatillinen mielipide
 
+Mielestäni tämä lähestymistapa on vanha, mutta silti erittäin relevantti tietoturvatehtävissä. Telnetin käyttö tietoturvariskeinä on tunnettu jo pitkään, ja sen vertaaminen turvallisempaan protokollaan, (SSH) havainnollistaa tietoturvan merkitystä.
+Se toimii konkreettisena esimerkinä siitä, miten herkästi arkaluontoiset tiedot, kuten salasanat voivat vuotaa, jos käytetään vanhentunutta ja epäsalattua protokollaa, joten kannattaa suosia turvallisempia vaihtoehtoja.
 
 
 
