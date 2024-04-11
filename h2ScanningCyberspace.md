@@ -66,10 +66,19 @@ Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvajärjestelyiden 
 
 
 
+ ##  Metasploitable 2 asennus
+
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/a31c7308-a399-4efa-bfa3-fac9bd5d3c57)
 
 
+ Metasploitable 2:n virtuaalitietokoneen asentaminen manuaalisesti.
 
 
+ msfadmin
+ ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9bc2c5f1-2ce4-47eb-bc59-3e764fd874e0)
+
+
+Vastaako?
 
 
 
