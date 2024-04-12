@@ -10,7 +10,7 @@
 
 
 
-Tässä harjoituksessa toteutan porttiskannauksen virtuaaliympäristössä (VM virtualBox), jossa käytän Kali Linux -käyttöjärjestelmää, Metasploitable 2 -virtuaalitietokonetta. Tarkoituksena on syventää ymmärrystäni porttiskannauksen perusteista, erilaisista skannaustekniikoista ja niiden vaikutuksista, sekä näden virtuaalikoneiden eristämiminen toisistaan luomassani virtuaaliverkossa.
+Tässä harjoituksessa toteutan porttiskannauksen virtuaaliympäristössä (VM VirtualBox), jossa käytän Kali Linux -käyttöjärjestelmää, Metasploitable 2 -virtuaalitietokonetta. Tarkoituksena on syventää ymmärrystäni porttiskannauksen perusteista, erilaisista skannaustekniikoista ja niiden vaikutuksista, sekä näden virtuaalikoneiden eristämiminen toisistaan luomassani virtuaaliverkossa.
 
 
 
@@ -58,7 +58,7 @@ Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvallisuuden kehitt
 
 
 
- ##  Metasploitable 2 asennus
+ ##  Metasploitable 2 -asennus
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/a31c7308-a399-4efa-bfa3-fac9bd5d3c57)
 
@@ -126,13 +126,13 @@ Wiresharkin näyttämässä paketissa "[FIN, PSH, URG] SEG=1 WIN=1073725440 seur
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/30b98645-956e-4daf-967b-921e6c695568)
 
-Halusin tarkastella lisää TCP-paketteja Wiresharkissa, erityisesti kiinnittäen huomiota URG-lipun esiintymiseen ja heksadesimaalikoodiin FF.
+Halusin tarkastella lisää TCP-paketteja Wiresharkissa, erityisesti kiinnittäen huomiota URG-lipun esiintymiseen ja heksadesimaalikoodiin `FF`.
 
 Suoritin suodatuksen Wiresharkissa ilmaisemalla `TCP.flags.urg == 1:`. Tämä suodatin näytti meille kaikki ne TCP-paketit, joissa Urgent-lippu oli asetettu. Tämä auttoi tunnistamaan kaikki tärkeät paketit, joissa on kiireellistä tietoa.
 
-Hexakoodi FF:
-Tutkin tarkemmin heksadesimaalikoodia FF, joka esiintyy usein Wiresharkin näyttämässä datassa. FF edustaa 8-bittistä binääritietoa ja voi esiintyä erilaisissa yhteyksissä, kuten datan käyttönä tai tietyn protokollan tunnisteena. 
-Tarkastelussa huomasin, yhdistämällä URG-lippu heksadesimaalikoodi FF, voi saada tietoa verkkoliikenteestä ja tunnistaa poikkeavuuksia. 
+Heksaakoodi `FF`:
+Tutkin tarkemmin heksadesimaalikoodia `FF`, joka esiintyy usein Wiresharkin näyttämässä pakettitietojen heksaesitykysessä. `FF` edustaa 8-bittistä binääritietoa ja voi esiintyä erilaisissa yhteyksissä, kuten datan käyttönä tai tietyn protokollan tunnisteena. 
+Tarkastelussa huomasin, yhdistämällä URG-lippu heksadesimaalikoodi `FF`, voi saada tietoa verkkoliikenteestä ja tunnistaa poikkeavuuksia. 
 
 
 
