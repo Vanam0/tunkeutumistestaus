@@ -97,6 +97,10 @@ Käynnistetään Metasploit Frameworkin `msfconsole` -shell, joka on interaktiiv
 
 - `db_nmap -A -p0-` suorittaa Metasploit Frameworkin db_nmap -porttiskannauksen. Tässä käytetään `-A` -parametria, joka suorittaa laajan skannauksen, `-p0` -parametri määrittää skannaamaan kaikki portit.
 
+Lopuksi suoritin komennon `script -fa log001.txt`, tallentaakseen shell-session tekstitiedostoon script-työkalulla.
+
+
+
   
 ## Analysointi
 
