@@ -165,10 +165,12 @@ Nmapin ajonaikaiset toiminnot ovat hyödyllisiä skannauksen suorittamisen aikan
 
 Esimerkkejä:
 
-Verbosity Level Adjustment 'v' / 'V': Lisää tai vähentää tulostustason yksityisyyttä.
-Debugging Level Adjustment 'd' / 'D': Säätää vianetsintätason määrää.
-Packet Tracing (Pakettien jäljitys) 'p' / 'P': Käynnistää tai pysäyttää pakettien jäljityksen.
-Runtime Interaction Help Screen '?': Näyttää ohjesivun skannauksesta.
+- Verbosity Level Adjustment 'v' / 'V': Lisää tai vähentää tulostustason yksityisyyttä.
+  
+- Debugging Level Adjustment 'd' / 'D': Säätää vianetsintätason määrää.
+  
+- Packet Tracing (Pakettien jäljitys) 'p' / 'P': Käynnistää tai pysäyttää pakettien jäljityksen.
+- Runtime Interaction Help Screen '?': Näyttää ohjesivun skannauksesta.
 
 Muilla näppäimillä saa tilailmoituksen, joka kertoo skannauksen tilasta ja mahdollisista muutoksista.
 
