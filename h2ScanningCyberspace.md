@@ -126,13 +126,13 @@ Wiresharkin näyttämässä paketissa "[FIN, PSH, URG] SEG=1 WIN=1073725440 seur
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/30b98645-956e-4daf-967b-921e6c695568)
 
-Halusin tarkastella lisää TCP-paketteja Wiresharkissa, erityisesti kiinnittäen huomiota URG-lipun esiintymiseen ja heksadesimaalikoodiin `FF`.
+Halusin tarkastella lisää TCP-paketteja Wiresharkissa, erityisesti kiinnittäen huomiota URG-lipun esiintymiseen ja heksadesimaalikoodiin `ff`.
 
 Suoritin suodatuksen Wiresharkissa ilmaisemalla `TCP.flags.urg == 1:`. Tämä suodatin näytti meille kaikki ne TCP-paketit, joissa Urgent-lippu oli asetettu. Tämä auttoi tunnistamaan kaikki tärkeät paketit, joissa on kiireellistä tietoa.
 
-Heksaakoodi `FF`:
-Tutkin tarkemmin heksadesimaalikoodia `FF`, joka esiintyy usein Wiresharkin näyttämässä pakettitietojen heksaesitykysessä. `FF` edustaa 8-bittistä binääritietoa ja voi esiintyä erilaisissa yhteyksissä, kuten datan käyttönä tai tietyn protokollan tunnisteena. 
-Tarkastelussa huomasin, yhdistämällä URG-lippu heksadesimaalikoodi `FF`, voi saada tietoa verkkoliikenteestä ja tunnistaa poikkeavuuksia. 
+Heksaakoodi `ff`:
+Tutkin tarkemmin heksadesimaalikoodia `ff`, joka esiintyy usein Wiresharkin näyttämässä pakettitietojen heksaesitykysessä. `ff` edustaa 8-bittistä binääritietoa ja voi esiintyä erilaisissa yhteyksissä, kuten datan käyttönä tai tietyn protokollan tunnisteena. 
+Tarkastelussa huomasin, yhdistämällä URG-lippu heksadesimaalikoodi `ff`, voi saada tietoa verkkoliikenteestä ja tunnistaa poikkeavuuksia. 
 
 
 
