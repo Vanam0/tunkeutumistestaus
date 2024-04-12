@@ -159,8 +159,18 @@ Se toimii konkreettisena esimerkinä siitä, miten herkästi arkaluontoiset tied
 
 
 
+## man nmap: runtime interaction
 
+Nmapin ajonaikaiset toiminnot ovat hyödyllisiä skannauksen suorittamisen aikana.
 
+Esimerkkejä:
+
+Verbosity Level Adjustment 'v' / 'V': Lisää tai vähentää tulostustason yksityisyyttä.
+Debugging Level Adjustment 'd' / 'D': Säätää vianetsintätason määrää.
+Packet Tracing (Pakettien jäljitys) 'p' / 'P': Käynnistää tai pysäyttää pakettien jäljityksen.
+Runtime Interaction Help Screen '?': Näyttää ohjesivun skannauksesta.
+
+Muilla näppäimillä saa tilailmoituksen, joka kertoo skannauksen tilasta ja mahdollisista muutoksista.
 
 
 
@@ -181,8 +191,11 @@ https://nmap.org/book/man-port-scanning-techniques.html
 https://nmap.org/book/man-port-scanning-basics.html
 
 https://youtu.be/VhUzVYccVKE?si=l6X6t_ri_e25VYH1 (TCP Urgent Bit and Urgent Pointer Field)
+
 https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
 
 https://www.hackers-arise.com/post/2017/01/25/metasploit-part-1-getting-started-with-metasploit
 
 https://gist.github.com/fabionoth/ba46407d9cd03144150225715697c47f
+
+https://nmap.org/book/man-runtime-interaction.html
