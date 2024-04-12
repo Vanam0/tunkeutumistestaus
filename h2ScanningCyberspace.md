@@ -40,7 +40,7 @@ SYN-skannaus on yleisin ja suosituin skannausmenetelmä. Se on nopea ja tehokas,
 
 - `sT` (TCP connect scan): Oletus TCP-skannausvaihtoehto, kun SYN-skannaus ei ole mahdollinen. Se käyttää korkean tason järjestelmäkutsua yhteyden muodostamiseksi, mikä voi aiheuttaa pidempää latenssia ja lisääntyneen havaitsemisen riskin, eli se voi aiheuttaa merkintöjä järjestelmän lokitiedoissa tai jopa palveluiden kaatumisen, joka voi paljastaa skannauksen.
 
-- `sU`: UDP-skannaus onnistuu -sU-optiolla. Voidaan yhdistää muihin skannausmenetelmiin, kuten SYN-skannaukseen, jotta tarkistetaan sekä UDP- että TCP-portit samalla kertaa. Nmap lähettää UDP-skannauksessa tyhjiä paketteja ja tarkkailee ICMP-virheilmoituksia porttien tilan selvittämiseksi. Skannauksen nopeuttamiseksi voidaan kokeilla samanaikaista skannausta useammilta isäntiltä, aloittaa skannaus suosituimmista porteista ja käyttää host timeout -optiota hidastuvien isäntien ohittamiseksi.
+- `sU`: UDP-skannaus onnistuu -sU-optiolla. Voidaan yhdistää muihin skannausmenetelmiin, kuten SYN-skannaukseen, jotta tarkistetaan sekä UDP- että TCP-portit samalla kertaa. Nmap lähettää UDP-skannauksessa tyhjiä paketteja ja tarkkailee ICMP-virheilmoituksia porttien tilan selvittämiseksi. Skannauksen nopeuttamiseksi voidaan kokeilla samanaikaista skannausta useammilta isäntiltä mm. Aloittamalla skannaus suosituimmista porteista ja käyttämällä host timeout -optiota hidastuvien isäntien ohittamiseksi.
 
 > Näiden ohessa lueteltujen tekniikoiden avulla voi syventää tietämsytä kyberturvallisuudesta ja turvata tietoverkkoja. Miten nämä skannaustekniikat vaikuttavat verkon suorituskykyyn? Käyttämällä näitä tietoja voisi jo suunnitella omaa tietoturvastrategiaa omalle labraalustalle.
 
@@ -116,10 +116,10 @@ Huomaamme myös:
 Wiresharkin näyttämässä paketissa "[FIN, PSH, URG] SEG=1 WIN=1073725440 seuraavat asiat:
 
 - `FIN`: Tarkoittaa TCP-paketin "Finish" -lippua, joka kertoo, että lähettäjä on valmis sulkemaan yhteyden Kalin ja Meta2 välillä.
-PSH: Tarkoittaa "Push" -lippua, eli tietoja tulisi "pushata" vastaanottavaan sovellukseen mahdollisimman nopeasti.
-URG: Tämä on "Urgent" -lippu, joka osoittaa, että paketissa on tärkeitä tietoja, jotka tulisi käsitellä kiireellisesti.
-SEG=1: Tämä ilmaisee, että paketin numero on 1. Tämä auttaa järjestämään ja seuraamaan paketteja.
-WIN=1073725440: Tämä on TCP-ikkunan koko, joka ilmoittaa vastaanottajalle, kuinka paljon dataa lähettäjä voi lähettää ennen kuin odottaa vastausta.
+- `PSH`: Tarkoittaa "Push" -lippua, eli tietoja tulisi "pushata" vastaanottavaan sovellukseen mahdollisimman nopeasti.
+- `URG`: Tämä on "Urgent" -lippu, joka osoittaa, että paketissa on tärkeitä tietoja, jotka tulisi käsitellä kiireellisesti.
+- `SEG=1`: Tämä ilmaisee, että paketin numero on 1. Tämä auttaa järjestämään ja seuraamaan paketteja.
+- `WIN=1073725440`: Tämä on TCP-ikkunan koko, joka kertoo vastaanottajalle, kuinka paljon paketteja lähettäjä voi lähettää ennen kuin odottaa vastausta
 
 > Tyypillisesti, TCP-pakettien otsakkeet sisältävät tietoja kuten lähettäjän ja vastaanottajan porttinumerot, sekvenssinumeron, tunnisteet, otsakepituuksen, kontrollibitit (esimerkiksi SYN, ACK, FIN jne.) ja tarkistussumman. Näitä tietoja käytetään pakettien reitittämiseen ja yhteyden hallintaan.
 
