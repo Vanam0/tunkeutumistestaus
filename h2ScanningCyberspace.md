@@ -131,8 +131,9 @@ Halusin tarkastella lisää TCP-paketteja Wiresharkissa, erityisesti kiinnittäe
 Suoritin suodatuksen Wiresharkissa ilmaisemalla `TCP.flags.urg == 1:`. Tämä suodatin näytti meille kaikki ne TCP-paketit, joissa Urgent-lippu oli asetettu. Tämä auttoi tunnistamaan kaikki tärkeät paketit, joissa on kiireellistä tietoa.
 
 Heksakoodi `ff`:
-Tutkin tarkemmin heksadesimaalikoodia `ff`, joka esiintyy usein Wiresharkin näyttämässä pakettitietojen heksaesitykysessä. `ff` edustaa 8-bittistä binääritietoa, binäärimuodossa 11111111, joka on siis 8 bittiä pitkä tämä voi esiintyä erilaisissa yhteyksissä, kuten datan käyttönä tai tietyn protokollan tunnisteena. 
-Tarkastelussa huomasin, yhdistämällä URG-lippu heksadesimaalikoodi `ff`, voi saada tietoa verkkoliikenteestä ja tunnistaa poikkeavuuksia. 
+Tutkin tarkemmin heksadesimaalikoodia `ff`, joka esiintyy usein Wiresharkin näyttämässä pakettitietojen heksaesitykysessä. `ff` edustaa 8-bittistä binääritietoa.
+Tämä 8-bittinen binääriluku, jonka binäärimuoto on 11111111, toimii usein monissa verkkoprotokollissa joko datan käytön merkkinä tai protokollan tunnisteena. Mielenkiintoista on, että yhdistämällä ff URG-lippuun voidaan tarkkailla verkkoliikennettä ja tunnistaa mahdollisia poikkeavuuksia.
+
 
 
 
