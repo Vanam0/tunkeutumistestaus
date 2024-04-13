@@ -176,9 +176,19 @@ Huomioni kiinnittyi `.msf4/store/modules_metadata.json` -tiedostoihin, joka sija
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/10949ba7-cf52-44a0-97ad-b378547ac646)
 
-Toivoinkin löytäväni msf4/history -tiedostosta Telnetin, tässä on mielenkiintoinen yhteys.
+Toivoinkin löytäväni `msf4/history` -tiedostosta Telnetin, tässä on mielenkiintoinen yhteys.
 
-Tuloksen perusteella ilmoitus: "binary file matches" -tarkoittaa, että grep -komento löysi binääritiedoston log0000.txt, eli siellä voi olla binäärimuotoista dataa.
+Tuloksen perusteella ilmoitus: `"binary file matches"` -tarkoittaa, että `grep` -komento löysi binääritiedoston log0000.txt, eli siellä voi olla binäärimuotoista dataa.
+
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/da9ab1b2-b35f-45d9-8396-a7bad1d3cfe9)
+
+Kiinnostuin Metasploit -moduuleista ja päätin etsiä CVE-tunnisteita (Common Vulnerabilities and Exposures).
+
+Erityisesti Fanny.bmp-matoon liittyvä moduuli herätti mielenkiintoni, sillä se hyödyntää zero day -haavoittuvuuksia, samankaltaisesti kuin Stuxnet. Kyseinen moduuli on suunniteltu jäljittelemään Fanny.bmp-matoa ja toteuttamaan hyökkäyksiä samalla tavalla kuin Stuxnet. Käyttäen samaa CVE-2011-3402-haavoittuvuutta.
+
+[CVE-tietokanta rapid7](https://www.rapid7.com/db/) 
+
+
 
 
 
@@ -201,7 +211,6 @@ Esimerkkejä:
 - Packet Tracing (Pakettien jäljitys) 'p' / 'P': Käynnistää tai pysäyttää pakettien jäljityksen.
 - Runtime Interaction Help Screen '?': Näyttää ohjesivun skannauksesta.
 
-Muilla näppäimillä saa tilailmoituksen, joka kertoo skannauksen tilasta ja mahdollisista muutoksista.
 
 
 
@@ -230,3 +239,5 @@ https://www.hackers-arise.com/post/2017/01/25/metasploit-part-1-getting-started-
 https://gist.github.com/fabionoth/ba46407d9cd03144150225715697c47f
 
 https://nmap.org/book/man-runtime-interaction.html
+
+https://docs.metasploit.com/api/Msf/Modules/Metadata/Store.html
