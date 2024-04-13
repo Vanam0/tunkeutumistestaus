@@ -160,10 +160,20 @@ Se toimii konkreettisena esimerkinä siitä, miten herkästi arkaluontoiset tied
 
 ## Greppaus
 
-Seuraavaksi Etsin mainintoja komennolla `grep -ir`. Tässä komennossa `grep` suorittaa merkkijonojen hakua tiedostoista ja lokeista. `-ir` tekee kaksi eri toimintoa. `-i `määrittää hakua, joka ei erottele pieniä ja suuria kirjaimia, mikä tarkoittaa, että haku palauttaa tuloksia riippumatta merkkien koosta. Vaihtoehto `-r` on lyhenne sanasta 'recursive', joka tarkoittaa, että haku suoritetaan kaikissa alihakemistoissa.
+Seuraavaksi Etsin mainintoja komennolla `grep -ir`. Tässä komennossa `grep` suorittaa merkkijonojen hakua tiedostoista ja lokeista. `-ir` tekee kaksi eri toimintoa: `-i `määrittää hakua, joka ei erottele pieniä ja suuria kirjaimia, mikä tarkoittaa, että haku palauttaa tuloksia riippumatta merkkien koosta. Vaihtoehto `-r` on lyhenne sanasta 'recursive', joka tarkoittaa, että haku suoritetaan kaikissa alihakemistoissa.
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/abeebaf8-cf1a-4319-80b1-7c7625bc6b93)
 ```cat log000.txt | grep -ir telnet ```
+
+Koska olin aikaisemmin tutkinut Telnetiä tässä raportissa, niin loogisinta oli käyttää greppausta lokitiedostoon. 
+Huomioni kiinnittyi `.msf4/store/modules_metadata.json` -tiedostoihin, joka sijaitsee Metasploit Frameworkin `.msf4` -hakemiston alikansiossa sisältäen metadataa Metasploitin moduuleista mm. hyökkäysmoduulista ja exploitit.
+
+
+
+
+
+
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/10949ba7-cf52-44a0-97ad-b378547ac646)
 
 
 
