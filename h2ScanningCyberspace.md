@@ -178,7 +178,7 @@ Huomioni kiinnittyi `.msf4/store/modules_metadata.json` -tiedostoihin, joka sija
 
 Toivoinkin löytäväni `msf4/history` -tiedostosta Telnetin, tässä on mielenkiintoinen yhteys.
 
-Tuloksen perusteella ilmoitus: `"binary file matches"` -tarkoittaa, että `grep` -komento löysi binääritiedoston log0000.txt, eli siellä voi olla binäärimuotoista dataa.
+Tuloksen perusteella ilmoitus: `"binary file matches"` -tarkoittaa, että `grep` -komento löysi binääritiedoston log000.txt, eli siellä voi olla binäärimuotoista dataa.
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/da9ab1b2-b35f-45d9-8396-a7bad1d3cfe9)
 
