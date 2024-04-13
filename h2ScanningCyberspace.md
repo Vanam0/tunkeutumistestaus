@@ -10,7 +10,7 @@
 
 
 
-Tässä harjoituksessa toteutan porttiskannauksen virtuaaliympäristössä (VM VirtualBox), jossa käytän Kali Linux -käyttöjärjestelmää, Metasploitable 2 -virtuaalitietokonetta. Tarkoituksena on syventää ymmärrystäni porttiskannauksen perusteista, erilaisista skannaustekniikoista ja niiden vaikutuksista, sekä näden virtuaalikoneiden eristämiminen toisistaan luomassani virtuaaliverkossa.
+Tässä harjoituksessa toteutan porttiskannauksen virtuaaliympäristössä (Oralce VM VirtualBox), jossa käytän Kali Linux -käyttöjärjestelmää, Metasploitable 2 -virtuaalitietokonetta. Tarkoituksena on syventää ymmärrystäni porttiskannauksen perusteista, erilaisista skannaustekniikoista ja niiden vaikutuksista, sekä näden virtuaalikoneiden eristämiminen toisistaan luomassani virtuaaliverkossa.
 
 
 
@@ -36,7 +36,7 @@ Suodatetut portit vaikeuttavat Nmapin kaltaisia skannereita määrittämään po
 Porttiskannauksen tekniikat:
 
 - `sS:`:
-SYN-skannaus on yleisin ja suosituin skannausmenetelmä. Se on nopea ja tehokas, skannaten tuhansia portteja sekunnissa. Palomuurit eivät hidasta skannausta. Koska SYN-skannaus ei täydennä TCP-yhteyksiä, se on huomaamaton. Toimii kaikkien yhteensopivien TCP-pinojen kanssa ja erottaa selkeästi avoimet, suljetut ja suodatetut portit
+SYN-skannaus on yleisin ja suosituin skannausmenetelmä. Se on nopea ja tehokas, skannaten tuhansia portteja sekunnissa. Palomuurit eivät hidasta skannausta. Koska SYN-skannaus ei täydennä TCP-yhteyksiä, se on huomaamaton. Toimii kaikkien yhteensopivien TCP-pinojen kanssa ja erottaa selkeästi avoimet, suljetut ja suodatetut portit.
 
 - `sT` (TCP connect scan): Oletus TCP-skannausvaihtoehto, kun SYN-skannaus ei ole mahdollinen. Se käyttää korkean tason järjestelmäkutsua yhteyden muodostamiseksi, mikä voi aiheuttaa pidempää latenssia ja lisääntyneen havaitsemisen riskin, eli se voi aiheuttaa merkintöjä järjestelmän lokitiedoissa tai jopa palveluiden kaatumisen, joka voi paljastaa skannauksen.
 
@@ -49,9 +49,9 @@ SYN-skannaus on yleisin ja suosituin skannausmenetelmä. Se on nopea ja tehokas,
 
 # Tietomurron yritys ja kyberturvallisuus 
 
-Tässä [dokumentissa](https://finlex.fi/fi/oikeus/kko/kko/2003/20030036) (Luettu 9.4.2024) käsitellään tapausta, jossa henkilöä syytettiin tietomurron yrityksestä ja suorittamastaAN porttiskannauksesta. Tapauksen käsittelyssä korostui kyberturvallisuuden merkitys ja sen yhteys rikosoikeudelliseen vastuuseen.
+Tässä [dokumentissa](https://finlex.fi/fi/oikeus/kko/kko/2003/20030036) (Luettu 9.4.2024) käsitellään tapausta, jossa henkilöä syytettiin tietomurron yrityksestä ja suorittamastaan porttiskannauksesta. Tapauksen käsittelyssä korostui kyberturvallisuuden merkitys ja sen yhteys rikosoikeudelliseen vastuuseen.
 
-Tapaus osoittaa, kuinka tietoverkkoihin kohdistuvat hyökkäykset ja yritykset voivat aiheuttaa merkittävää vahinkoa organisaatioille. Porttiskannaus, jossa henkilö yritti skannata Osuuspankkikeskusen tietojärjestelmän portteja, katsottiin tietomurron yritykseksi. Vaikka syytetty väitti suorittaneensa skannauksen pelkästään kiinnostuksesta, se koitui hänelle rangaistavaksi teoksi. Skannauksen tarkoituksena oli mahdollistaa pääsy tietojärjestelmään. Tapauksessa Osuuspankkikeskus joutui käyttämään merkittäviä resursseja tapauksen selvittämiseen ja vahinkojen korjaamiseen. Vaikka syyteteyn ikä ja kokemus huomioitiin oikeudenkäynnissä, hänet velvoitettiin silti korvaamaan aiheuttamansa vahingot.
+Tapaus osoittaa, kuinka tietoverkkoihin kohdistuvat hyökkäykset ja yritykset voivat aiheuttaa merkittävää vahinkoa organisaatioille. Henkilö yritti porttiskannata Osuuspankkikeskusen tietojärjestelmän portteja, se katsottiin tietomurron yritykseksi. Vaikka syytetty väitti suorittaneensa skannauksen pelkästään kiinnostuksesta, se koitui hänelle rangaistavaksi teoksi. Skannauksen tarkoituksena oli mahdollistaa pääsy tietojärjestelmään. Tapauksessa Osuuspankkikeskus joutui käyttämään merkittäviä resursseja tapauksen selvittämiseen ja vahinkojen korjaamiseen. Vaikka syyteteyn ikä ja kokemus huomioitiin oikeudenkäynnissä, hänet velvoitettiin silti korvaamaan aiheuttamansa vahingot.
 
 Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvallisuuden kehittämisen ja ylläpidon tärkeyttä. Vaikka Osuuspankkikeskuksen palomuuri esti henkilön tunkeutumisen tietojärjestelmään. Dokumentti osoittaa, että aktiiviset hyökkäykset tietojärjestelmiin ovat todellinen uhka ja vaativat valmiutta puolustautua. Tämän tyyppisiin tilanteisiin tarvitaan ammattitaitoisia kyberturvallisuuden asiantuntijoita.
 
@@ -67,8 +67,10 @@ Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvallisuuden kehitt
 
 ## Virtuaaliverkko
 
-Molemmat virtuaalitietokoneet Kali Linux että Metasploitable 2, ovat liitetty luomaani host-only -verkkoon, näin se on eristetyssä ympäristössä ja turvallinen harjoittelua varten, virtuaaliverkko luotiin VirtualBoxin hallintapaneelin kautta. Sammutan myös verkkoyhteyden harjoittelun ajaksi. 
-Kirjaudutaan sisälle msfadmin -tunnuksilla 
+Molemmat virtuaalitietokoneet Kali Linux että Metasploitable 2, ovat liitetty luomaani host-only -verkkoon, näin se on eristetyssä ympäristössä ja turvallinen harjoittelua varten. Virtuaaliverkko luotiin VirtualBoxin hallintapaneelin kautta. Sammutan myös verkkoyhteyden harjoittelun ajaksi. 
+
+
+Kirjaudutaan sisälle msfadmin -tunnuksilla:
 
  ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9bc2c5f1-2ce4-47eb-bc59-3e764fd874e0)
  
@@ -107,7 +109,7 @@ Lopuksi suoritin komennon `script -fa log001.txt`, tallentaakseen shell-session 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d8b489b8-d7c8-4f43-80ce-3949793f4cc8)
 
 
-> Wireshark -näkymä
+> Wireshark -näkymä.
 
 
 Esimerkki: Lähetettiin TCP-paketti kohti kohdeporttia: 23 (SYN, "Vastaatko?"). Kohde vastasi TCP-paketilla (SYN, ACK; "Vastaan!"). Tämän jälkeen osapuoli katkaisi yhteyden (RST "Heippa!"). Telnet kuunteli yhteyksiä.
@@ -119,7 +121,7 @@ Wiresharkin näyttämässä paketissa "[FIN, PSH, URG] SEG=1 WIN=1073725440 seur
 - `PSH`: Tarkoittaa "Push" -lippua, eli tietoja tulisi "pushata" vastaanottavaan sovellukseen mahdollisimman nopeasti.
 - `URG`: Tämä on "Urgent" -lippu, joka osoittaa, että paketissa on tärkeitä tietoja, jotka tulisi käsitellä kiireellisesti.
 - `SEG=1`: Tämä ilmaisee, että paketin numero on 1. Tämä auttaa järjestämään ja seuraamaan paketteja.
-- `WIN=1073725440`: Tämä on TCP-ikkunan koko, joka kertoo vastaanottajalle, kuinka paljon paketteja lähettäjä voi lähettää ennen kuin odottaa vastausta
+- `WIN=1073725440`: Tämä on TCP-ikkunan koko, joka kertoo vastaanottajalle, kuinka paljon paketteja lähettäjä voi lähettää ennen kuin odottaa vastausta.
 
 > Tyypillisesti, TCP-pakettien otsakkeet sisältävät tietoja kuten lähettäjän ja vastaanottajan porttinumerot, sekvenssinumeron, tunnisteet, otsakepituuksen, kontrollibitit (esimerkiksi SYN, ACK, FIN jne.) ja tarkistussumman. Näitä tietoja käytetään pakettien reitittämiseen ja yhteyden hallintaan.
 
@@ -131,8 +133,9 @@ Halusin tarkastella lisää TCP-paketteja Wiresharkissa, erityisesti kiinnittäe
 Suoritin suodatuksen Wiresharkissa ilmaisemalla `TCP.flags.urg == 1:`. Tämä suodatin näytti meille kaikki ne TCP-paketit, joissa Urgent-lippu oli asetettu. Tämä auttoi tunnistamaan kaikki tärkeät paketit, joissa on kiireellistä tietoa.
 
 Heksakoodi `ff`:
+
 Tutkin tarkemmin heksadesimaalikoodia `ff`, joka esiintyy usein Wiresharkin näyttämässä pakettitietojen heksaesitykysessä. `ff` edustaa 8-bittistä binääritietoa.
-Tämä 8-bittinen binääriluku, jonka binäärimuoto on 11111111, toimii usein monissa verkkoprotokollissa joko datan käytön merkkinä tai protokollan tunnisteena. Mielenkiintoista on, että yhdistämällä ff URG-lippuun voidaan tarkkailla verkkoliikennettä ja tunnistaa mahdollisia poikkeavuuksia.
+Tämä 8-bittinen binääriluku, jonka binäärimuoto on `11111111`, toimii usein monissa verkkoprotokollissa joko datan käytön merkkinä tai protokollan tunnisteena. Mielenkiintoista on, että yhdistämällä ff - URG-lippuun, voidaan tarkkailla verkkoliikennettä ja tunnistaa mahdollisia poikkeavuuksia.
 
 
 
@@ -147,9 +150,9 @@ Tämä 8-bittinen binääriluku, jonka binäärimuoto on 11111111, toimii usein 
 
 Seuraavaksi haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutarkoituksessa, koska sen avulla voidaan havaita haavoittuvuuksia, kuten avoin Telnet-portti, joka voi altistaa haavoittuvuuksille, erityisesti jos käytössä on vanhentunut Telnet-palvelinversio.
 
-- Wireshark TCP stream -näkymässä huomaamme, että käyttäjän syöttämät tiedot: salasana, lähetetään salaamattomana verkon yli. Kun käyttäjä kirjautuu Metasploitableen Telnetin avulla, sniffer voi havaita ja tallentaa kaiken Telnet-liikenteen. SSH-protokolla tarjoaisi turvallisen vaihtoehdon Telnetin käytölle, sillä se salaa verkkoliikenteen, mutta tämä vertailun vuoksi.
+- Wireshark TCP stream -näkymässä huomaamme, että käyttäjän syöttämät tiedot: salasana, lähetetään salaamattomana verkon yli. Kun käyttäjä kirjautuu Metasploitableen Telnetin avulla, sniffer voi havaita ja tallentaa kaiken Telnet-liikenteen. SSH-protokolla tarjoaisi turvallisemman vaihtoehdon Telnetin käytölle, sillä se salaa verkkoliikenteen, mutta tämä vertailun vuoksi.
 
->Telnetiä ei enää laajasti käytetäkään nykyaikaisissa ympäristöissä tietoturvasyistä.
+>Telnet ei ole enää laajasti käytössä nykyaikaisissa ympäristöissä tietoturvasyistä.
 
 ## Ammatillinen mielipide
 
