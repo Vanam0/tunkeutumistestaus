@@ -148,16 +148,20 @@ Tämä 8-bittinen binääriluku, jonka binäärimuoto on `11111111`, toimii usei
 
 ![telnet1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8f3a2161-a1f1-4884-ab79-9059490df82a)
 
-Seuraavaksi haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutarkoituksessa, koska sen avulla voidaan havaita haavoittuvuuksia, kuten avoin Telnet-portti, joka voi altistaa haavoittuvuuksille, erityisesti jos käytössä on vanhentunut Telnet-palvelinversio.
+Seuraavaksi haluan ottaa Telnet-protokollan (`-p23`) mukaan analyysiin vertailutarkoituksessa, koska sen avulla voidaan havaita haavoittuvuuksia, kuten avoin Telnet-portti, joka voi altistaa haavoittuvuuksille, erityisesti jos käytössä on vanhentunut Telnet-palvelinversio.
 
 - Wireshark TCP stream -näkymässä huomaamme, että käyttäjän syöttämät tiedot: salasana, lähetetään salaamattomana verkon yli. Kun käyttäjä kirjautuu Metasploitableen Telnetin avulla, sniffer voi havaita ja tallentaa kaiken Telnet-liikenteen. SSH-protokolla tarjoaisi turvallisemman vaihtoehdon Telnetin käytölle, sillä se salaa verkkoliikenteen, mutta tämä vertailun vuoksi.
 
 >Telnet ei ole enää laajasti käytössä nykyaikaisissa ympäristöissä tietoturvasyistä.
 
+
+
+
+
 ## Ammatillinen mielipide
 
 Mielestäni lähestymistapani käyttäen Telnetiä on vanha, mutta silti erittäin relevantti tietoturvatehtävissä. Telnetin käyttö tietoturvariskeinä on tunnettu jo pitkään, ja sen vertaaminen turvallisempaan protokollaan, (SSH) havainnollistaa tietoturvan merkitystä.
-Konkreettisena esimerkki siitä, miten herkästi arkaluontoiset tiedot, kuten salasanat voivat vuotaa, jos käytetään vanhentunutta ja epäsalattua protokollaa, joten kannattaa suosia turvallisempia vaihtoehtoja!
+Konkreettisena esimerkki siitä, miten herkästi arkaluontoiset tiedot, kuten salasanat voivat vuotaa, jos käytetään vanhentunutta epäsalattua protokollaa, joten kannattaa suosia turvallisempia vaihtoehtoja!
 
 
 
