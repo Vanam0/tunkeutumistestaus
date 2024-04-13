@@ -173,7 +173,14 @@ Huomioni kiinnittyi `.msf4/store/modules_metadata.json` -tiedostoihin, joka sija
 
 
 
+
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/10949ba7-cf52-44a0-97ad-b378547ac646)
+
+Toivoinkin löytäväni msf4/history -tiedostosta Telnetin, tässä on mielenkiintoinen yhteys.
+
+Tuloksen perusteella ilmoitus: "binary file matches" -tarkoittaa, että grep -komento löysi binääritiedoston log0000.txt, eli siellä voi olla binäärimuotoista dataa.
+
+
 
 
 
