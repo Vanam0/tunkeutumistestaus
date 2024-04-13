@@ -162,9 +162,8 @@ Se toimii konkreettisena esimerkinä siitä, miten herkästi arkaluontoiset tied
 
 Seuraavaksi Etsin mainintoja komennolla `grep -ir`. Tässä komennossa `grep` suorittaa merkkijonojen hakua tiedostoista ja lokeista. `-ir` tekee kaksi eri toimintoa. `-i `määrittää hakua, joka ei erottele pieniä ja suuria kirjaimia, mikä tarkoittaa, että haku palauttaa tuloksia riippumatta merkkien koosta. Vaihtoehto `-r` on lyhenne sanasta 'recursive', joka tarkoittaa, että haku suoritetaan kaikissa alihakemistoissa.
 
-
-
-
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/abeebaf8-cf1a-4319-80b1-7c7625bc6b93)
+```cat log000.txt | grep -ir telnet ```
 
 
 
