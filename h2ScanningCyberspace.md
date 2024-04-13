@@ -49,9 +49,9 @@ SYN-skannaus on yleisin ja suosituin skannausmenetelmä. Se on nopea ja tehokas,
 
 # Tietomurron yritys ja kyberturvallisuus 
 
-Tässä [dokumentissa](https://finlex.fi/fi/oikeus/kko/kko/2003/20030036) (Luettu 9.4.2024) käsitellään tapausta, jossa henkilöä syytettiin tietomurron yrityksestä ja hänen suorittamasta porttiskannauksesta. Tapauksen käsittelyssä korostui kyberturvallisuuden merkitys ja sen yhteys rikosoikeudelliseen vastuuseen.
+Tässä [dokumentissa](https://finlex.fi/fi/oikeus/kko/kko/2003/20030036) (Luettu 9.4.2024) käsitellään tapausta, jossa henkilöä syytettiin tietomurron yrityksestä ja suorittamastaAN porttiskannauksesta. Tapauksen käsittelyssä korostui kyberturvallisuuden merkitys ja sen yhteys rikosoikeudelliseen vastuuseen.
 
-Tämä tapaus osoittaa, kuinka tietoverkkoihin kohdistuvat hyökkäykset ja yritykset voivat aiheuttaa merkittävää vahinkoa organisaatioille. Porttiskannaus, jossa henkilö yritti skannata Osuuspankkikeskusen tietojärjestelmän portteja, katsottiin tietomurron yritykseksi. Vaikka syytetty väitti suorittaneensa skannauksen pelkästään kiinnostuksesta, se koitui hänelle rangaistavaksi teoksi, koska skannauksen tarkoituksena oli mahdollistaa pääsy tietojärjestelmään. Tapauksessa Osuuspankkikeskus joutui käyttämään merkittäviä resursseja tapauksen selvittämiseen ja vahinkojen korjaamiseen. Vaikka syyteteyn ikä ja kokemus huomioitiin oikeudenkäynnissä, hänet velvoitettiin silti korvaamaan aiheuttamansa vahingot.
+Tapaus osoittaa, kuinka tietoverkkoihin kohdistuvat hyökkäykset ja yritykset voivat aiheuttaa merkittävää vahinkoa organisaatioille. Porttiskannaus, jossa henkilö yritti skannata Osuuspankkikeskusen tietojärjestelmän portteja, katsottiin tietomurron yritykseksi. Vaikka syytetty väitti suorittaneensa skannauksen pelkästään kiinnostuksesta, se koitui hänelle rangaistavaksi teoksi. Skannauksen tarkoituksena oli mahdollistaa pääsy tietojärjestelmään. Tapauksessa Osuuspankkikeskus joutui käyttämään merkittäviä resursseja tapauksen selvittämiseen ja vahinkojen korjaamiseen. Vaikka syyteteyn ikä ja kokemus huomioitiin oikeudenkäynnissä, hänet velvoitettiin silti korvaamaan aiheuttamansa vahingot.
 
 Lukijan näkökulmasta tapaus korostaa tietojärjestelmien turvallisuuden kehittämisen ja ylläpidon tärkeyttä. Vaikka Osuuspankkikeskuksen palomuuri esti henkilön tunkeutumisen tietojärjestelmään. Dokumentti osoittaa, että aktiiviset hyökkäykset tietojärjestelmiin ovat todellinen uhka ja vaativat valmiutta puolustautua. Tämän tyyppisiin tilanteisiin tarvitaan ammattitaitoisia kyberturvallisuuden asiantuntijoita.
 
@@ -153,8 +153,8 @@ Seuraavaksi haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutar
 
 ## Ammatillinen mielipide
 
-Mielestäni tämä lähestymistapa on vanha, mutta silti erittäin relevantti tietoturvatehtävissä. Telnetin käyttö tietoturvariskeinä on tunnettu jo pitkään, ja sen vertaaminen turvallisempaan protokollaan, (SSH) havainnollistaa tietoturvan merkitystä.
-Se toimii konkreettisena esimerkinä siitä, miten herkästi arkaluontoiset tiedot, kuten salasanat voivat vuotaa, jos käytetään vanhentunutta ja epäsalattua protokollaa, joten kannattaa suosia turvallisempia vaihtoehtoja.
+Mielestäni lähestymistapani käyttäen Telnetiä on vanha, mutta silti erittäin relevantti tietoturvatehtävissä. Telnetin käyttö tietoturvariskeinä on tunnettu jo pitkään, ja sen vertaaminen turvallisempaan protokollaan, (SSH) havainnollistaa tietoturvan merkitystä.
+Konkreettisena esimerkki siitä, miten herkästi arkaluontoiset tiedot, kuten salasanat voivat vuotaa, jos käytetään vanhentunutta ja epäsalattua protokollaa, joten kannattaa suosia turvallisempia vaihtoehtoja!
 
 
 
