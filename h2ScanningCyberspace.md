@@ -97,7 +97,7 @@ Käynnistetään Metasploit Frameworkin `msfconsole` -shell, joka on interaktiiv
 
 - `db_nmap -A -p0-` suorittaa Metasploit Frameworkin db_nmap -porttiskannauksen. Tässä käytetään `-A` -parametria, joka suorittaa laajan skannauksen, `-p0` -parametri määrittää skannaamaan kaikki portit.
 
-Lopuksi suoritin komennon `script -fa log001.txt`, tallentaakseen shell-session tekstitiedostoon script-työkalulla.
+Lopuksi suoritin komennon `script -fa log001.txt`, tallentaakseen shell-session tekstitiedostoon script-työkalulla, siinä `f` = flush ja  `-a` = append.
 
 
 
@@ -155,6 +155,19 @@ Seuraavaksi haluan ottaa Telnet-protokollan (-p23) mukaan analyysiin vertailutar
 
 Mielestäni tämä lähestymistapa on vanha, mutta silti erittäin relevantti tietoturvatehtävissä. Telnetin käyttö tietoturvariskeinä on tunnettu jo pitkään, ja sen vertaaminen turvallisempaan protokollaan, (SSH) havainnollistaa tietoturvan merkitystä.
 Se toimii konkreettisena esimerkinä siitä, miten herkästi arkaluontoiset tiedot, kuten salasanat voivat vuotaa, jos käytetään vanhentunutta ja epäsalattua protokollaa, joten kannattaa suosia turvallisempia vaihtoehtoja.
+
+
+
+## Greppaus
+
+Seuraavaksi Etsin mainintoja komennolla `grep -ir`. Tässä komennossa `grep` suorittaa merkkijonojen hakua tiedostoista ja lokeista. `-ir` tekee kaksi eri toimintoa. `-i `määrittää hakua, joka ei erottele pieniä ja suuria kirjaimia, mikä tarkoittaa, että haku palauttaa tuloksia riippumatta merkkien koosta. Vaihtoehto `-r` on lyhenne sanasta 'recursive', joka tarkoittaa, että haku suoritetaan kaikissa alihakemistoissa.
+
+
+
+
+
+
+
 
 
 
