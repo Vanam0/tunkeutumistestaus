@@ -197,19 +197,19 @@ Erityisesti Fanny.bmp-matoon liittyvä moduuli herätti mielenkiintoni, sillä s
 
 
 
-
 ## man nmap: runtime interaction
 
 Nmapin ajonaikaiset toiminnot ovat hyödyllisiä skannauksen suorittamisen aikana.
 
 Esimerkkejä:
 
-- Verbosity Level Adjustment 'v' / 'V': Lisää tai vähentää tulostustason yksityisyyttä.
+- Verbosity Level Adjustment `'v' / 'V'`: Lisää tai vähentää tulostustason yksityisyyttä.
   
-- Debugging Level Adjustment 'd' / 'D': Säätää vianetsintätason määrää.
+- Debugging Level Adjustment `'d' / 'D'`: Säätää vianetsintätason määrää.
   
-- Packet Tracing (Pakettien jäljitys) 'p' / 'P': Käynnistää tai pysäyttää pakettien jäljityksen.
-- Runtime Interaction Help Screen '?': Näyttää ohjesivun skannauksesta.
+- Packet Tracing (Pakettien jäljitys) `'p' / 'P'`: Käynnistää tai pysäyttää pakettien jäljityksen.
+  
+- Runtime Interaction Help Screen `'?'`: Näyttää ohjesivun skannauksesta.
 
 
 
