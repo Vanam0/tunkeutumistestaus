@@ -22,6 +22,14 @@ johdanto
 -	Murtamiseen tarvittavat komennot
 -	Hashcatin antamat tulosteet ja niiden tulkinta
 
+## John the Ripper
+
+- Tiedostojen salasanojen murtaminen 
+- Sanakirjatyyppistä hyökkäys 
+- Johnin Jumbo - versio
+
+  > Näitä työkaluja tulee käyttää eettisesti
+
 
 
 
