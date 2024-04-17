@@ -41,5 +41,8 @@ johdanto
 
 
 # Lähteet:
+https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
+https://terokarvinen.com/2023/crack-file-password-with-john/
+
 
