@@ -8,7 +8,7 @@ johdanto
 
 [Find Hidden Web Directories - Fuzz URLs with ffuf](https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/) 
 - käsitellään Ffuf-työkalun hyödyntämistä piilotettujen verkkohakemistojen systemaattiseen etsintään. 
-- Ohjeita työkalun toiminnasta, asentamisesta, ja tarvittavista komennoista.
+- Ohjeita työkalun toiminnasta, asentamisesta ja tarvittavista komennoista.
 
 
 ## Hashcat
