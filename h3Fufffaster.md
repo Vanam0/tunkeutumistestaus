@@ -24,11 +24,13 @@ johdanto
 
 ## John the Ripper
 
-- Tiedostojen salasanojen murtaminen 
-- Sanakirjatyyppistä hyökkäys 
-- Johnin Jumbo - versio
+[Crack File Password With John](https://terokarvinen.com/2023/crack-file-password-with-john/)
 
-  > Näitä työkaluja tulee käyttää eettisesti
+- Tiedostojen salasanojen murtaminen 
+- Sanakirjatyyppinen hyökkäys 
+- Johnin Jumbo -versio
+
+  > Näitä työkaluja tulee käyttää eettisesti. 
 
 
 
