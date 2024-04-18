@@ -95,7 +95,7 @@ Komennot:
 
 ![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/548f1dd1-0f83-4e09-b703-203fcd87bffb)
 
-`./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 132` Suodatetaan parametrilla `-fs 132` 132 tavua pitkät tulosteet. 
+`./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 132` Suodatetaan parametrilla `-fs 132` 132 tavua pitkät tulosteet, jotta saadaan olennaisia tulosteita vähemmän. 
 
   `* FUZZ: wp-admin`, vaikuttaa lupaavalta, joten kokeillan sitä URL-kenttään. Lippu on löydetty.
 
@@ -124,7 +124,11 @@ Komennot:
 Koska John oli jo asennettunna, aloitan John the Ripper, Jumbo-version git-kloonauksella, joka kopio koko projektin:
 `$ git clone --depth=1 https://github.com/openwall/john.git`
 
+![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/cc1b6b8f-32fe-4ee1-8753-d115e976977f)
 
+
+Käytän Teron sivuilla olevaa Zip- tiedostoa.
+```$ wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip```
 
 
 
