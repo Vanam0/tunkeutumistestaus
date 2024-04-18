@@ -79,9 +79,7 @@ Komennot:
 Esimerkkikohde, jossa on salainen sivu ja ajetaan se. Käyttämällä [Find Hidden Web Directories - Fuzz URLs with ffuf](https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/)  -ohjeita.
 ```
 $ wget https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/dirfuzt-0
-
 $ chmod u+x dirfuzt-0
-
 $ ./dirfuzt-1
 ```
 
