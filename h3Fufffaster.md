@@ -58,8 +58,7 @@ $ rm rockyou.txt.tar.gz
 
 
 
-    6b1628b016dff46e6fa35684be6acc96:summer
- > Hash on murrettu.
+    6b1628b016dff46e6fa35684be6acc96:summer //Hash on murrettu.
 
 
 
