@@ -7,7 +7,7 @@ Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, 
 
 [Find Hidden Web Directories - Fuzz URLs with ffuf](https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/) 
 - Fuzzing-työkalu
-- käsitellään Ffuf-työkalun hyödyntämistä piilotettujen verkkohakemistojen systemaattiseen etsintään.
+- käsitellään Ffuf-työkalun hyödyntämistä piilotettujen verkkohakemistojen systemaattiseen etsintään, jota voidaan kutsua fuzzaamiseksi.
 - Fuffia voi käyttää myös fuzzataksesi otsikoita ja POST-parametreja
 
 
@@ -15,18 +15,20 @@ Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, 
 
  [Cracking Passwords with Hashcat](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)
  
--	Hashin eli hajautuksen murtamisohjelma
--	Hajautus on yksisuuntainen funktio
--	Murtamiseen tarvittavat komennot
+ - Hashcat on työkalu, jota käytetään salasanatiivisteiden (hash) murtamiseen
+ - Salasanatiiviste on salasana, joka on muunnettu tietyn algoritmin avulla
+ - Tiiviste on yksisuuntainen toiminto, joka muuntaa syötteen tiiviiksi merkkijonoksi.
+ - Hashcat tarvitsee toimiakseen sanalistan. Yksi suosituimmista sanalistoista on Rockyou.txt, jossa on yli 14 miljoonaa tyypillistä tiivistettä.
 
 
 ## John the Ripper
 
 [Crack File Password With John](https://terokarvinen.com/2023/crack-file-password-with-john/)
 
-- Tiedostojen salasanojen murtaminen 
-- Sanakirjatyyppinen hyökkäys 
-- Johnin Jumbo -versio
+- John the Ripper on salasanan murtamisohjelma, jota käytetään salasanojen tiivistefunktioiden murtamiseen.
+- Sanakirjatyyppinen hyökkäys on yksi salasananmurtamis menetelmä, johon John the Ripperiä käytetään
+- John the Ripperin Jumbo-versiossa on enmmän ominaisuuksia
+
 
   > Näitä työkaluja tulee käyttää eettisesti. 
 
@@ -50,23 +52,23 @@ $ rm rockyou.txt.tar.gz
 ```
 
 
-- Hashcat tarvitsee hajautuksen tyypin murtamiseen, ja sen numeron annetaan -m-parametrina esim. `hashid -m 6b1628b016dff46e6fa35684be6acc96`
-- Hajautuksen murtaminen:
+- Hashcatin komento `hashcat -m 0` purkaa MD5-algoritmin, käyttäen rockyou.txt-sanalistaa.
+- `-o solved` Parametrin avulla määritetään tallennus tiedostoon: 'solved'.
 
-`hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved`
+> `hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved`
 
 ![2e6314d451135f64092243ea47902b62](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d5a876d8-14e4-42d7-9824-5fbadd927b83)
 
 
-> Voit nähdä murretun hajautuksen komennolla: `--show`
+> Voit nähdä murretun salasanatiivisteen komennolla: `--show`
 
     6b1628b016dff46e6fa35684be6acc96:summer //Hash on murrettu.
 
 Komennot:
 
--  `-m 0` hajautuksen tyyppi
-'6b1628b016dff46e6fa35684be6acc96' hajautus, jonka haluamme murtaa
-- `-o solved` tallenna tekstimuodossa uuteen tiedostoon "solved" -hakemistoon.
+-  `-m 0` salasanatiivisteen tyyppi mm. MD5 algoritmin arvo on 0
+- `'6b1628b016dff46e6fa35684be6acc96'` salasanatiiviste, jonka haluamme murtaa
+- `-o solved` tallentaa tekstimuodossa uuteen tiedostoon "solved".
 
 
 
@@ -124,7 +126,7 @@ Komennot:
 Koska John oli jo asennettunna, niin aloitan lataamalla John the Ripper, Jumbo-version git-kloonauksella, joka kopio koko projektin:
 `$ git clone --depth=1 https://github.com/openwall/john.git`
 
-![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/12ef08e4-0e33-4911-b34e-68adf1d0fcf4)
+
 
 
 
