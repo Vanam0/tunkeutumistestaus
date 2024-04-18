@@ -36,7 +36,8 @@ johdanto
 ###################################################################################
 
 
-    a) Asenna Hashcat ja testaa sen toiminta murtamalla esimerkkisalasana.
+    a) ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/3d55cd7e-dc79-4ee7-b5e1-7a2fb9644d08)
+
 
 
 
