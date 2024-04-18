@@ -158,14 +158,26 @@ Komennot:
 
 
 
-    
+  # Fuffme | [Ffufme harjoitusmaali](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/) 
+> Teron sivustolla ohjeet asentamiseen.
+
+
+![03e52b12fd45832d4cfdaa2bc1e84b90](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/1f7a3834-c057-46c0-beb1-bea9f76eb774)
+
+Koska osa komponenteista on jo asennettu, aloitan kloonaamisella ja rakentamalla Docker-kontti harjoitusmaali:
+
+![f73015804efedab7bd489d2220781f1c](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/6f91d6e4-29a3-408a-808f-c1edd390ab22)
+
+```
+Komennot:
+$ git clone https://github.com/adamtlangley/ffufme
+$ cd ffufme/
+$ sudo docker build -t ffufme .
+```
 
 
 
-
-
-
-    d) Fuffme. Asenna Ffufme harjoitusmaali paikallisesti omalle koneellesi. Ratkaise tehtävät (kaikki paitsi ei "Content Discovery - Pipes")
+   Asenna Ffufme harjoitusmaali paikallisesti omalle koneellesi. Ratkaise tehtävät (kaikki paitsi ei "Content Discovery - Pipes")
   
         Basic Content Discovery
         Content Discovery With Recursion
