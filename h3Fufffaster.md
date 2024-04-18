@@ -39,11 +39,6 @@ johdanto
 # Hashcat
 
 
-![2e6314d451135f64092243ea47902b62](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e47f2dec-4778-44d4-898d-6324729fb23c)
-
-
-
-
 Hashcatia ei tarvinnut asentaa, sillä Kali Linuxissani oli se jo valmiina, joten testasin Hashcatin toimintaa murtamalla esimerkkisalasanan:[ohjeiden](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)  mukaan.
 
 ```
@@ -58,6 +53,13 @@ $ tar xf rockyou.txt.tar.gz
 $ rm rockyou.txt.tar.gz
 ```
 
+![2e6314d451135f64092243ea47902b62](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d5a876d8-14e4-42d7-9824-5fbadd927b83)
+
+
+
+
+    6b1628b016dff46e6fa35684be6acc96:summer
+ > Hash on murrettu.
 
 
 
