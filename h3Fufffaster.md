@@ -121,7 +121,7 @@ Komennot:
 
 ![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/626db36f-5371-4043-b6c3-b4a29f2fc41f)
 
-Koska John oli jo asennettunna, niin aloitan lataamalla John the Ripper, Jumbo-version git-kloonauksella, joka kopio koko projektin:
+Koska John oli jo asennettunna, aloitan John the Ripper, Jumbo-version git-kloonauksella, joka kopio koko projektin:
 `$ git clone --depth=1 https://github.com/openwall/john.git`
 
 
