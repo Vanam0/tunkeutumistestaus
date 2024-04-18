@@ -127,7 +127,7 @@ Koska John oli jo asennettunna, aloitan John the Ripper, Jumbo-version git-kloon
 ![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/cc1b6b8f-32fe-4ee1-8753-d115e976977f)
 
 
-Käytän Teron sivuilla olevaa Zip- tiedostoa.
+Käytän Teron sivuilla olevaa Zip-tiedostoa:
 ```$ wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip```
 
 
