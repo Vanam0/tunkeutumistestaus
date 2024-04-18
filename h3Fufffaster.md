@@ -50,10 +50,16 @@ $ tar xf rockyou.txt.tar.gz
 $ rm rockyou.txt.tar.gz
 ```
 
+
+- Hashcat tarvitsee hajautuksen tyypin murtamiseen, ja sen numeron annetaan -m-parametrina esim. `hashid -m 6b1628b016dff46e6fa35684be6acc96`
+- Hajautuksen murtaminen:
+
+`hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved`
+
 ![2e6314d451135f64092243ea47902b62](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d5a876d8-14e4-42d7-9824-5fbadd927b83)
 
 
-
+Voit nähdä murretun hajautuksen komennolla: `--show`
 
     6b1628b016dff46e6fa35684be6acc96:summer //Hash on murrettu.
 
