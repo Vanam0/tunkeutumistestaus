@@ -1,5 +1,5 @@
 # Fuff faster
-Tässä harjoituksessa tutustumme useisiin tietoturvatyökaluihin. Käytämme virtuaaliympäristöä (Oracle VM VirtualBox), jossa on asennettuna Kali Linux -käyttöjärjestelmä. Lisäksi käytämme toista tietokonetta, jonka dual bootissa on Kali Linux.
+Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, sekä virtuaaliympäristöä, joka toimii Oracle VM VirtualBox -alustalla, jossa on asennettuna Kali Linux -käyttöjärjestelmä. Lisäksi käytän toista pöytätietokonetta, joten tehtävien kuvissa Kali Linux -käyttäjänimi voi vaihdella.
 
 
 ## Ffuf
