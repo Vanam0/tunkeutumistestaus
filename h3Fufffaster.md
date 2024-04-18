@@ -59,7 +59,7 @@ $ rm rockyou.txt.tar.gz
 ![2e6314d451135f64092243ea47902b62](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d5a876d8-14e4-42d7-9824-5fbadd927b83)
 
 
-Voit nähdä murretun hajautuksen komennolla: `--show`
+> Voit nähdä murretun hajautuksen komennolla: `--show`
 
     6b1628b016dff46e6fa35684be6acc96:summer //Hash on murrettu.
 
