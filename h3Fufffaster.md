@@ -33,7 +33,6 @@ johdanto
 
   > Näitä työkaluja tulee käyttää eettisesti. 
 
-###################################################################################
 
 
 # Hashcat
@@ -59,6 +58,13 @@ $ rm rockyou.txt.tar.gz
 
 
     6b1628b016dff46e6fa35684be6acc96:summer //Hash on murrettu.
+
+Komennot:
+
+- Hashcat: Hashin eli hajautuksen murtamisohjelma
+-  `-m 0` hajautuksen tyyppi
+'6b1628b016dff46e6fa35684be6acc96' hajautus, jonka haluamme murtaa
+- `-o solved` tallenna tekstimuodossa uuteen tiedostoon "solved" -hakemistoon.
 
 
 
