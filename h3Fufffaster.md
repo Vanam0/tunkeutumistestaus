@@ -115,6 +115,12 @@ Komennot:
 
 
 
+# John the Ripper
+
+
+
+![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9cf0e209-ff27-40b1-a8b1-dcc5c4d6850f)
+> Johnin asennus
 
 
 
@@ -126,10 +132,7 @@ Komennot:
 
 
 
-
-
-
-    c) Asenna John the Ripper ja testaa sen toiminta murtamalla jonkin esimerkkitiedoston salasana.
+    
 
 
 
@@ -179,8 +182,13 @@ Komennot:
 
 
 # Lähteet:
+
+https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h3-fuff-faster
+
 https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
+
 https://terokarvinen.com/2023/crack-file-password-with-john/
 
 
