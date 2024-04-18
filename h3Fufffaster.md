@@ -35,7 +35,7 @@ Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, 
 # Hashcat
 
 
-Hashcatia ei tarvinnut asentaa, sillä Kali Linuxissani oli se jo valmiina, joten testasin Hashcatin toimintaa murtamalla esimerkkisalasanan:[ohjeiden](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)  mukaan.
+Hashcatia ei tarvinnut asentaa, sillä Kali Linuxissani oli se jo valmiina, joten testasin Hashcatin toimintaa murtamalla esimerkkisalasanan: [ohjeiden](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)  mukaan.
 
 ```
 Aloitin luomalla uuden hakemiston:
