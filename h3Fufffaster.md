@@ -97,7 +97,7 @@ Komennot:
 
 `./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 132` Suodatetaan parametrilla `-fs 132` 132 tavua pitkät tulosteet. 
 
-  `* FUZZ: wp-admin`, vaikuttaa lupaavalta, joten kokeillan sitä URLIssa. Lippu on          löydetty.
+  `* FUZZ: wp-admin`, vaikuttaa lupaavalta, joten kokeillan sitä URL-kenttään. Lippu on löydetty.
 
 
 
@@ -123,8 +123,6 @@ Komennot:
 
 
 
-
-    b) Salainen, mutta ei multa. Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf
 
 
 
