@@ -47,7 +47,7 @@ $ mkdir hashed
 $ cd hashed
 
 
-Rockyou.txt -sanakirja: 
+Rockyou.txt -sanalista: 
 $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
 $ tar xf rockyou.txt.tar.gz
 $ rm rockyou.txt.tar.gz
