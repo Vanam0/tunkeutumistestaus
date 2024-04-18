@@ -18,7 +18,7 @@ johdanto
  
 - Käytännön esimerkkejä hashcatin käytöstä 
 -	Salasanojen murtaminen 
--	Ohjeita  Hashcatin käyttöön
+-	Ohjeita Hashcatin käyttöön
 -	Hajautus on yksisuuntainen funktio
 -	Murtamiseen tarvittavat komennot
 -	Hashcatin antamat tulosteet ja niiden tulkinta
@@ -43,21 +43,19 @@ johdanto
 
 
 
-Hashcatia ei tarvinnut asentaa, sillä Kali Linuxissani oli se jo valmiina, joten testasin Hashcatin toimintaa murtamalla esimerkkisalasanan:[ohjeiden](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/) mukaan.
+Hashcatia ei tarvinnut asentaa, sillä Kali Linuxissani oli se jo valmiina, joten testasin Hashcatin toimintaa murtamalla esimerkkisalasanan:[ohjeiden](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)  mukaan.
 
-````
+```
 Aloitin luomalla uuden hakemiston:
 $ mkdir hashed
-
 $ cd hashed
-`````
 
-``
+
 Rockyou.txt -sanakirja: 
 $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
 $ tar xf rockyou.txt.tar.gz
 $ rm rockyou.txt.tar.gz
-``
+```
 
 
 
