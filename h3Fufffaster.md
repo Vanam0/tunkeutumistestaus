@@ -16,12 +16,10 @@ johdanto
 
  [Cracking Passwords with Hashcat](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)
  
-- Käytännön esimerkkejä hashcatin käytöstä 
--	Salasanojen murtaminen 
--	Ohjeita Hashcatin käyttöön
+-	Hashin eli hajautuksen murtamisohjelma
 -	Hajautus on yksisuuntainen funktio
 -	Murtamiseen tarvittavat komennot
--	Hashcatin antamat tulosteet ja niiden tulkinta
+
 
 ## John the Ripper
 
@@ -61,7 +59,6 @@ $ rm rockyou.txt.tar.gz
 
 Komennot:
 
-- Hashcat: Hashin eli hajautuksen murtamisohjelma
 -  `-m 0` hajautuksen tyyppi
 '6b1628b016dff46e6fa35684be6acc96' hajautus, jonka haluamme murtaa
 - `-o solved` tallenna tekstimuodossa uuteen tiedostoon "solved" -hakemistoon.
