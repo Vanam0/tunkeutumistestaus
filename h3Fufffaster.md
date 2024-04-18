@@ -6,9 +6,8 @@ Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, 
 ## Ffuf
 
 [Find Hidden Web Directories - Fuzz URLs with ffuf](https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/) 
-- Fuzzing-työkalu
-- käsitellään Ffuf-työkalun hyödyntämistä piilotettujen verkkohakemistojen systemaattiseen etsintään, jota voidaan kutsua fuzzaamiseksi.
-- Fuffia voi käyttää myös fuzzataksesi otsikoita ja POST-parametreja
+- Käsitellään Ffuf-työkalun hyödyntämistä piilotettujen verkkohakemistojen systemaattiseen etsintään, jota voidaan kutsua fuzzaamiseksi.
+- Fuff on nopea ohjelma, joka lähettää tuhansia GET-pyyntöjä tarkistaakseen vastaako verkkosivu pyyntöihin.
 
 
 ## Hashcat
@@ -17,7 +16,6 @@ Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, 
  
  - Hashcat on työkalu, jota käytetään salasanatiivisteiden (hash) murtamiseen
  - Salasanatiiviste on salasana, joka on muunnettu tietyn algoritmin avulla
- - Tiiviste on yksisuuntainen toiminto, joka muuntaa syötteen tiiviiksi merkkijonoksi.
  - Hashcat tarvitsee toimiakseen sanalistan. Yksi suosituimmista sanalistoista on Rockyou.txt, jossa on yli 14 miljoonaa tyypillistä tiivistettä.
 
 
@@ -26,8 +24,8 @@ Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, 
 [Crack File Password With John](https://terokarvinen.com/2023/crack-file-password-with-john/)
 
 - John the Ripper on salasanan murtamisohjelma, jota käytetään salasanojen tiivistefunktioiden murtamiseen.
-- Sanakirjatyyppinen hyökkäys on yksi salasananmurtamis menetelmä, johon John the Ripperiä käytetään
-- John the Ripperin Jumbo-versiossa on enmmän ominaisuuksia
+- Sanakirjatyyppinen hyökkäys on yksi salasananmurtamismenetelmä, johon John the Ripperiä käytetään
+- John the Ripperin Jumbo-versiossa on enmmän ominaisuuksia, kuten ZIP-arkistojen salasanojen murtaminen
 
 
   > Näitä työkaluja tulee käyttää eettisesti. 
@@ -66,9 +64,9 @@ $ rm rockyou.txt.tar.gz
 
 Komennot:
 
--  `-m 0` salasanatiivisteen tyyppi mm. MD5 algoritmin arvo on 0
+-  `-m 0` salasanatiivisteen tyyppi mm. MD5-algoritmin arvo on 0
 - `'6b1628b016dff46e6fa35684be6acc96'` salasanatiiviste, jonka haluamme murtaa
-- `-o solved` tallentaa tekstimuodossa uuteen tiedostoon "solved".
+- `-o solved` tallentaa tekstimuodossa uuteen tiedostoon "solved"
 
 
 
