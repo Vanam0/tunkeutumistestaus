@@ -93,6 +93,13 @@ Komennot:
 
 
 
+![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/548f1dd1-0f83-4e09-b703-203fcd87bffb)
+
+`./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 132` Suodatetaan parametrilla `-fs 132` 132 tavua pitkät tulosteet. 
+
+  `* FUZZ: wp-admin`, vaikuttaa lupaavalta, joten kokeillan sitä URLIssa. Lippu on          löydetty.
+
+
 
 
 
