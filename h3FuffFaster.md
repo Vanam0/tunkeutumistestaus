@@ -125,11 +125,13 @@ Komennot:
 Koska John oli jo asennettunna, aloitan John the Ripper, Jumbo-version git-kloonauksella, joka kopio koko projektin:
 `$ git clone --depth=1 https://github.com/openwall/john.git`
 
-![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/cc1b6b8f-32fe-4ee1-8753-d115e976977f)
+
 ![d9bb5cf4706f82799844e9859e116776](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/7de8edf2-bbe5-468c-a6d5-64bf8df56b63)
 
 
 ![f8a25899839cb761251ed031677336f0](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/38d31463-d938-492d-a346-1967f39a5e94)
+
+![239038a7f27bd991ed788c1fb75e3d81](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/3db2e348-cd53-4c9f-96d9-9fcbbd9e8b09)
 
 
 
