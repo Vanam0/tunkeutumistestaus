@@ -9,7 +9,7 @@ johdanto
 [Find Hidden Web Directories - Fuzz URLs with ffuf](https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/) 
 - Fuzzing-työkalu
 - käsitellään Ffuf-työkalun hyödyntämistä piilotettujen verkkohakemistojen systemaattiseen etsintään.
-- Fuffia voi käyttää myös fuzzataksesi otsikoita, POST-parametreja...
+- Fuffia voi käyttää myös fuzzataksesi otsikoita ja POST-parametreja
 
 
 ## Hashcat
@@ -39,8 +39,31 @@ johdanto
 # Hashcat
 
 
-![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/3d55cd7e-dc79-4ee7-b5e1-7a2fb9644d08)
-(kesken, jatka)
+![f2a1a6cd3009d9026b4b984069371a51](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/6d9690be-8ddf-40c3-bd1e-054dfba63361)
+
+
+
+Hashcatia ei tarvinnut asentaa, sillä Kali Linuxissani oli se jo valmiina, joten testasin Hashcatin toimintaa murtamalla esimerkkisalasanan:[ohjeiden](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/) mukaan.
+
+````
+Aloitin luomalla uuden hakemiston:
+$ mkdir hashed
+
+$ cd hashed
+`````
+
+``
+Rockyou.txt -sanakirja: 
+$ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
+$ tar xf rockyou.txt.tar.gz
+$ rm rockyou.txt.tar.gz
+``
+
+
+
+
+
+
 
 
 
