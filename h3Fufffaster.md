@@ -116,11 +116,20 @@ Komennot:
 
 
 # John the Ripper
+[Crack File Password With John -esimerkkitiedostot](https://terokarvinen.com/2023/crack-file-password-with-john/)
+
+
+![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/626db36f-5371-4043-b6c3-b4a29f2fc41f)
+
+Koska John oli jo asennettunna, niin aloitan lataamalla John the Ripper, Jumbo-version git-kloonauksella, joka kopio koko projektin. 
+`$ git clone --depth=1 https://github.com/openwall/john.git`
+
+![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/12ef08e4-0e33-4911-b34e-68adf1d0fcf4)
 
 
 
-![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/9cf0e209-ff27-40b1-a8b1-dcc5c4d6850f)
-> Johnin asennus
+
+
 
 
 
