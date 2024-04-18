@@ -77,6 +77,7 @@ Komennot:
 # Fuff
 
 
+![fuzzkuva2](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/056d8bc3-2c6b-4cb0-8800-cf4e9eb1fefe)
 
 
 
