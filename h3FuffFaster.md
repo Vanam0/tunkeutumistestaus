@@ -151,54 +151,9 @@ Komennot:
 
 
 
-
-
-
-
-
-
-
   # Fuffme | [Ffufme harjoitusmaali](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/) 
 > Teron sivustolla ohjeet asentamiseen.
 
-
-![03e52b12fd45832d4cfdaa2bc1e84b90](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/1f7a3834-c057-46c0-beb1-bea9f76eb774)
-
-Koska osa komponenteista on jo asennettu, aloitan kloonaamisella ja rakentamalla Docker-kontti harjoitusmaali:
-
-![f73015804efedab7bd489d2220781f1c](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/6f91d6e4-29a3-408a-808f-c1edd390ab22)
-
-```
-Komennot:
-$ git clone https://github.com/adamtlangley/ffufme
-$ cd ffufme/
-$ sudo docker build -t ffufme .
-```
-
-
-Ennen aloittamista ohejeessa pyydettiin ajamaan docker, testaamaan toiminta, lataamaan tarvittavat sanalistat kotihakemistoon  ~/wordlists.
-
-
-![2c74dc02987a2e55af6f5c73d839e756](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d3c6f593-3506-4381-a498-3b9e318594ab)
-
-```
-Komennot:
-$ sudo docker run -d -p 80:80 ffufme
-$ curl localhost
-$ curl -si localhost|grep title
-    <title>FFUF.me</title>
-$ mkdir $HOME/wordlists
-$ cd $HOME/wordlists
-$ wget http://ffuf.me/wordlist/common.txt
-$ wget http://ffuf.me/wordlist/parameters.txt 
-$ wget http://ffuf.me/wordlist/subdomains.txt
-$ cd -
-```
-
-
-Kun olin edennyt ohjeiden mukaan siirryin kohtaan Basic content discovery:
-
-![95127cc36b55f289167ada4284ca0a86](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/546a86d2-7ac2-4364-a7e1-9eb09b66d7d8)
 
 
 
