@@ -176,42 +176,29 @@ $ sudo docker build -t ffufme .
 ```
 
 
-
-   Asenna Ffufme harjoitusmaali paikallisesti omalle koneellesi. Ratkaise tehtävät (kaikki paitsi ei "Content Discovery - Pipes")
-  
-        Basic Content Discovery
-        Content Discovery With Recursion
-        Content Discovery With File Extensions
-        No 404 Status
-        Param Mining
-        Rate Limited
-        Subdomains - Virtual Host Enumeration
+Ennen aloittamista ohejeessa pyydettiin ajamaan docker, testaamaan toiminta, lataamaan tarvittavat sanalistat kotihakemistoon  ~/wordlists.
 
 
+![2c74dc02987a2e55af6f5c73d839e756](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d3c6f593-3506-4381-a498-3b9e318594ab)
+
+```
+Komennot:
+$ sudo docker run -d -p 80:80 ffufme
+$ curl localhost
+$ curl -si localhost|grep title
+    <title>FFUF.me</title>
+$ mkdir $HOME/wordlists
+$ cd $HOME/wordlists
+$ wget http://ffuf.me/wordlist/common.txt
+$ wget http://ffuf.me/wordlist/parameters.txt 
+$ wget http://ffuf.me/wordlist/subdomains.txt
+$ cd -
+```
 
 
+Kun olin edennyt ohjeiden mukaan siirryin kohtaan Basic content discovery:
 
-
-
-
-    e) Tee msfvenom-työkalulla haittaohjelma, joka soittaa kotiin (reverse shell). Ota yhteys vastaan metasploitin multi/handler -työkalulla.
-        Haittaohjelma ei saa olla automaattisesti leviävä. Msfvenom tekee tunnilla opetelluilla asetuksilla ohjelman, joka avaa reverse shellin, kun sen ajaa, mutta joka ei leviä eikä tee muutenkaan mitään itsestään.
-        Raporttiin riittävät pelkät komennot haitakkeen tekemiseen, itse binääriä ei ole pakko laittaa verkkoon. Mikäli laitat binäärin verkkoon, pakkaa se salakirjoitettuun zip-pakettiin ja laita salasanaksi "infected". Latauslinkin yhteydessä on oltava selkeä varoitus siitä, että binääriä ei tule ajaa oikeilla koneilla. Salasanan voit halutessasi kertoa varoitusten yhteydessä.
-
-
-    f) Asenna Windows virtuaalikoneeseen. Voi olla esimerkiksi Metasploitable 3 tai Microsoftin sivuilta saatava ilmainen kokeiluversio.
-
-
-
-
-
-
-    g) Ota Windowsiin graafinen etähallintayhteys Linuxista. Käytä RDP:tä eli Remote Desktop Protocol.
-
-
-
-
-
+![95127cc36b55f289167ada4284ca0a86](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/546a86d2-7ac2-4364-a7e1-9eb09b66d7d8)
 
 
 
