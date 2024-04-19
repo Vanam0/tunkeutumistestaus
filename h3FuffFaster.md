@@ -61,7 +61,7 @@ $ rm rockyou.txt.tar.gz
 
 > Voit nähdä murretun salasanatiivisteen komennolla: `--show`
 
-    6b1628b016dff46e6fa35684be6acc96:summer //Hash on murrettu.
+    salasana: summer 
 
 Komennot:
 
