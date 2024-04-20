@@ -184,16 +184,33 @@ $ cd -
 ```
 
 Basic Content Discovery
+ffuf -w ~/wordlists/common.txt -u http://localhost/cd/basic/FUZZ
+![86bde6c8e0c55cc4d48766eba5318a88](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/a7c4ee7b-0fb8-43b5-bbf7-2cbfbb9ef3f1)
+
 
 Content Discovery With Recursion
+ffuf -w ~/wordlists/common.txt -recursion -u http://localhost/cd/recursion/FUZZ
 
 Content Discovery With File Extensions
+ffuf -w ~/wordlists/common.txt -e .log -u http://localhost/cd/ext/logs/FUZZ
+
+
+![1bdf18f79fe93552c5fe1e784f199bf0](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/17b1d288-7f37-4609-a9f3-a4ea5a677830)
+
 
 No 404 Status
+ffuf -w ~/wordlists/common.txt -u http://localhost/cd/no404/FUZZ (-fs 669)
+![731d28c241c58053af62223f2942347e](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e921e715-0d5b-46be-bb24-b6c47e990f50)
+
 
 Param Mining
+ffuf -w ~/wordlists/parameters.txt -u http://localhost/cd/param/data?FUZZ=1
+![6c6120842d87f5422484aba6778c7a25](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/224649ef-e955-45f5-974b-f34bd7c79ddd)
 
 Rate Limited
+ffuf -w ~/wordlists/common.txt -u http://ffuf.test/cd/rate/FUZZ -mc 200,429
+ffuf -w ~/wordlists/common.txt -t 5 -p 0.1 -u http://ffuf.test/cd/rate/FUZZ -mc 200,429
+![4fadcc19335f92e0de9288cb47602c17](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e2c34411-8ad3-43f8-aba0-5cc9329bddbd)
 
 Subdomains - Virtual Host Enumeration
 
