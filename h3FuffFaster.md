@@ -163,7 +163,7 @@ Docker.io sovellus:
 `sudo apt-get install docker.io`
 
 Kloonataan harjoitusmaali:
-` git clone https://github.com/adamtlangley/ffufme`. 
+` git clone https://github.com/adamtlangley/ffufme . `
 
 Kasataan Ffufme Docker käyttöön: 
 `cd ffufme/ , sudo docker build -t ffufme` 
