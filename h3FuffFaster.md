@@ -175,7 +175,7 @@ Tarkistan onko harjoitusmaali käynnissä:
 
 ![78c8b44a399d2772ea35beeee31b2cd8](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4b214068-a93b-4a54-a455-1b70c9d92346)
 
-Ennen aloittamista lataan tarvittavat sanalistat: `~/wordlists `-hakemistoon. [Linkki ohjeisiin] (https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/)
+Ennen aloittamista lataan tarvittavat sanalistat: `~/wordlists `-hakemistoon. [Linkki ohjeisiin](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/)
 
 
 
@@ -194,7 +194,7 @@ $ cd -
 ## Basic Content Discovery
 `ffuf -w ~/wordlists/common.txt -u http://localhost/cd/basic/FUZZ`
 ![86bde6c8e0c55cc4d48766eba5318a88](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/a7c4ee7b-0fb8-43b5-bbf7-2cbfbb9ef3f1)
-> Käytetään sanalistaa
+> Käytetään sanalistaa.
 
 ## Content Discovery With Recursion
 `ffuf -w ~/wordlists/common.txt -recursion -u http://localhost/cd/recursion/FUZZ`
@@ -247,7 +247,7 @@ Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntäm
 
 multi/handeler asetukset kuuntelee haittaohjelman lähettämiä yhteyksiä näillä komennoilla:
 
-`set payload`: Payloadin määrittäminen on keskeinen osa hyökkäystä. Se avataan Meterpreter-istuntona.
+`set payload`: Payloadin määrittäminen on keskeinen osa hyökkäystä. Se avataan Meterpreter-palveluna, joka on backdoor-tyyppinen hyökkäyks.
 
 `set LHOST`: Täällä määritellään hyökkääjän IP-osoite.
 
