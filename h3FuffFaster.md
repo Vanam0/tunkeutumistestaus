@@ -194,20 +194,17 @@ $ cd -
 ## Basic Content Discovery
 `ffuf -w ~/wordlists/common.txt -u http://localhost/cd/basic/FUZZ`
 ![86bde6c8e0c55cc4d48766eba5318a88](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/a7c4ee7b-0fb8-43b5-bbf7-2cbfbb9ef3f1)
-
+> Käytetään sanalistaa
 
 ## Content Discovery With Recursion
 `ffuf -w ~/wordlists/common.txt -recursion -u http://localhost/cd/recursion/FUZZ`
-
 ![a7d0eeea3a2a52ac9ad7b55821903b7d](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e6a2ae5f-28c2-450c-90bd-2dd2cd869294)
-
+> Komento suorittaa rekursio metodin se on funktio, joka kutsuu itseään, eli sanalistaa etsiessään polkuja osoitteesta.
 
 ## Content Discovery With File Extensions
 `ffuf -w ~/wordlists/common.txt -e .log -u http://localhost/cd/ext/logs/FUZZ`
-
-
 ![1bdf18f79fe93552c5fe1e784f199bf0](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/17b1d288-7f37-4609-a9f3-a4ea5a677830)
-
+Tässä FFuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsii lokitiedostoja.
 
 ## No 404 Status
 `ffuf -w ~/wordlists/common.txt -u http://localhost/cd/no404/FUZZ (-fs 669)`
