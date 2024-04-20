@@ -160,10 +160,14 @@ Tietenkin aloitus päivityksellä:
 `sudo apt-get update` 
 Docker.io sovellus: 
 `sudo apt-get install docker.io`
-Kloonataan harjoitusmaali: ` git clone https://github.com/adamtlangley/ffufme`. 
-Kasataan Ffufme Docker käyttöön: `cd ffufme/` `sudo docker build -t ffufme 
-Harjoitusmaalin käynnistys komennolla: `sudo docker run -d -p 80:80 ffufme`
-Tarkistetaan onko harjoitusmaali käynnissä: `curl localhost`
+Kloonataan harjoitusmaali:
+` git clone https://github.com/adamtlangley/ffufme`. 
+Kasataan Ffufme Docker käyttöön: 
+`cd ffufme/ , sudo docker build -t ffufme` 
+Harjoitusmaalin käynnistys komennolla:
+`sudo docker run -d -p 80:80 ffufme`
+Tarkistan onko harjoitusmaali käynnissä: 
+`curl localhost`
 
 ![78c8b44a399d2772ea35beeee31b2cd8](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4b214068-a93b-4a54-a455-1b70c9d92346)
 
@@ -191,6 +195,9 @@ $ cd -
 # Content Discovery With Recursion
 `ffuf -w ~/wordlists/common.txt -recursion -u http://localhost/cd/recursion/FUZZ`
 
+![a7d0eeea3a2a52ac9ad7b55821903b7d](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e6a2ae5f-28c2-450c-90bd-2dd2cd869294)
+
+
 # Content Discovery With File Extensions
 `ffuf -w ~/wordlists/common.txt -e .log -u http://localhost/cd/ext/logs/FUZZ`
 
@@ -199,22 +206,22 @@ $ cd -
 
 
 # No 404 Status
-ffuf -w ~/wordlists/common.txt -u http://localhost/cd/no404/FUZZ (-fs 669)
+`ffuf -w ~/wordlists/common.txt -u http://localhost/cd/no404/FUZZ (-fs 669)`
 ![731d28c241c58053af62223f2942347e](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e921e715-0d5b-46be-bb24-b6c47e990f50)
 
 
 # Param Mining
-ffuf -w ~/wordlists/parameters.txt -u http://localhost/cd/param/data?FUZZ=1
+`ffuf -w ~/wordlists/parameters.txt -u http://localhost/cd/param/data?FUZZ=1`
 ![6c6120842d87f5422484aba6778c7a25](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/224649ef-e955-45f5-974b-f34bd7c79ddd)
 
 # Rate Limited
-ffuf -w ~/wordlists/common.txt -u http://ffuf.test/cd/rate/FUZZ -mc 200,429
-ffuf -w ~/wordlists/common.txt -t 5 -p 0.1 -u http://ffuf.test/cd/rate/FUZZ -mc 200,429
+`ffuf -w ~/wordlists/common.txt -u http://ffuf.test/cd/rate/FUZZ -mc 200,429`
+`ffuf -w ~/wordlists/common.txt -t 5 -p 0.1 -u http://ffuf.test/cd/rate/FUZZ -mc 200,429`
 ![4fadcc19335f92e0de9288cb47602c17](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e2c34411-8ad3-43f8-aba0-5cc9329bddbd)
 
 # Subdomains - Virtual Host Enumeration
-ffuf -w ~/wordlists/subdomains.txt -H "Host: FUZZ.ffuf.me" -u http://localhost
-ffuf -w ~/wordlists/subdomains.txt -H "Host: FUZZ.ffuf.me" -u http://localhost -fs 1495
+`ffuf -w ~/wordlists/subdomains.txt -H "Host: FUZZ.ffuf.me" -u http://localhost`
+`ffuf -w ~/wordlists/subdomains.txt -H "Host: FUZZ.ffuf.me" -u http://localhost -fs 1495`
 
 ![7678ce73481c6dfef0f7090315a2bad9](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d991bf64-7d3e-462b-b28f-a003f842fc50)
 
