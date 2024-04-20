@@ -270,4 +270,7 @@ https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 
 https://terokarvinen.com/2023/crack-file-password-with-john/
 
+https://youtu.be/tRag-0TPjvA?si=kL1fNbkZ4T4TtGB-  (Setting Payloads in Metasploit - ALS Cyber)
+
+
 
