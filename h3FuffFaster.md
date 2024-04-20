@@ -227,7 +227,22 @@ Tässä FFuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsi
 ![7678ce73481c6dfef0f7090315a2bad9](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d991bf64-7d3e-462b-b28f-a003f842fc50)
 
 
+## msfvenom
 
+
+
+
+![c3101979ba823ee8859508a627960518](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e43c2fe9-316f-4f50-87ac-a8a02c3206a7)
+
+- Nefelibata.elf lähtee FTP:n avulla liikkelle
+  
+![afd546e8ca57ea716843c3ad298d8f7a](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/378deced-238b-4634-a4a9-3e1a613b0b52)
+
+- `.elf`(Executable and Linkable Format) formaatin tiedostolle suoritusoikeude ja katsotaan keitä olemme :3
+
+![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/c92e7a0d-ba77-42f5-8857-b4f7cc08eb5a)
+
+-
 
 
 
