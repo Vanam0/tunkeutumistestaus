@@ -1,5 +1,7 @@
 # Fuff faster
 Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, sekä virtuaaliympäristöä, joka toimii Oracle VM VirtualBox -alustalla, jossa on asennettuna Kali Linux -käyttöjärjestelmä. Lisäksi käytän pöytätietokonettani, joten tehtävien kuvissa Kali Linux -käyttäjänimi voi vaihdella.
+Kokeilen myös haittaohjelman luomista ja testausta turvallisessa ympäristössä eettisesti. 
+
 
 ---
 
@@ -204,7 +206,7 @@ $ cd -
 ## Content Discovery With File Extensions
 `ffuf -w ~/wordlists/common.txt -e .log -u http://localhost/cd/ext/logs/FUZZ`
 ![1bdf18f79fe93552c5fe1e784f199bf0](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/17b1d288-7f37-4609-a9f3-a4ea5a677830)
-Tässä Ffuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsii lokitiedostoja.
+`set payload`: Payloadin määrittäminen on keskeinen osa hyökkäystä. Se avataan Meterpreter-palveluna, joka on backdoor-tyyppinen hyökkäyks.
 
 ## No 404 Status
 `ffuf -w ~/wordlists/common.txt -u http://localhost/cd/no404/FUZZ (-fs 669)`
