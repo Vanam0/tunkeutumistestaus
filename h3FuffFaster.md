@@ -227,10 +227,9 @@ Tässä FFuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsi
 ![7678ce73481c6dfef0f7090315a2bad9](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d991bf64-7d3e-462b-b28f-a003f842fc50)
 
 
+
+
 ## msfvenom
-
-
-
 
 ![c3101979ba823ee8859508a627960518](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e43c2fe9-316f-4f50-87ac-a8a02c3206a7)
 
@@ -238,11 +237,18 @@ Tässä FFuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsi
   
 ![afd546e8ca57ea716843c3ad298d8f7a](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/378deced-238b-4634-a4a9-3e1a613b0b52)
 
-- `.elf`(Executable and Linkable Format) formaatin tiedostolle suoritusoikeude ja katsotaan keitä olemme :3
+- `.elf`(Executable and Linkable Format) formaatin tiedostolle suoritusoikeudet ja katsotaan keitä olemme :3
 
 ![kuva](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/c92e7a0d-ba77-42f5-8857-b4f7cc08eb5a)
 
--
+
+<details>
+
+<summary>Tänä lauantaiyönä taistelukentällä oli sähköistä tunnelmaa, kun Reverse Shell -taistelut saivat onnellisen lopun. Lumiset kevätmaisemat Vapun tienoilla loivat eeppisen taustan tälle tietokoneiden kybersoturin mittelölle.
+Komentorivin kautta luotu yhteys oli kuin salattu portti tietojen syvimpään kolkkaan. Vaikka lunta satoi, vain tietokoneen sininen valo antoi meille energiaa tässä taistelussa. 
+Kun viimeinen komento oli annettu ja viimeinen tiedosto oli tarkastettu, oli aika poistua takaoven kautta…</summary>
+
+</details>
 
 
 
