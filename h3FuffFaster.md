@@ -204,7 +204,7 @@ $ cd -
 ## Content Discovery With File Extensions
 `ffuf -w ~/wordlists/common.txt -e .log -u http://localhost/cd/ext/logs/FUZZ`
 ![1bdf18f79fe93552c5fe1e784f199bf0](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/17b1d288-7f37-4609-a9f3-a4ea5a677830)
-Tässä FFuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsii lokitiedostoja.
+Tässä Ffuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsii lokitiedostoja.
 
 ## No 404 Status
 `ffuf -w ~/wordlists/common.txt -u http://localhost/cd/no404/FUZZ (-fs 669)`
