@@ -244,10 +244,14 @@ Tässä FFuf etsii tiedostoja, joiden tiedostopääte on `log.`, eli metodi etsi
 
 <details>
 
-<summary>Shell</summary>
+<summary> Shell löydetty </summary>
+
+```
 Tänä lauantaiyönä taistelukentällä oli sähköistä tunnelmaa, kun Reverse Shell -taistelut saivat onnellisen lopun. Lumiset kevätmaisemat Vapun tienoilla loivat eeppisen taustan tälle tietokoneiden kybersoturin mittelölle.
 Komentorivin kautta luotu yhteys oli kuin salattu portti tietojen syvimpään kolkkaan. Vaikka lunta satoi, vain tietokoneen sininen valo antoi meille energiaa tässä taistelussa. 
 Kun viimeinen komento oli annettu ja viimeinen tiedosto oli tarkastettu, oli aika poistua takaoven kautta…
+```
+
 </details>
 
 
