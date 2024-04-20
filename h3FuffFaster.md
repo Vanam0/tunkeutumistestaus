@@ -152,7 +152,52 @@ Komennot:
 
 
   # Fuffme | [Ffufme harjoitusmaali](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/) 
-> Teron sivustolla ohjeet asentamiseen.
+
+Latasin tehtävän tekemiseen harjoutusmaalit virtuaalitietokoneelle. 
+Ohjeet harjoitusmaaleihin: [Fuffme - Install Web Fuzzing Target on Debian](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/) 
+
+Tietenkin aloitus päivityksellä:
+`sudo apt-get update` 
+Docker.io sovellus: 
+`sudo apt-get install docker.io`
+Kloonataan harjoitusmaali: ` git clone https://github.com/adamtlangley/ffufme`. 
+Kasataan Ffufme Docker käyttöön: `cd ffufme/` `sudo docker build -t ffufme 
+Harjoitusmaalin käynnistys komennolla: `sudo docker run -d -p 80:80 ffufme`
+Tarkistetaan onko harjoitusmaali käynnissä: `curl localhost`
+
+![78c8b44a399d2772ea35beeee31b2cd8](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4b214068-a93b-4a54-a455-1b70c9d92346)
+
+Ennen aloittamista lataan tarvittavat sanalistat: `~/wordlists `-hakemistoon. [Linkki ohjeisiin] (https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/)
+
+
+
+![97983569de7ea1e94dc2d5a349ecd92c](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/1024e8fe-f2ba-455c-992e-4487be21a871)
+
+```
+Komennot:
+$ mkdir $HOME/wordlists
+$ cd $HOME/wordlists
+$ wget http://ffuf.me/wordlist/common.txt
+$ wget http://ffuf.me/wordlist/parameters.txt 
+$ wget http://ffuf.me/wordlist/subdomains.txt
+$ cd -
+```
+
+Basic Content Discovery
+
+Content Discovery With Recursion
+
+Content Discovery With File Extensions
+
+No 404 Status
+
+Param Mining
+
+Rate Limited
+
+Subdomains - Virtual Host Enumeration
+
+
 
 
 
