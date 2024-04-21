@@ -268,11 +268,12 @@ multi/handeler asetukset kuuntelee haittaohjelman lähettämiä yhteyksiä näil
 <summary> Shell löydetty </summary>
 
 ```
-Tänä lauantaiyönä taistelukentällä oli sähköistä tunnelmaa, kun Reverse Shell -taistelut saivat onnellisen lopun. 
+Tänä lauantaiyönä taistelukentällä oli sähköistä tunnelmaa, kun Reverse Shell -taistelu sai onnellisen lopun. 
 Lumiset kevätmaisemat Vapun tienoilla loivat eeppisen taustan tälle tietokoneiden kybersoturin mittelölle.
-Komentorivin kautta luotu yhteys oli kuin salattu portti tietojen syvimpään kolkkaan.
-Vaikka lunta satoi, vain tietokoneen sininen valo antoi meille energiaa tässä taistelussa. 
+Komentorivin kautta luotu yhteys oli kuin salattu portti datan syvimpään kolkkaan.
+Vaikka lunta satoi, vain tietokoneen sininen valo antoi energiaa tässä taistelussa. 
 Kun viimeinen komento oli annettu ja viimeinen tiedosto oli tarkastettu, oli aika poistua takaoven kautta…
+
 ```
 
 </details>
