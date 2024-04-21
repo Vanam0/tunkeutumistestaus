@@ -11,7 +11,7 @@
      ░░     ░      ░   ░ ░ ░ ░ ░ ▒  ░      ░   
       ░     ░  ░         ░     ░ ░         ░   
      ░                                         
-         VanamO | h3 Fuff Faster pentest 2024
+         VanamO (Jenny H.) | h3 Fuff Faster pentest 2024
 
 ```
 
