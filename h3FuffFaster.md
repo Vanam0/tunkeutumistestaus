@@ -258,7 +258,7 @@ multi/handeler asetukset kuuntelee haittaohjelman lähettämiä yhteyksiä näil
 
 `set LHOST`: Täällä määritellään hyökkääjän IP-osoite.
 
-`set LPORT`: Kuuntelijan portti, hyökkäyksen kohteena oleva odottaa yhteyksiä.
+`set LPORT`: Kuuntelijan portti, hyökkäyksen kohteena oleva odottaa yhteyksiä. Käytin epätavallista portteja sen vuoksi, että se olisi vaikeammin havaittava.
 
 `set ExitOnSession false`: Metasploit ei sulje itseään automaattisesti istuntojen luomisen jälkeen.
 
