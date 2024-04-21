@@ -1,3 +1,23 @@
+
+```
+
+ ██▒   █▓▓█████  ███▄    █  ▒█████   ███▄ ▄███▓
+▓██░   █▒▓█   ▀  ██ ▀█   █ ▒██▒  ██▒▓██▒▀█▀ ██▒
+ ▓██  █▒░▒███   ▓██  ▀█ ██▒▒██░  ██▒▓██    ▓██░
+  ▒██ █░░▒▓█  ▄ ▓██▒  ▐▌██▒▒██   ██░▒██    ▒██ 
+   ▒▀█░  ░▒████▒▒██░   ▓██░░ ████▓▒░▒██▒   ░██▒
+   ░ ▐░  ░░ ▒░ ░░ ▒░   ▒ ▒ ░ ▒░▒░▒░ ░ ▒░   ░  ░
+   ░ ░░   ░ ░  ░░ ░░   ░ ▒░  ░ ▒ ▒░ ░  ░      ░
+     ░░     ░      ░   ░ ░ ░ ░ ░ ▒  ░      ░   
+      ░     ░  ░         ░     ░ ░         ░   
+     ░                                         
+
+
+```
+
+
+
+
 # Fuff faster
 Tässä harjoituksessa tutkitaan tietoturvatyökaluja. Hyödynnän läppäriä, sekä virtuaaliympäristöä, joka toimii Oracle VM VirtualBox -alustalla, jossa on asennettuna Kali Linux -käyttöjärjestelmä. Lisäksi käytän pöytätietokonettani, joten tehtävien kuvissa Kali Linux -käyttäjänimi voi vaihdella.
 Kokeilen myös haittaohjelman luomista ja testausta turvallisessa ympäristössä eettisesti. 
