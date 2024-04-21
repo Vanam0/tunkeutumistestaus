@@ -119,6 +119,7 @@ Komennot:
 
 
 # John the Ripper
+
 [Crack File Password With John -esimerkkitiedostot](https://terokarvinen.com/2023/crack-file-password-with-john/)
 
 
@@ -156,7 +157,8 @@ Komennot:
   # Fuffme | [Ffufme harjoitusmaali](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/) 
 
 Latasin tehtävän tekemiseen harjoutusmaalit virtuaalitietokoneelle. 
-Ohjeet harjoitusmaaleihin: [Fuffme - Install Web Fuzzing Target on Debian](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/) 
+Ohjeet harjoitusmaaleihin: 
+[Fuffme - Install Web Fuzzing Target on Debian](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/) 
 
 
 
@@ -177,7 +179,8 @@ Tarkistan onko harjoitusmaali käynnissä:
 
 ![78c8b44a399d2772ea35beeee31b2cd8](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/4b214068-a93b-4a54-a455-1b70c9d92346)
 
-Ennen aloittamista lataan tarvittavat sanalistat: `~/wordlists `-hakemistoon. [Linkki ohjeisiin](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/)
+Ennen aloittamista lataan tarvittavat sanalistat: `~/wordlists `-hakemistoon. 
+[Linkki ohjeisiin](https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/)
 
 
 
