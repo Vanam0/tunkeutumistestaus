@@ -209,7 +209,7 @@ $ cd -
 ## Content Discovery With File Extensions
 `ffuf -w ~/wordlists/common.txt -e .log -u http://localhost/cd/ext/logs/FUZZ`
 ![1bdf18f79fe93552c5fe1e784f199bf0](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/17b1d288-7f37-4609-a9f3-a4ea5a677830)
-`-e .log:` Valitsin määrittää tiedostopäätteen, jota fuzzauksen aikana etsitään, eli lokitiedostoja, joiden päätteena on siis `.log`.
+* `-e .log:` Valitsin määrittää tiedostopäätteen, jota fuzzauksen aikana etsitään, eli lokitiedostoja, joiden päätteena on siis `.log`.
 
 
 ## No 404 Status
