@@ -242,7 +242,7 @@ Tämä tehtävä oli mielenkiintoinen ja keskittyy haavoittuvuuksien hyödyntäm
 
 ![c3101979ba823ee8859508a627960518](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/e43c2fe9-316f-4f50-87ac-a8a02c3206a7)
 
-- Nefelibata.elf lähtee FTP:n avulla liikkelle komenonlla `put`.
+- Nefelibata.elf lähtee FTP:n avulla liikkelle komenonlla `put`
   
 ![afd546e8ca57ea716843c3ad298d8f7a](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/378deced-238b-4634-a4a9-3e1a613b0b52)
 
