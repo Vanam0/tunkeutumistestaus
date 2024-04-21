@@ -233,7 +233,7 @@ $ cd -
 ![7678ce73481c6dfef0f7090315a2bad9](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/d991bf64-7d3e-462b-b28f-a003f842fc50)
 
 
-
+----
 
 ## msfvenom
 
