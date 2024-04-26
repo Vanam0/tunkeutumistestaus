@@ -27,4 +27,6 @@ Pääsin tässä CTF-haasteessa puoleen väliin. Harmi, että aikaraja tuli vast
 
 
 ## Lähteet:
+
+Withsecure, N. Ponomarev, Attacking Windows and Active Airectory, luento 22.4.2024
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h4-hactive-directory
