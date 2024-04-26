@@ -17,7 +17,7 @@ Objective: Toiminta tavoitteen saavuttamiseksi
 
 
 WithSecure tarjosi kurssilla 22.4. mahdollisuuden käyttää heidän virtuaalista harjoitusympäristöä, eli playgroundia, johon oli rakennettu Attacking Windows Networks Active Directory (Capture The Flag) CTF-haaste. 
-Pääsin tässä CTF-haasteessa puoleen väliin. Harmi, että aikaraja tuli vastaan, mutta opin uusia asioita. 
+Tässä CTF-haasteessa pääsin puoleen väliin. Harmi, että aikaraja tuli vastaan, mutta opin uusia asioita. 
 
 
 
