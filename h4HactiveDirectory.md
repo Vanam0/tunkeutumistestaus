@@ -5,14 +5,14 @@
 
 WithSecuren KillChain -malli:
 
-Reconnaisance: Alkutiedustelu
-Delivery: Toimitus
-Exploitation: Hyödyntäminen
-C2 (Command and Control): Komennot ja hallinta
-Persistence: Jatkuvuus
-Internal Reconnaisance: Sisäinen alkutiedustelu
-Lateral Movement: Viittaa tekniikoihin, joita kyberhyökkääjät käyttävät siirtyäkseen verkon läpi
-Objective: Toiminta tavoitteen saavuttamiseksi
+- Reconnaisance: Alkutiedustelu
+- Delivery: Toimitus
+- Exploitation: Hyödyntäminen
+- C2 (Command and Control): Komennot ja hallinta
+- Persistence: Jatkuvuus
+- Internal Reconnaisance: Sisäinen alkutiedustelu
+- Lateral Movement: Viittaa tekniikoihin, joita kyberhyökkääjät käyttävät siirtyäkseen verkon läpi
+- Objective: Toiminta tavoitteen saavuttamiseksi
 
 
 
