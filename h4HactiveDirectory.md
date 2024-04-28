@@ -19,6 +19,9 @@ WithSecuren KillChain -malli:
 
 WithSecure tarjosi kurssilla 22.4. mahdollisuuden käyttää heidän virtuaalista harjoitusympäristöä, eli playgroundia, johon oli rakennettu Attacking Windows Networks Active Directory (Capture The Flag) CTF-haaste. 
 
+![a596d24088e560462ce94b784a2b62ad](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/20ee3f06-740f-4da6-b756-505f4408c98e)
+
+
 Tässä CTF-haasteessa pääsin tehtävään 5/6.
 
 
