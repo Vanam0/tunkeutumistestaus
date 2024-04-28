@@ -22,7 +22,7 @@ WithSecure tarjosi kurssilla 22.4. mahdollisuuden käyttää heidän virtuaalist
 ![a596d24088e560462ce94b784a2b62ad](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/20ee3f06-740f-4da6-b756-505f4408c98e)
 
 
-Tässä CTF-haasteessa pääsin tehtävään 5/6.
+Tässä CTF-haasteessa pääsin tehtävään 5,5/6, mutta aikani loppui kesken. Olin erittäin lähellä maalia. Kirjauduin SMP-serverille ja sain adminin hashin.
 
 
 
