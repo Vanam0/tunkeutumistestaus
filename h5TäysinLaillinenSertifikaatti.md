@@ -8,6 +8,7 @@ OWASP 2021: OWASP Top 10:2021
 - Epäonnistuessaan pääsynvalvonta voi johtaa tietovuotoon tai tuhoutumiseen.
 - Pääsynvalvonnan tehokkuus edellyttää, että mahdollinen hyökkääjä ei kykene kiertämään valvontaa muokkaamalla todennuksia tai käyttämällä metatietoja hyväkseen. Jotta turvallisuus varmistetaan on tärkeää seurata pääsynvalvonnan epäonnitumisia ja istuntotunnisteita.
 
+--
 
 A10:2021 – Server-Side Request Forgery (SSRF)
 
@@ -16,8 +17,10 @@ A10:2021 – Server-Side Request Forgery (SSRF)
 - Tämä mahdollistaa hyökkääjälle sovelluksen pakottamisen lähettämään pyynnön odottamattomaan kohteeseen.
 - Ehkäisykeinoina sovelluskehittäjät voivat toteuttaa verkko- ja sovelluskerroksen suojauksia, kuten eristämistä ja syötteiden puhdistusta.
 - SSRF:n avulla hyökkääjät voivat esimerkiksi suorittaa sisäisiä palvelin skannauksia, paljastaa arkaluontoisia tietoja tai päästä käsiksi pilvipalveluiden metatietoihin.
+---
 
-  PortSwigget Academy
+
+# PortSwigget Academy
 
 Insecure Direct Object References (IDOR):
 
@@ -25,6 +28,7 @@ Hyökkääjä pääsee suoraan käsiksi tietokantaan tai tiedostoihin syöttäm�
 `https://.../customer_account?customer_number=132355`
 Tässä IDOR-haavoittuvuus esimerkissä asiakasnumeroa käytetään suoraan tietueen indeksinä kyselyissä, jotka suoritetaan tietokannassa. Hyökkääjä voi yksinkertaisesti muuttaa asiakasnumeroarvoa ohittaakseen pääsyoikeudet ja tarkastellakseen muiden asiakkaiden tietueita.
 
+-----
 
 Path Traversal:
 
@@ -40,6 +44,7 @@ Server-side Request Forgery (SSRF):
 
 Hyökkääjä pakottaa sovelluksen tekemään palvelimelle pyyntöjä toiseen kohteeseen, yleensä sisäverkkoon.
 Tämä tapahtuu yleensä manipuloimalla sovelluksen lähettämiä pyyntöjä, esimerkiksi fuzzaamalla.
+----
 
 Cross-site Scripting (XSS):
 
