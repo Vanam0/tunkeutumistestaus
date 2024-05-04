@@ -72,7 +72,10 @@ Tutkin sisältöä ja oli viittaus 2.txt -tiedostoon. Päätin kokeilla vaihtaa 
 Vastauksena saatiin lokitiedosto 1.txt, joka sisälsi käyttäjä "carlos" salasanan.
 (IDOR) tietoturvaongelma johtuu siitä, kun käyttäjän oikeuksia ei valvota.
 
-
+![0832183df1aa419170ece58a449a9f5c](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/65f89fcb-8460-45a8-b77d-ef57ddc9f5c6)
+Tässä manipuloidaan tiedostopolkua, joka mahdollisti pääsyn arkaluontoisiin tiedostoihin palvelimella. 
+Muutetaam tiedostopolku `/image?filename=../../../etc/passwd`
+Eli navigoidaan ylöspäin hakemistopuussa, juurikansioon, ja eteenpäin /etc/passwd-kansioon.
 
 ## Lähteet
 
