@@ -77,6 +77,12 @@ Tässä manipuloidaan tiedostopolkua, joka mahdollisti pääsyn arkaluontoisiin 
 Muutetaam tiedostopolku `/image?filename=../../../etc/passwd`
 Eli navigoidaan ylöspäin hakemistopuussa, juurikansioon, ja eteenpäin /etc/passwd-kansioon.
 
+![b8f9df9bedd39531e6e814513baeaffc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/13cde8c4-b674-4a38-ac8e-cc3e10b4f31c)
+
+Hyvin samankaltainen tehtävä kuin edellinen.
+
+
+
 ## Lähteet
 
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h5-taysin-laillinen-sertifikaatti
