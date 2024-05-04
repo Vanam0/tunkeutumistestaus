@@ -87,8 +87,7 @@ Vastauksena saatiin lokitiedosto 1.txt, joka sisälsi käyttäjä `carlos` salas
 
 ![0832183df1aa419170ece58a449a9f5c](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/65f89fcb-8460-45a8-b77d-ef57ddc9f5c6)
 - Tässä manipuloidaan tiedostopolkua, joka mahdollisti pääsyn arkaluontoisiin tiedostoihin palvelimella. 
-Muutetaam tiedostopolku `/image?filename=../../../etc/passwd`
-Eli navigoidaan ylöspäin hakemistopuussa, juurikansioon, ja eteenpäin /etc/passwd-kansioon.
+Muutetaam tiedostopolku `/image?filename=../../../etc/passwd`, eli navigoidaan ylöspäin hakemistopuussa, juurikansioon, ja eteenpäin `/etc/passwd-kansioon`.
 
 ![b8f9df9bedd39531e6e814513baeaffc](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/13cde8c4-b674-4a38-ac8e-cc3e10b4f31c)
 
