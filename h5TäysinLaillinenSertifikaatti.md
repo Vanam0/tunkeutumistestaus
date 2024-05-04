@@ -48,17 +48,23 @@ Hyökkääjä injektoi JavaScript-koodia haavoittuvaan verkkosivuun.
 Tämä mahdollistaa käyttäjän selaimen ohjaamisen ja tietojen varastamisen, kuten käyttäjätunnukset ja salasanat.
 
 
+a) Totally Legit Sertificate. Asenna OWASP ZAP, generoi CA-sertifikaatti ja asenna se selaimeesi. Laita ZAP proxyksi selaimeesi. Laita ZAP sieppaamaan myös kuvat, niitä tarvitaan tämän kerran kotitehtävissä. Osoita, että hakupyynnöt ilmestyvät ZAP:n käyttöliittymään. (Ei toimi localhost:lla ilman Foxyproxya)
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8e469bea-12ca-4416-a9e4-f08a9ba817b1)
 
 
-a) Totally Legit Sertificate. Asenna OWASP ZAP, generoi CA-sertifikaatti ja asenna se selaimeesi. Laita ZAP proxyksi selaimeesi. Laita ZAP sieppaamaan myös kuvat, niitä tarvitaan tämän kerran kotitehtävissä. Osoita, että hakupyynnöt ilmestyvät ZAP:n käyttöliittymään. (Ei toimi localhost:lla ilman Foxyproxya)
 
 
 
+FoxyProxy on Mozilla Firefox -selaimelle tarkoitettu lisäosa, joka toimii välityspalvelimena ja mahdollistaa localhost-liikenteen ohjautumisen ZAP-palvelimelle.
+Kun tietokone lähettää pyynnön esimerkiksi osoitteeseen google.com, pyynnöt ensin ohjataan FoxyProxyyn ja sieltä edelleen ZAP-proxyyn.
+
+![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/50a7af26-b733-4f80-a22a-018e89de3d95)
 
 
-b) Kettumaista. Asenna FoxyProxy Standard Firefox Addon, ja lisää ZAP proxyksi siihen. Käytä FoxyProxyn "Patterns" -toimintoa, niin että vain valitsemasi weppisivut ohjataan Proxyyn. (Läksyssä ohjataan varmaankin PortSwigger Labs ja localhost.)
+> Näkymä asetuksistani
+
+
 
 
 
