@@ -8,7 +8,7 @@ OWASP 2021: OWASP Top 10:2021
 - Epäonnistuessaan pääsynvalvonta voi johtaa tietovuotoon tai tuhoutumiseen.
 - Pääsynvalvonnan tehokkuus edellyttää, että mahdollinen hyökkääjä ei kykene kiertämään valvontaa muokkaamalla todennuksia tai käyttämällä metatietoja hyväkseen. Jotta turvallisuus varmistetaan on tärkeää seurata pääsynvalvonnan epäonnitumisia ja istuntotunnisteita.
 
---
+---
 
 A10:2021 – Server-Side Request Forgery (SSRF)
 
