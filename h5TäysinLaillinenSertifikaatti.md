@@ -47,7 +47,7 @@ _________   _...._               /   /` '.   \
 
 ## PortSwigget Academy
 
-Insecure Direct Object References (IDOR):
+### Insecure Direct Object References (IDOR):
 
 Hyökkääjä pääsee suoraan käsiksi tietokantaan tai tiedostoihin syöttämällä manipuloituja URL-osoitteita.
 `https://.../customer_account?customer_number=132355`
