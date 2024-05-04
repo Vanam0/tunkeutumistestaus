@@ -47,11 +47,9 @@ Cross-site Scripting (XSS):
 Hyökkääjä injektoi JavaScript-koodia haavoittuvaan verkkosivuun.
 Tämä mahdollistaa käyttäjän selaimen ohjaamisen ja tietojen varastamisen, kuten käyttäjätunnukset ja salasanat.
 
-
+----
 
 ![5d7e18d33d736d0b3b5d8c6e15f9604b](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8c4f2ec7-385b-46df-9dd2-49c5c6e029c5)
-
-
 
 > Näkymä asetuksistani
 
@@ -65,8 +63,11 @@ Kun tietokone lähettää pyynnön esimerkiksi osoitteeseen google.com, pyynnöt
 
 ZAP luo automaattisesti "väärennetyn" sertifikaatin, joka on saatavilla ZAP-valikon kautta sijainnissa Tools -> Preferences -> Network -> Server Certificates.
 
+----
 
 # PortSwigger Labs
+
+
 ![3b9dc0d850c70dcaa73aef91077b6150](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/620e1339-ccfd-465a-8720-9e3fcf803bc9)
 Tutkin sisältöä ja oli viittaus 2.txt -tiedostoon. Päätin kokeilla vaihtaa nimi 1.txt -tiedostoon, mikä vastasi puuttuvaa tiedostoa keskusteluhistoriassa.
 Vastauksena saatiin lokitiedosto 1.txt, joka sisälsi käyttäjä `carlos` salasanan.
@@ -85,16 +86,31 @@ Hyvin samankaltainen tehtävä kuin edellinen.
 
 Tässä `filename?=image` -pyyntöä on manipuloitu lisäämällä `!....//....//....//etc/passwd`, joka pyrkii päsemään käsiksi tiedostoon.
 
+------
+
 
 # WebGoat
+
 
 ![016ad85ad543c0f1b49193c45cd5c3bf](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/fd81b4b5-7ad2-4fa4-a65b-66016e46a060)
 
 Tässä hyödynnetään kaksivaiheisen todennuksen heikkoutta. 
 
+
+
 ![177f57f7233283d9b6caba109b8a6ec1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/176cc34b-0bde-4048-9f1a-aa79424fb693)
 
+
+
+
 Kirjautumispyyntö lähetetään palvelimelle. Tarkastellaan sen tietoa ja salasana, sekä käyttäjätunnus löytyi.
+
+
+![08458036044cdd05eccd1cf033066e46](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/55526002-6539-4b2c-847d-be076e8163cf)
+
+Tehtävänä on painaa "Steal the cheese"-nappia WebGoat -saitilla ja etsiä ZAP-työkalun avulla siepatun liikenteen joukosta POST-pyyntö, muokata parametrin arvo `url=images%2Ftom.png` arvoksi `url=images%2Fjerry.png` ja lähettää muokattu pyyntö uudelleen ZAP-työkalun kautta.
+
+
 
 
 ## Lähteet
