@@ -81,7 +81,9 @@ Eli navigoidaan ylöspäin hakemistopuussa, juurikansioon, ja eteenpäin /etc/pa
 
 Hyvin samankaltainen tehtävä kuin edellinen.
 
+![7f9a4cbfe648e3470ed94966f46e3ef7](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8b2f2594-8b70-406e-9ef5-a0b368a7d424)
 
+Tässä filename?=image -pyyntöä on manipuloitu lisäämällä !....//....//....//etc/passwd, joka pyrkii päsemään käsiksi tiedostoon.
 
 ## Lähteet
 
