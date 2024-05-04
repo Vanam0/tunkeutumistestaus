@@ -45,7 +45,8 @@ Server-side Request Forgery (SSRF):
 
 Hyökkääjä pakottaa sovelluksen tekemään palvelimelle pyyntöjä toiseen kohteeseen, yleensä sisäverkkoon.
 Tämä tapahtuu yleensä manipuloimalla sovelluksen lähettämiä pyyntöjä, esimerkiksi fuzzaamalla.
-----
+
+---
 
 Cross-site Scripting (XSS):
 
