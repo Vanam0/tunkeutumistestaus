@@ -59,6 +59,8 @@ Tämä mahdollistaa käyttäjän selaimen ohjaamisen ja tietojen varastamisen, k
 
 ---
 
+# FoxyProxy & ZAP
+
 ![5d7e18d33d736d0b3b5d8c6e15f9604b](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8c4f2ec7-385b-46df-9dd2-49c5c6e029c5)
 
 > Näkymä asetuksistani
