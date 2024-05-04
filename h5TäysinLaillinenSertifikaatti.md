@@ -118,3 +118,5 @@ Tehtävänä oli siis painaa "Steal the cheese"-nappia WebGoat -saitilla ja etsi
 
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h5-taysin-laillinen-sertifikaatti
 
+https://portswigger.net/web-security/ssrf
+
