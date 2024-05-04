@@ -85,6 +85,13 @@ Hyvin samankaltainen tehtävä kuin edellinen.
 
 Tässä `filename?=image` -pyyntöä on manipuloitu lisäämällä `!....//....//....//etc/passwd`, joka pyrkii päsemään käsiksi tiedostoon.
 
+
+# WebGoat
+
+![016ad85ad543c0f1b49193c45cd5c3bf](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/fd81b4b5-7ad2-4fa4-a65b-66016e46a060)
+
+Tässä hyödynnetään kaksivaiheisen todennuksen heikkoutta. 
+
 ## Lähteet
 
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h5-taysin-laillinen-sertifikaatti
