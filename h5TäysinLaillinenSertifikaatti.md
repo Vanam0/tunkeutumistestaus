@@ -92,6 +92,11 @@ Tässä `filename?=image` -pyyntöä on manipuloitu lisäämällä `!....//..../
 
 Tässä hyödynnetään kaksivaiheisen todennuksen heikkoutta. 
 
+![177f57f7233283d9b6caba109b8a6ec1](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/176cc34b-0bde-4048-9f1a-aa79424fb693)
+
+Kirjautumispyyntö lähetetään palvelimelle. Tarkastellaan sen tietoa ja salasana, sekä käyttäjätunnus löytyi.
+
+
 ## Lähteet
 
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h5-taysin-laillinen-sertifikaatti
