@@ -20,7 +20,7 @@ A10:2021 – Server-Side Request Forgery (SSRF)
 ---
 
 
-# PortSwigget Academy
+## PortSwigget Academy
 
 Insecure Direct Object References (IDOR):
 
@@ -119,7 +119,7 @@ Eli navigoidaan ylöspäin hakemistopuussa, juurikansioon, ja eteenpäin /etc/pa
 
 
 
-## Lähteet
+# Lähteet:
 
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h5-taysin-laillinen-sertifikaatti
 
