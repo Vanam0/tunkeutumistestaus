@@ -48,11 +48,11 @@ Hyökkääjä injektoi JavaScript-koodia haavoittuvaan verkkosivuun.
 Tämä mahdollistaa käyttäjän selaimen ohjaamisen ja tietojen varastamisen, kuten käyttäjätunnukset ja salasanat.
 
 
-a) Totally Legit Sertificate. Asenna OWASP ZAP, generoi CA-sertifikaatti ja asenna se selaimeesi. Laita ZAP proxyksi selaimeesi. Laita ZAP sieppaamaan myös kuvat, niitä tarvitaan tämän kerran kotitehtävissä. Osoita, että hakupyynnöt ilmestyvät ZAP:n käyttöliittymään. (Ei toimi localhost:lla ilman Foxyproxya)
 
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8e469bea-12ca-4416-a9e4-f08a9ba817b1)
 
 
+> Näkymä asetuksistani
 
 
 
@@ -62,9 +62,7 @@ Kun tietokone lähettää pyynnön esimerkiksi osoitteeseen google.com, pyynnöt
 ![image](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/50a7af26-b733-4f80-a22a-018e89de3d95)
 
 
-> Näkymä asetuksistani
-
-
+ZAP luo automaattisesti "väärennetyn" sertifikaatin, joka on saatavilla ZAP-valikon kautta sijainnissa Tools -> Preferences -> Network -> Server Certificates.
 
 
 
