@@ -69,7 +69,7 @@ ZAP luo automaattisesti "väärennetyn" sertifikaatin, joka on saatavilla ZAP-va
 # PortSwigger Labs
 ![3b9dc0d850c70dcaa73aef91077b6150](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/620e1339-ccfd-465a-8720-9e3fcf803bc9)
 Tutkin sisältöä ja oli viittaus 2.txt -tiedostoon. Päätin kokeilla vaihtaa nimi 1.txt -tiedostoon, mikä vastasi puuttuvaa tiedostoa keskusteluhistoriassa.
-Vastauksena saatiin lokitiedosto 1.txt, joka sisälsi käyttäjä "carlos" salasanan.
+Vastauksena saatiin lokitiedosto 1.txt, joka sisälsi käyttäjä `carlos` salasanan.
 (IDOR) tietoturvaongelma johtuu siitä, kun käyttäjän oikeuksia ei valvota.
 
 ![0832183df1aa419170ece58a449a9f5c](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/65f89fcb-8460-45a8-b77d-ef57ddc9f5c6)
@@ -83,7 +83,7 @@ Hyvin samankaltainen tehtävä kuin edellinen.
 
 ![7f9a4cbfe648e3470ed94966f46e3ef7](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8b2f2594-8b70-406e-9ef5-a0b368a7d424)
 
-Tässä filename?=image -pyyntöä on manipuloitu lisäämällä !....//....//....//etc/passwd, joka pyrkii päsemään käsiksi tiedostoon.
+Tässä `filename?=image` -pyyntöä on manipuloitu lisäämällä `!....//....//....//etc/passwd`, joka pyrkii päsemään käsiksi tiedostoon.
 
 ## Lähteet
 
