@@ -17,6 +17,7 @@ A10:2021 – Server-Side Request Forgery (SSRF)
 - Tämä mahdollistaa hyökkääjälle sovelluksen pakottamisen lähettämään pyynnön odottamattomaan kohteeseen.
 - Ehkäisykeinoina sovelluskehittäjät voivat toteuttaa verkko- ja sovelluskerroksen suojauksia, kuten eristämistä ja syötteiden puhdistusta.
 - SSRF:n avulla hyökkääjät voivat esimerkiksi suorittaa sisäisiä palvelin skannauksia, paljastaa arkaluontoisia tietoja tai päästä käsiksi pilvipalveluiden metatietoihin.
+  
 ---
 
 
@@ -28,7 +29,7 @@ Hyökkääjä pääsee suoraan käsiksi tietokantaan tai tiedostoihin syöttäm�
 `https://.../customer_account?customer_number=132355`
 Tässä IDOR-haavoittuvuus esimerkissä asiakasnumeroa käytetään suoraan tietueen indeksinä kyselyissä, jotka suoritetaan tietokannassa. Hyökkääjä voi yksinkertaisesti muuttaa asiakasnumeroarvoa ohittaakseen pääsyoikeudet ja tarkastellakseen muiden asiakkaiden tietueita.
 
------
+---
 
 Path Traversal:
 
@@ -52,7 +53,7 @@ Cross-site Scripting (XSS):
 Hyökkääjä injektoi JavaScript-koodia haavoittuvaan verkkosivuun.
 Tämä mahdollistaa käyttäjän selaimen ohjaamisen ja tietojen varastamisen, kuten käyttäjätunnukset ja salasanat.
 
-----
+---
 
 ![5d7e18d33d736d0b3b5d8c6e15f9604b](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/8c4f2ec7-385b-46df-9dd2-49c5c6e029c5)
 
