@@ -34,7 +34,7 @@ _________   _...._               /   /` '.   \
 
 ---
 
-A10:2021 – Server-Side Request Forgery (SSRF)
+### A10:2021 – Server-Side Request Forgery (SSRF)
 
 
 - SSRF-haavoittuvuudet ilmenevät, kun sovellus hakee etäresursseja ilman käyttäjän URL:n validointia.
@@ -55,27 +55,27 @@ Tässä IDOR-haavoittuvuus esimerkissä asiakasnumeroa käytetään suoraan tiet
 
 ---
 
-Path Traversal:
+### Path Traversal:
 
 Hyökkääjä manipuloi URL-osoitteita päästäkseen palvelimen hakemistoista muihin kansiopolkuihin.
 Tämä voi johtaa arkaluontoisten tiedostojen, kuten salasanojen paljastumiseen.
 
 ---
 
-Server-side Template Injection:
+### Server-side Template Injection:
 
 Hyökkääjä hyödyntää palvelimen template -syntaksia suorittaakseen komentoja palvelimelle.
 Tämä voi johtaa vakaviin haavoittuvuuksiin, koska syötteitä suoritetaan komentoina.
 
 ---
-Server-side Request Forgery (SSRF):
+### Server-side Request Forgery (SSRF):
 
 Hyökkääjä pakottaa sovelluksen tekemään palvelimelle pyyntöjä toiseen kohteeseen, yleensä sisäverkkoon.
 Tämä tapahtuu yleensä manipuloimalla sovelluksen lähettämiä pyyntöjä, esimerkiksi fuzzaamalla.
 
 ---
 
-Cross-site Scripting (XSS):
+### Cross-site Scripting (XSS):
 
 
 Hyökkääjä injektoi JavaScript-koodia haavoittuvaan verkkosivuun.
