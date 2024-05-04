@@ -66,8 +66,11 @@ Kun tietokone lähettää pyynnön esimerkiksi osoitteeseen google.com, pyynnöt
 ZAP luo automaattisesti "väärennetyn" sertifikaatin, joka on saatavilla ZAP-valikon kautta sijainnissa Tools -> Preferences -> Network -> Server Certificates.
 
 
-
-
+# PortSwigger Labs
+![3b9dc0d850c70dcaa73aef91077b6150](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/620e1339-ccfd-465a-8720-9e3fcf803bc9)
+Tutkin sisältöä ja oli viittaus 2.txt -tiedostoon. Päätin kokeilla vaihtaa nimi 1.txt -tiedostoon, mikä vastasi puuttuvaa tiedostoa keskusteluhistoriassa.
+Vastauksena saatiin lokitiedosto 1.txt, joka sisälsi käyttäjä "carlos" salasanan.
+(IDOR) tietoturvaongelma johtuu siitä, kun käyttäjän oikeuksia ei valvota.
 
 
 
