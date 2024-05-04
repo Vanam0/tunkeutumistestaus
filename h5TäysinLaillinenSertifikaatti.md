@@ -107,8 +107,9 @@ Kirjautumispyyntö lähetetään palvelimelle. Tarkastellaan sen tietoa ja salas
 
 
 ![08458036044cdd05eccd1cf033066e46](https://github.com/Vanam0/tunkeutumistestaus/assets/122449444/55526002-6539-4b2c-847d-be076e8163cf)
+> Server-Side Request Forgery (SSRF) on tietoturva-aukko, jossa hyökkääjä voi manipuloida verkkosivustoa tekemään HTTP-pyyntöjä palvelimen puolesta. Tämä voi mahdollistaa pääsyn sisäverkon ulkopuolelle tai palomuurin taakse, joihin hyökkääjällä ei muuten olisi pääsyä.
 
-Tehtävänä on painaa "Steal the cheese"-nappia WebGoat -saitilla ja etsiä ZAP-työkalun avulla siepatun liikenteen joukosta POST-pyyntö, muokata parametrin arvo `url=images%2Ftom.png` arvoksi `url=images%2Fjerry.png` ja lähettää muokattu pyyntö uudelleen ZAP-työkalun kautta.
+Tehtävänä oli siis painaa "Steal the cheese"-nappia WebGoat -saitilla ja etsiä ZAP-työkalun avulla siepatun liikenteen joukosta POST-pyyntö, muokata parametrin arvo `url=images%2Ftom.png` arvoksi `url=images%2Fjerry.png` ja lähettää muokattu pyyntö uudelleen ZAP-työkalun kautta.  
 
 
 
