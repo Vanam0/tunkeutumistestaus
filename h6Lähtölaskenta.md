@@ -55,12 +55,6 @@ Msfvenom metasploitable
 -
 -
 
-Bruteforce
-
--
--
--
-
 
 
 
