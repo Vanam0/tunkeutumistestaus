@@ -17,10 +17,12 @@ Porttiskanneri
 - `nmap -A <kohde> `  Aggressiivisen skannaus mm. versiotiedot (käytetään harkiten)
 - `nmap -sn` Suorittaa normaalinen ping -kyselyn
 
+
+Salasanojen murtamistyökalut:
   
 ## John The Ripper
 
-Salasanojen murtamistyökalu
+
 
 - `john --show` Näyttää murtamisen tulokset 
 - `./john tero.zip.hash` Murtaa salasanan zip-tiedostolle
@@ -31,8 +33,7 @@ Salasanojen murtamistyökalu
 
 ## Hashcat
 
-Salasanojen murtamistyökalu
--
+- `-m`Valitsin osoittaa tivisteen
 -
 -
 
