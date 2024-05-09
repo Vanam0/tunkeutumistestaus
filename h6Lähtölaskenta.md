@@ -1,9 +1,9 @@
 
-## Cheatsheet 
+# Cheatsheet 
 
 
 
-Nmap
+ ## Nmap
 
 Porttiskanneri
 
@@ -18,7 +18,7 @@ Porttiskanneri
 - `nmap -sn` Suorittaa normaalinen ping -kyselyn
 
   
-John The Ripper
+## John The Ripper
 
 Salasanojen murtamistyökalu
 
