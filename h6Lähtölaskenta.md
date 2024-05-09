@@ -43,9 +43,8 @@ FFuF
 
 Verkkokohteiden haavoittuvuuksien löytämiseen tarkoitettu ohjelma esim. HTTP-parametrit ja URL-polut.
 
--
--
--
+- Esim.`./ffuf -w common.txt -u http://localhost:8000/FUZZ` Käytetään paikallista tiedostoa `common.txt` Valistin `-w` määrittää sanakirjatiedoston ja valitsin `-u` määrittää kohteel URL-osoitteen.
+
 
 
 
