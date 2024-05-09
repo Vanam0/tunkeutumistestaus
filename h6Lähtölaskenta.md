@@ -57,9 +57,10 @@ use multi/handler/payload
 SET payload <haittaohjelma>
 SET LHOST <kuuntelijan osoite>
 SET LPORT <kuuntelijan portti>
-run -j  Ajaa multihandlerin taustalla.
+run -j  Ajaa multihandlerin taustalla
 
-background |Siirtää käynnissä olevan moduulin taustalle msfconsole-käyttöliittymässä.
+
+background #Siirtää käynnissä olevan moduulin taustalle msfconsole-käyttöliittymässä.
 ````
 
 
