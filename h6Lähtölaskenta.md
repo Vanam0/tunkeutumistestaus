@@ -4,13 +4,20 @@
 
 
 Nmap
-`Nmap 192.168.10.1` #Scannaa
+`Nmap 192.168.10.1` Scannaa
+
+
 
 John The Ripper
 
+
 Hashcat
 
+
 Ffuf
+
+
+
 
 Msfvenom metasploitable
 
