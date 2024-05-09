@@ -41,7 +41,7 @@ Salasanojen murtamistyökalut:
 
 FFuF
 
-Verkkokohteiden haavoittuvuuksien löytämiseen tarkoitettu ohjelma esim. HTTP-parametrit ja URL-polut
+Verkkokohteiden haavoittuvuuksien löytämiseen tarkoitettu ohjelma esim. HTTP-parametrit ja URL-polut.
 
 -
 -
