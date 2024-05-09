@@ -5,9 +5,12 @@
 
 Nmap
 
-- `Nmap 192.168.10.1` Scannaa
-
-
+- `$ Nmap 192.168.10.1` Normaali skannaus
+- `# nmap 192.168.10.1 -O `  Skannaus ja käyttöjärjestelmän tunnistaminen
+-  `$ nmap -sP 10.0.0.0/24` Verkon skannaus pingillä ja laitteiden listaus
+-  `$ nmap -iL ip-osoitteet.txt` IP-osotteiden skannus tekstitiedostosta
+-  `$ nmap scanme.nmap.org` Skannaa domain
+-  `iR nmap -iR 100` Skannaa 100 satunnaista hostia 
 
 John The Ripper
 
