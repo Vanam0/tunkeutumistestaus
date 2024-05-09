@@ -39,7 +39,7 @@ Salasanojen murtamistyökalut:
 
 
 
-FFuF
+## FFuF
 
 Verkkokohteiden haavoittuvuuksien löytämiseen tarkoitettu ohjelma esim. HTTP-parametrit ja URL-polut.
 
@@ -49,7 +49,7 @@ Verkkokohteiden haavoittuvuuksien löytämiseen tarkoitettu ohjelma esim. HTTP-p
 
 
 
-Msfvenom metasploitable
+## Msfvenom metasploitable
 
 -
 -
