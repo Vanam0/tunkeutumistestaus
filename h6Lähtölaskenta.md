@@ -22,20 +22,40 @@ Porttiskanneri
 
 Salasanojen murtamistyökalu
 
--
--
--
--
+- `john --show` Näyttää murtamisen tulokset 
+- `./john tero.zip.hash` Murtaa salasanan zip-tiedostolle
+- `john --wordlist=rockyou.txt hash.txt` Määrittää sanakirjan tiedoston
+
+
+
 
 Hashcat
 
+Salasanojen murtamistyökalu
+-
+-
+-
+
 
 Ffuf
+-
+-
+-
 
 
 
 
 Msfvenom metasploitable
+
+-
+-
+-
+
+Bruteforce
+
+-
+-
+-
 
 
 
