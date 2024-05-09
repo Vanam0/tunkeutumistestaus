@@ -33,12 +33,13 @@ Salasanojen murtamistyökalut:
 
 ## Hashcat
 
-- `-m`Valitsin osoittaa tivisteen
--
--
+- `hashcat -m 0 -a 0 hashes.txt wordlist.txt` Valitsin `-m` osoittaa tivisteen ja `-a 0`, tarkoittaa perinteistä brute force -hyökkäystä. `-a 3` Taas kohdistaisi yhdistelmähyökkäyksen: sanakirja, sekä brute force -hyökkäys.
+- `-o` -valitsin määrittää tulostiedoston nimen, johon Hashcat tallentaa löydetyt salasanat. Esimerkiksi -o solved.txt määrittäisi tiedostonimen ja tallentaa löydetyt salasanat.
+- `cat solved.txt` Cat on Unix-pohjaisen käyttöjärjestelmän komento, joka lukee tiedostoja ja tulostaa sisällön.
 
 
-Ffuf
+
+FFuF
 -
 -
 -
@@ -123,4 +124,7 @@ Bruteforce
 
 
 # Lähteet: 
+
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/#h6-lahtolaskenta
+
+https://denizhalil.com/2023/11/01/hashcat-password-cracking/
